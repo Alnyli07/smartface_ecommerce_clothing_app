@@ -1,0 +1,35 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flIcon",
+			"id": "b819-546c-2c51-f409",
+			"props": {
+				"children": [
+					"b4dc-9be7-60cd-4752"
+				],
+				"name": "flIcon",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 256.5,
+				"top": 189.5
+			}
+		},
+		{
+			"className": ".sf-icon .flIcon-ic",
+			"id": "b4dc-9be7-60cd-4752",
+			"oldName": "icBag",
+			"props": {
+				"children": [],
+				"name": "ic",
+				"parent": "b819-546c-2c51-f409"
+			},
+			"type": "Icon",
+			"userProps": {}
+		}
+	]
+}

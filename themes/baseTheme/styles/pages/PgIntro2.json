@@ -1,0 +1,11 @@
+{
+  "#pgIntro2": {
+    "&-imgBack": {
+      "image": "introman2.png"
+    },
+    "&-backView": {
+      "left": 8.64,
+      "top": 2.47
+    }
+  }
+}

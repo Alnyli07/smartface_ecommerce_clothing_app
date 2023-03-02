@@ -1,0 +1,29 @@
+{
+  ".flBadgeItem": {
+    "backgroundColor": "rgba( 246, 246, 246, 1 )",
+    "height": 32,
+    "minWidth": 58,
+    "width": null,
+    "borderRadius": 16,
+    "flexProps": {
+      "flexDirection": "COLUMN",
+      "alignItems": "STRETCH",
+      "justifyContent": "CENTER"
+    },
+    "&-lbl": {
+      "textAlignment": "MIDCENTER"
+    },
+    "&-active": {
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "ios": {
+        "shadowOpacity": 0.09,
+        "shadowRadius": 5
+      },
+      "shadowColor": "rgba( 0, 0, 0, 1 )",
+      "android": {
+        "elevation": 5
+      }
+    },
+    "marginRight": 8
+  }
+}

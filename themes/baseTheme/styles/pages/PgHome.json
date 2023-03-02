@@ -1,0 +1,254 @@
+{
+  "#pgHome": {
+    "&-headerBar": {
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "borderVisibility": false
+    },
+    "&-lblTitle": {
+      "height": 15,
+      "font": {
+        "family": "Poppins",
+        "style": "Regular",
+        "bold": false,
+        "italic": false,
+        "size": 10
+      },
+      "textColor": "rgba( 79, 86, 99, 1 )",
+      "width": 200
+    },
+    "&-lblTitle2": {
+      "height": 18,
+      "font": {
+        "family": "Poppins",
+        "style": "SemiBold",
+        "bold": true,
+        "italic": false,
+        "size": 12
+      }
+    },
+    "&-flHeader": {
+      "flexProps": {
+        "alignItems": "STRETCH",
+        "justifyContent": "CENTER",
+        "flexDirection": "COLUMN"
+      },
+      "+Device:Device.os === 'Android'": {
+        "paddingLeft": "10",
+        "paddingRight": "10"
+      }
+    },
+    "&-ic": {
+      "width": 35,
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexGrow": 1,
+        "alignSelf": "STRETCH"
+      },
+      "font": {
+        "family": "simple-line-icons",
+        "italic": false,
+        "bold": false,
+        "size": 20
+      },
+      "glyph": "",
+      "textColor": "rgba( 0, 0, 0, 1 )",
+      "android": {
+        "elevation": 7
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 0 )",
+      "height": 35,
+      "&_1": {
+        "flexProps": {
+          "positionType": "RELATIVE",
+          "alignSelf": "CENTER"
+        },
+        "right": null,
+        "top": null,
+        "bottom": null,
+        "height": 20,
+        "font": {
+          "size": 15
+        },
+        "marginLeft": 8,
+        "width": 16
+      }
+    },
+    "&-main": {
+      "paddingLeft": 20,
+      "paddingRight": 20
+    },
+    "&-bottomTabbar": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-flIc": {
+      "flexProps": {
+        "positionType": "ABSOLUTE",
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER",
+        "flexDirection": "ROW"
+      },
+      "width": 40,
+      "borderRadius": 20,
+      "height": 40,
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "ios": {
+        "shadowOpacity": 0.22,
+        "shadowRadius": 7
+      },
+      "shadowColor": "rgba( 0, 0, 0, 1 )",
+      "android": {
+        "elevation": 7
+      },
+      "right": 0
+    },
+    "&-flSearch": {
+      "height": 40,
+      "marginTop": 16,
+      "flexProps": {
+        "flexDirection": "ROW"
+      },
+      "backgroundColor": "rgba( 246, 246, 246, 1 )",
+      "borderRadius": 20,
+      "paddingLeft": 14,
+      "paddingRight": 14
+    },
+    "&-tbSearch": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "font": {
+        "size": 10
+      },
+      "borderWidth": null
+    },
+    "&-icSearch": {
+      "width": 40,
+      "height": 40,
+      "flexProps": {
+        "alignSelf": "CENTER"
+      },
+      "font": {
+        "size": 35,
+        "family": "evil",
+        "style": "icons",
+        "italic": false,
+        "bold": false
+      },
+      "glyph": ""
+    },
+    "&-flBanner": {
+      "height": 160,
+      "backgroundColor": "rgba( 244, 244, 244, 1 )",
+      "borderRadius": 15,
+      "marginTop": 32,
+      "padding": 20
+    },
+    "&-imgBanner": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "right": 16,
+      "height": 173,
+      "width": 130,
+      "top": 6,
+      "image": "manbanner.png",
+      "imageFillType": "ASPECTFIT",
+      "left": 242
+    },
+    "&-lblBannerTitle": {
+      "height": 21,
+      "font": {
+        "size": 14
+      },
+      "textColor": "rgba( 6, 16, 35, 1 )",
+      "flexProps": {
+        "alignSelf": "AUTO"
+      }
+    },
+    "&-tbBannerTitle": {
+      "height": 60,
+      "lineSpacing": 3
+    },
+    "&-flIconButton": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexDirection": "ROW",
+        "alignItems": "STRETCH",
+        "justifyContent": "FLEX_START"
+      },
+      "flex": {
+        "positionType": 0
+      },
+      "height": 22,
+      "marginTop": 16,
+      "paddingLeft": 0,
+      "width": 95,
+      "paddingRight": 0,
+      "left": 0,
+      "top": 0,
+      "bottom": 0,
+      "right": 0,
+      "android": {
+        "zIndex": 40
+      },
+      "borderRadius": 0,
+      "borderWidth": 0,
+      "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "&-lbl": {
+      "font": {
+        "size": 12
+      },
+      "height": null,
+      "flexProps": {
+        "alignSelf": "STRETCH",
+        "flexGrow": null
+      },
+      "width": 65
+    },
+    "&-flBadgeItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-svBadges": {
+      "height": 64,
+      "layout": {
+        "flexProps": {
+          "flexDirection": "ROW",
+          "alignItems": "CENTER",
+          "justifyContent": "CENTER"
+        },
+        "paddingTop": 16,
+        "paddingBottom": 16
+      },
+      "scrollBarEnabled": true,
+      "align": "HORIZONTAL"
+    },
+    "&-gird": {
+      "height": null,
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "marginLeft": -8,
+      "marginRight": -8
+    },
+    "&-gvShopItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    }
+  }
+}

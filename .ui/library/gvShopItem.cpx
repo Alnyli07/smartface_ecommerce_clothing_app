@@ -1,0 +1,149 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .gvShopItem",
+			"id": "349b-cc9f-9738-4006",
+			"props": {
+				"children": [
+					"02a3-6f39-0d6c-4a3c"
+				],
+				"name": "gvShopItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"left": 35.5,
+				"top": 55
+			}
+		},
+		{
+			"className": ".sf-flexLayout .gvShopItem-flMain",
+			"id": "02a3-6f39-0d6c-4a3c",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"5eb5-36fa-4262-9f34",
+					"833a-50da-e99d-464f",
+					"1ea0-d493-a211-05e0",
+					"08d0-60b7-d808-5916",
+					"b58a-ad69-27a1-0b96"
+				],
+				"name": "flMain",
+				"parent": "349b-cc9f-9738-4006"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .gvShopItem-imgBack",
+			"id": "5eb5-36fa-4262-9f34",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgBack",
+				"parent": "02a3-6f39-0d6c-4a3c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .gvShopItem-flBag",
+			"id": "833a-50da-e99d-464f",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"133c-3d96-1aab-1894"
+				],
+				"name": "flBag",
+				"parent": "02a3-6f39-0d6c-4a3c"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon .gvShopItem-icBag",
+			"id": "133c-3d96-1aab-1894",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "icBag",
+				"parent": "833a-50da-e99d-464f"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .gvShopItem-lblName",
+			"id": "1ea0-d493-a211-05e0",
+			"oldName": "lblNAme",
+			"props": {
+				"children": [],
+				"name": "lblName",
+				"parent": "02a3-6f39-0d6c-4a3c",
+				"text": "Bomber Jackets"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Bomber Jackets"
+			}
+		},
+		{
+			"className": ".sf-label .gvShopItem-lblName .gvShopItem-lblPrice",
+			"id": "08d0-60b7-d808-5916",
+			"oldName": "lblName_1",
+			"props": {
+				"children": [],
+				"name": "lblPrice",
+				"parent": "02a3-6f39-0d6c-4a3c",
+				"text": "$49.99"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "$49.99"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIcon .gvShopItem-flIcon",
+			"id": "b58a-ad69-27a1-0b96",
+			"props": {
+				"children": [
+					"e497-1da4-f243-153f"
+				],
+				"name": "flIcon",
+				"parent": "02a3-6f39-0d6c-4a3c"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 256.5,
+				"top": 189.5
+			}
+		},
+		{
+			"className": ".sf-icon .flIcon-ic .gvShopItem-ic",
+			"id": "e497-1da4-f243-153f",
+			"oldName": "icBag",
+			"props": {
+				"children": [],
+				"name": "ic",
+				"parent": "b58a-ad69-27a1-0b96"
+			},
+			"type": "Icon",
+			"userProps": {}
+		}
+	]
+}

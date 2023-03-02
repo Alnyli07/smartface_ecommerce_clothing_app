@@ -1,0 +1,69 @@
+{
+  ".flIconButton": {
+    "&_main": {
+      "height": 50,
+      "flexProps": {
+        "flexDirection": "ROW",
+        "alignItems": "STRETCH",
+        "justifyContent": "SPACE_BETWEEN",
+        "positionType": "ABSOLUTE"
+      },
+      "width": 140,
+      "borderRadius": 25,
+      "backgroundColor": "#FAFBFC",
+      "paddingRight": 25,
+      "paddingLeft": 25
+    },
+    "&-btn": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexGrow": 1,
+        "alignSelf": "FLEX_START"
+      },
+      "android": {
+        "zIndex": 1
+      },
+      "textAlignment": "MIDLEFT",
+      "backgroundColor": {
+        "normal": "rgba( 255, 255, 255, 0 )",
+        "pressed": "rgba( 255, 255, 255, 0 )"
+      },
+      "width": 66,
+      "borderRadius": 25
+    },
+    "&-ic": {
+      "flexProps": {
+        "positionType": "ABSOLUTE",
+        "alignSelf": "STRETCH"
+      },
+      "android": {
+        "zIndex": 10
+      },
+      "font": {
+        "family": "SpaceGrotesk",
+        "style": "Regular",
+        "italic": false,
+        "bold": false,
+        "size": 18
+      },
+      "glyph": "→",
+      "textColor": "#061023",
+      "width": 16,
+      "right": 25,
+      "height": null,
+      "top": 0,
+      "bottom": 1
+    },
+    "&-lbl": {
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-active": {
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "android": {
+        "elevation": 15
+      }
+    }
+  }
+}

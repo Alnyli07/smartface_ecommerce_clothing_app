@@ -1,0 +1,61 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .dotIndicator",
+			"id": "92d0-85aa-339d-a5cd",
+			"props": {
+				"children": [
+					"164a-805c-df2e-1316",
+					"cb4b-4402-2623-0a4c",
+					"0dea-d4c3-68a7-d455"
+				],
+				"name": "dotIndicator",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 64,
+				"top": 403
+			}
+		},
+		{
+			"className": ".sf-icon .dotIndicator-ic .dotIndicator-ic-active",
+			"id": "164a-805c-df2e-1316",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "ic",
+				"parent": "92d0-85aa-339d-a5cd"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon .dotIndicator-ic",
+			"id": "cb4b-4402-2623-0a4c",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "ic_1",
+				"parent": "92d0-85aa-339d-a5cd"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon .dotIndicator-ic",
+			"id": "0dea-d4c3-68a7-d455",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "ic_1_1",
+				"parent": "92d0-85aa-339d-a5cd"
+			},
+			"type": "Icon",
+			"userProps": {}
+		}
+	]
+}

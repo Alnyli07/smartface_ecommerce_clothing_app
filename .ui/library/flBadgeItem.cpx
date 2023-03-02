@@ -1,0 +1,41 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flBadgeItem",
+			"id": "2b7d-d4d5-fad2-885f",
+			"props": {
+				"children": [
+					"1d2b-e49a-05c1-d589"
+				],
+				"name": "flBadgeItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 233.5,
+				"top": 109.5
+			}
+		},
+		{
+			"className": ".sf-label .flBadgeItem-lbl",
+			"id": "1d2b-e49a-05c1-d589",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lbl",
+				"parent": "2b7d-d4d5-fad2-885f",
+				"text": "All"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "All"
+			}
+		}
+	]
+}

@@ -1,0 +1,178 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgIntro-main",
+			"id": "e69d-bd7e-25ab-4066",
+			"initialized": true,
+			"props": {
+				"children": [
+					"1dd3-ec89-306b-b464",
+					"e602-1b13-1d05-5406",
+					"3958-5ae2-a334-6096",
+					"adf5-fb20-8474-3061",
+					"138e-b299-f278-9053",
+					"4508-e6cd-57b5-1695",
+					"fcb6-4ba9-99dc-c730"
+				],
+				"name": "pgIntro",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": false
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": false
+			},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar #pgIntro-statusBar",
+			"id": "1dd3-ec89-306b-b464",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e69d-bd7e-25ab-4066"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #pgIntro-headerBar",
+			"id": "e602-1b13-1d05-5406",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e69d-bd7e-25ab-4066",
+				"title": "pgIntro"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgIntro"
+			}
+		},
+		{
+			"className": ".sf-imageView #pgIntro_back",
+			"id": "3958-5ae2-a334-6096",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgBack",
+				"parent": "e69d-bd7e-25ab-4066"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-view #pgIntro-backView",
+			"id": "adf5-fb20-8474-3061",
+			"oldName": "view1",
+			"props": {
+				"children": [],
+				"name": "backView",
+				"parent": "e69d-bd7e-25ab-4066"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView #pgIntro-tvTitle",
+			"id": "138e-b299-f278-9053",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<span style=\"white-space: pre-wrap; background-color: rgba(255, 255, 255, 0); font-family: ZenDots-Regular; font-size: 32px; text-decoration-color: rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 38.3406px;\">Your style tell about you</span><br>",
+				"name": "tvTitle",
+				"parent": "e69d-bd7e-25ab-4066",
+				"text": "Your style tell about you\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"white-space: pre-wrap; background-color: rgba(255, 255, 255, 0); font-family: ZenDots-Regular; font-size: 32px; text-decoration-color: rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 38.3406px;\">Your style tell about you</span><br>",
+				"text": "Your style tell about you\n"
+			}
+		},
+		{
+			"className": ".sf-textView #pgIntro-tvTitle #pgIntro-tvTitleDetail",
+			"id": "4508-e6cd-57b5-1695",
+			"oldName": "tvTitle_1",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-size: 12px; white-space: pre-wrap; font-family: SpaceGrotesk-Medium; background-color: transparent; text-decoration-color: rgb(0, 0, 0); line-height: 25.3362px; color: rgb(223, 223, 223);\">There are many clothes with designs that are suitable for you today</span><br>",
+				"name": "tvTitleDetail",
+				"parent": "e69d-bd7e-25ab-4066",
+				"text": "There are many clothes with designs that are suitable for you today\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-size: 12px; white-space: pre-wrap; font-family: SpaceGrotesk-Medium; background-color: transparent; text-decoration-color: rgb(0, 0, 0); line-height: 25.3362px; color: rgb(223, 223, 223);\">There are many clothes with designs that are suitable for you today</span><br>",
+				"text": "There are many clothes with designs that are suitable for you today\n"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgIntro-flBottom",
+			"id": "fcb6-4ba9-99dc-c730",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"8123-898b-135f-d745",
+					"8131-c978-408a-88d8"
+				],
+				"name": "flBottom",
+				"parent": "e69d-bd7e-25ab-4066"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .dotIndicator #pgIntro-dotIndicator",
+			"hiddenComponent": false,
+			"id": "8123-898b-135f-d745",
+			"props": {
+				"children": [],
+				"name": "dotIndicator",
+				"parent": "fcb6-4ba9-99dc-c730"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "dotIndicator",
+				"id": "92d0-85aa-339d-a5cd"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIconButton_main #pgIntro-flIconButton",
+			"hiddenComponent": false,
+			"id": "8131-c978-408a-88d8",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flIconButton",
+				"parent": "fcb6-4ba9-99dc-c730"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flIconButton",
+				"id": "9118-f293-768a-86f5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

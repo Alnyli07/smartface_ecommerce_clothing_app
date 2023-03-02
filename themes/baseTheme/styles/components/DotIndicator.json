@@ -1,0 +1,40 @@
+{
+  ".dotIndicator": {
+    "height": 10,
+    "width": 42,
+    "&-ic": {
+      "&-active": {
+        "textColor": "rgba( 250, 251, 252, 1 )",
+        "font": {
+          "family": "MaterialIcons",
+          "style": "Regular",
+          "italic": false,
+          "bold": false,
+          "size": 8
+        },
+        "glyph": "",
+        "width": 10,
+        "height": 10
+      },
+      "textColor": "rgba( 141, 146, 155, 1 )",
+      "font": {
+        "family": "entypo",
+        "style": null,
+        "italic": false,
+        "bold": false,
+        "size": 20
+      },
+      "glyph": "",
+      "flexProps": {
+        "alignSelf": "CENTER"
+      },
+      "width": 10,
+      "height": 22
+    },
+    "flexProps": {
+      "flexDirection": "ROW",
+      "alignItems": "CENTER",
+      "justifyContent": "SPACE_BETWEEN"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  ".bottomTabbar": {
+    "backgroundColor": "rgba( 255, 255, 255, 1 )",
+    "itemColor": {
+      "selected": "rgba( 0, 0, 0, 1 )"
+    },
+    "&-tab1": {
+      "icon": {
+        "normal": "__sf_gen_img_home.png",
+        "selected": "home_selected.png"
+      }
+    },
+    "&-tab2": {
+      "icon": {
+        "normal": "__sf_gen_img_heart.png",
+        "selected": "__sf_gen_img_heart2.png"
+      }
+    },
+    "&-tab3": {
+      "icon": {
+        "normal": "__sf_gen_img_notifications_none.png",
+        "selected": "__sf_gen_img_notifications.png"
+      }
+    },
+    "&-tab4": {
+      "icon": {
+        "normal": "__sf_gen_img_user.png",
+        "selected": "__sf_gen_img_userfull.png"
+      }
+    }
+  }
+}

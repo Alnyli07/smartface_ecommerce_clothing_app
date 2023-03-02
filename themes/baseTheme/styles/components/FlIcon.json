@@ -1,0 +1,25 @@
+{
+  ".flIcon": {
+    "height": 40,
+    "width": 40,
+    "borderRadius": 20,
+    "backgroundColor": "${btnBackground}",
+    "flexProps": {
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "&-ic": {
+      "height": 30,
+      "width": 30,
+      "font": {
+        "size": 22,
+        "family": "simple-line-icons",
+        "style": null,
+        "italic": false,
+        "bold": false
+      },
+      "glyph": "",
+      "textColor": "${mainTextColor}"
+    }
+  }
+}

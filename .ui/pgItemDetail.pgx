@@ -1,0 +1,270 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgIntro-main",
+			"id": "3485-2045-e43b-91aa",
+			"initialized": true,
+			"props": {
+				"children": [
+					"79fe-ece0-2231-9d81",
+					"2bce-c723-8fe2-4d44",
+					"b261-2edb-56ac-8ecc",
+					"60be-bb8b-77bb-f702"
+				],
+				"name": "pgItemDetail",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": false
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": false
+			},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar #pgIntro-statusBar",
+			"id": "79fe-ece0-2231-9d81",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "3485-2045-e43b-91aa"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #pgIntro-headerBar",
+			"id": "2bce-c723-8fe2-4d44",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "3485-2045-e43b-91aa",
+				"title": "pgIntro"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgIntro"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgItemDetail-flBack",
+			"id": "b261-2edb-56ac-8ecc",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0c0d-07f1-5ce4-26bc",
+					"5731-094f-01cf-e0b3",
+					"1ef6-c63e-4954-a5d8"
+				],
+				"name": "flBack",
+				"parent": "3485-2045-e43b-91aa"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgIntro_back #pgItemDetail-imgBack",
+			"id": "0c0d-07f1-5ce4-26bc",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgBack",
+				"parent": "b261-2edb-56ac-8ecc"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-view #pgIntro-backView #pgItemDetail-backView",
+			"id": "5731-094f-01cf-e0b3",
+			"oldName": "view1",
+			"props": {
+				"children": [],
+				"name": "backView",
+				"parent": "b261-2edb-56ac-8ecc"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgItemDetail-flMidActions",
+			"id": "1ef6-c63e-4954-a5d8",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"8b50-3565-3272-0c80",
+					"7822-632c-045d-5f02",
+					"fc94-8fd5-26ae-49ec"
+				],
+				"name": "flMidActions",
+				"parent": "b261-2edb-56ac-8ecc"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgItemDetail-flSwipeWrapper",
+			"id": "8b50-3565-3272-0c80",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"9044-d979-0a87-a415",
+					"a38b-92f2-3a53-2b1b",
+					"6c3d-71b1-66da-4c05"
+				],
+				"name": "flSwipeWrapper",
+				"parent": "1ef6-c63e-4954-a5d8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgItemDetail-icSwipe #pgItemDetail-icSwipe-active",
+			"id": "9044-d979-0a87-a415",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "icSwipe1",
+				"parent": "8b50-3565-3272-0c80"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgItemDetail-icSwipe #pgItemDetail-icSwipe2",
+			"id": "a38b-92f2-3a53-2b1b",
+			"oldName": "icSwipe1_1",
+			"props": {
+				"children": [],
+				"name": "icSwipe2",
+				"parent": "8b50-3565-3272-0c80"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgItemDetail-icSwipe",
+			"id": "6c3d-71b1-66da-4c05",
+			"oldName": "icSwipe2_1",
+			"props": {
+				"children": [],
+				"name": "icSwipe3",
+				"parent": "8b50-3565-3272-0c80"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgHome-lblBannerTitle #pgItemDetail-lblBannerTitle",
+			"id": "7822-632c-045d-5f02",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblBannerTitle",
+				"parent": "1ef6-c63e-4954-a5d8",
+				"text": "Swipe up for details"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Swipe up for details"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .dotIndicator #pgItemDetail-dotIndicator",
+			"hiddenComponent": false,
+			"id": "fc94-8fd5-26ae-49ec",
+			"props": {
+				"children": [],
+				"name": "dotIndicator",
+				"parent": "1ef6-c63e-4954-a5d8"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "dotIndicator",
+				"id": "92d0-85aa-339d-a5cd"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgItemDetail-flBottom",
+			"id": "60be-bb8b-77bb-f702",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"e8e5-d2de-517e-9c53",
+					"6f12-14e4-fa92-59d4",
+					"a710-237a-7acb-015e"
+				],
+				"name": "flBottom",
+				"parent": "3485-2045-e43b-91aa"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgItemDetail-lblSubTotal",
+			"id": "e8e5-d2de-517e-9c53",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblSubTotal",
+				"parent": "60be-bb8b-77bb-f702",
+				"text": "Sub Total"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Sub Total"
+			}
+		},
+		{
+			"className": ".sf-label #pgItemDetail-lblSubTotal #pgItemDetail-lblPrice",
+			"id": "6f12-14e4-fa92-59d4",
+			"oldName": "lblSubTotal_1",
+			"props": {
+				"children": [],
+				"name": "lblPrice",
+				"parent": "60be-bb8b-77bb-f702",
+				"text": "$49.99"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "$49.99"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIconButton_main .flIconButton-active .flIconButtonDark #pgItemDetail-flIconButtonDark",
+			"hiddenComponent": false,
+			"id": "a710-237a-7acb-015e",
+			"props": {
+				"children": [],
+				"name": "flIconButtonDark",
+				"parent": "60be-bb8b-77bb-f702"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flIconButtonDark",
+				"id": "ece5-9700-0cd9-aaed"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

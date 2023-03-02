@@ -1,0 +1,14 @@
+{
+  ".button": {
+    "&_text": {
+      "textColor": "rgba( 6, 16, 35, 1 )",
+      "font": {
+        "family": "Poppins",
+        "style": "SemiBold",
+        "bold": true,
+        "italic": false,
+        "size": 14
+      }
+    }
+  }
+}

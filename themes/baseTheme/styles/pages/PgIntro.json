@@ -1,0 +1,111 @@
+{
+  "#pgIntro": {
+    "&_back": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "top": 0,
+      "height": null,
+      "width": 430,
+      "imageFillType": "STRETCH",
+      "image": "intro_black_suit.png",
+      "left": 0,
+      "android": {
+        "zIndex": 9
+      },
+      "bottom": 82
+    },
+    "&-headerBar": {
+      "visible": false
+    },
+    "&-statusBar": {
+      "visible": false,
+      "android": {
+        "color": "rgba( 6, 16, 35, 1 )"
+      }
+    },
+    "&-backView": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "height": null,
+      "backgroundColor": {
+        "startColor": "rgba(6, 16, 35, 0)",
+        "endColor": "rgba( 6, 16, 35, 1 )",
+        "direction": "VERTICAL"
+      },
+      "android": {
+        "zIndex": 11
+      },
+      "bottom": 82
+    },
+    "&-flBottom": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexDirection": "ROW",
+        "justifyContent": "SPACE_BETWEEN"
+      },
+      "height": 115,
+      "backgroundColor": "rgba( 32, 41, 58, 1 )",
+      "ios": {
+        "shadowRadius": 20,
+        "shadowOpacity": 0.67
+      },
+      "android": {
+        "elevation": 20,
+        "zIndex": 12
+      },
+      "shadowColor": "rgba( 0, 0, 0, 1 )",
+      "borderRadius": 32,
+      "borderBottomLeftRadius": -2,
+      "borderBottomRightRadius": -2,
+      "padding": 16,
+      "paddingRight": 30,
+      "paddingLeft": 30
+    },
+    "&-flIconButton": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-main": {
+      "flexProps": {
+        "justifyContent": "FLEX_END"
+      }
+    },
+    "&-dotIndicator": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      },
+      "height": 10,
+      "width": 42,
+      "marginTop": 20
+    },
+    "&-tvTitle": {
+      "height": 96,
+      "width": 315,
+      "flexProps": {
+        "alignSelf": "CENTER"
+      },
+      "marginBottom": 8,
+      "lineSpacing": 10,
+      "android": {
+        "zIndex": 12
+      }
+    },
+    "&-tvTitleDetail": {
+      "height": 36,
+      "marginBottom": 24,
+      "lineSpacing": 0
+    }
+  }
+}

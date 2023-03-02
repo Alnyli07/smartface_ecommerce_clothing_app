@@ -1,0 +1,137 @@
+{
+  "#pgItemDetail": {
+    "&-flMidActions": {
+      "height": 90,
+      "flexProps": {
+        "positionType": "ABSOLUTE",
+        "alignItems": "CENTER",
+        "justifyContent": "SPACE_BETWEEN"
+      },
+      "left": 0,
+      "right": 0,
+      "bottom": 16
+    },
+    "&-flSwipeWrapper": {
+      "width": 24,
+      "height": 42,
+      "flexProps": {
+        "alignItems": "CENTER"
+      },
+      "paddingTop": 12,
+      "marginBottom": 8
+    },
+    "&-icSwipe": {
+      "height": 16,
+      "width": 18,
+      "font": {
+        "size": 15,
+        "family": "simple-line-icons",
+        "style": null,
+        "italic": false,
+        "bold": false
+      },
+      "glyph": "",
+      "&-active": {
+        "textColor": "rgba( 250, 251, 252, 1 )"
+      },
+      "marginTop": -8,
+      "textColor": "rgba( 250, 251, 252, 0.15 )"
+    },
+    "&-icSwipe2": {
+      "textColor": "rgba( 250, 251, 252, 0.5 )",
+      "marginTop": -8
+    },
+    "&-lblBannerTitle": {
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 0 )",
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "textAlignment": "MIDCENTER"
+    },
+    "&-dotIndicator": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-imgBack": {
+      "borderRadius": 32,
+      "width": null,
+      "borderTopLeftRadius": -2,
+      "borderTopRightRadius": -2,
+      "left": 0,
+      "top": 0,
+      "bottom": 0,
+      "right": 0
+    },
+    "&-backView": {
+      "borderRadius": 32,
+      "borderTopLeftRadius": -2,
+      "borderTopRightRadius": -2,
+      "top": 0,
+      "bottom": 0
+    },
+    "&-flBottom": {
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "flexProps": {
+        "alignItems": "FLEX_START",
+        "positionType": "RELATIVE",
+        "justifyContent": "CENTER"
+      },
+      "height": 74,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "marginTop": 8,
+      "marginBottom": 20
+    },
+    "&-lblSubTotal": {
+      "height": 18,
+      "width": null,
+      "font": {
+        "size": 12
+      },
+      "textColor": "rgba( 79, 86, 99, 1 )",
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      }
+    },
+    "&-lblPrice": {
+      "font": {
+        "size": 24,
+        "family": "Poppins",
+        "style": "SemiBold",
+        "bold": true,
+        "italic": false
+      },
+      "textColor": "#061023",
+      "height": 36
+    },
+    "&-flIconButtonDark": {
+      "flexProps": {
+        "positionType": "ABSOLUTE",
+        "alignSelf": "CENTER"
+      },
+      "flex": {
+        "positionType": 0
+      },
+      "right": 21,
+      "left": null,
+      "top": null,
+      "bottom": null
+    },
+    "&-flBack": {
+      "height": null,
+      "width": null,
+      "flexProps": {
+        "flexGrow": 1
+      }
+    }
+  }
+}

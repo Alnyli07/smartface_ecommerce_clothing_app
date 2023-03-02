@@ -1,0 +1,58 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flIconButton_main .flIconButton-active",
+			"hiddenComponent": false,
+			"id": "9118-f293-768a-86f5",
+			"props": {
+				"children": [
+					"2f8d-43c4-892f-c985",
+					"cf95-9ae9-4b4c-28eb"
+				],
+				"name": "flIconButton",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 24,
+				"top": 342
+			}
+		},
+		{
+			"className": ".sf-label .flIconButton-lbl .button_text",
+			"id": "2f8d-43c4-892f-c985",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lbl",
+				"parent": "9118-f293-768a-86f5",
+				"text": "Continue"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Continue"
+			}
+		},
+		{
+			"className": ".sf-icon .flIconButton-ic",
+			"id": "cf95-9ae9-4b4c-28eb",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "ic",
+				"parent": "9118-f293-768a-86f5"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Icon",
+			"userProps": {}
+		}
+	]
+}

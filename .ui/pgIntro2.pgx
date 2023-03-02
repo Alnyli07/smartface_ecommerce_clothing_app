@@ -1,0 +1,178 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgIntro-main",
+			"id": "d502-d109-7e84-4a36",
+			"initialized": true,
+			"props": {
+				"children": [
+					"6ab2-9f30-ca00-37ed",
+					"8f9a-83f7-1741-9471",
+					"3036-8576-ff56-c714",
+					"3eab-e447-3126-6af3",
+					"bb35-411a-8412-e9dd",
+					"4a36-389e-8433-166f",
+					"dbcd-aa51-325a-f5df"
+				],
+				"name": "pgIntro2",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": false
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": false
+			},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar #pgIntro-statusBar",
+			"id": "6ab2-9f30-ca00-37ed",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "d502-d109-7e84-4a36"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #pgIntro-headerBar",
+			"id": "8f9a-83f7-1741-9471",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "d502-d109-7e84-4a36",
+				"title": "pgIntro"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgIntro"
+			}
+		},
+		{
+			"className": ".sf-imageView #pgIntro_back #pgIntro2-imgBack",
+			"id": "3036-8576-ff56-c714",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgBack",
+				"parent": "d502-d109-7e84-4a36"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-view #pgIntro-backView #pgIntro2-backView",
+			"id": "3eab-e447-3126-6af3",
+			"oldName": "view1",
+			"props": {
+				"children": [],
+				"name": "backView",
+				"parent": "d502-d109-7e84-4a36"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView #pgIntro-tvTitle",
+			"id": "bb35-411a-8412-e9dd",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<span style=\"white-space: pre-wrap; background-color: rgba(255, 255, 255, 0); font-family: ZenDots-Regular; font-size: 32px; text-decoration-color: rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 48.3406px;\">Level up your lifestyle</span><br>",
+				"name": "tvTitle",
+				"parent": "d502-d109-7e84-4a36",
+				"text": "Level up your lifestyle\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"white-space: pre-wrap; background-color: rgba(255, 255, 255, 0); font-family: ZenDots-Regular; font-size: 32px; text-decoration-color: rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 48.3406px;\">Level up your lifestyle</span><br>",
+				"text": "Level up your lifestyle\n"
+			}
+		},
+		{
+			"className": ".sf-textView #pgIntro-tvTitle #pgIntro-tvTitleDetail",
+			"id": "4a36-389e-8433-166f",
+			"oldName": "tvTitle_1",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-size: 12px; white-space: pre-wrap; font-family: SpaceGrotesk-Medium; background-color: transparent; text-decoration-color: rgb(0, 0, 0); line-height: 25.3362px; color: rgb(223, 223, 223);\">There are many clothes with designs that are suitable for you today</span><br>",
+				"name": "tvTitleDetail",
+				"parent": "d502-d109-7e84-4a36",
+				"text": "There are many clothes with designs that are suitable for you today\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-size: 12px; white-space: pre-wrap; font-family: SpaceGrotesk-Medium; background-color: transparent; text-decoration-color: rgb(0, 0, 0); line-height: 25.3362px; color: rgb(223, 223, 223);\">There are many clothes with designs that are suitable for you today</span><br>",
+				"text": "There are many clothes with designs that are suitable for you today\n"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgIntro-flBottom",
+			"id": "dbcd-aa51-325a-f5df",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"12a9-b6ac-38e9-a71a",
+					"7d3b-174b-a014-4b81"
+				],
+				"name": "flBottom",
+				"parent": "d502-d109-7e84-4a36"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .dotIndicator #pgIntro-dotIndicator",
+			"hiddenComponent": false,
+			"id": "12a9-b6ac-38e9-a71a",
+			"props": {
+				"children": [],
+				"name": "dotIndicator",
+				"parent": "dbcd-aa51-325a-f5df"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "dotIndicator",
+				"id": "92d0-85aa-339d-a5cd"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIconButton_main .flIconButton-active #pgIntro-flIconButton",
+			"hiddenComponent": false,
+			"id": "7d3b-174b-a014-4b81",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flIconButton",
+				"parent": "dbcd-aa51-325a-f5df"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flIconButton",
+				"id": "9118-f293-768a-86f5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

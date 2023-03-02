@@ -1,0 +1,15 @@
+{
+  ".sf": {
+    "&-label": {
+      "font": {
+        "size": 12,
+        "bold": false,
+        "italic": false,
+        "family": "Poppins",
+        "style": "Regular"
+      },
+      "textColor": "rgba( 6, 16, 35, 1 )",
+      "textAlignment": "MIDLEFT"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+	"components": [
+		{
+			"className": ".sf-bottomTabbar .bottomTabbar",
+			"hiddenComponent": false,
+			"id": "92ca-d60c-7ad7-8c4c",
+			"props": {
+				"children": [
+					"468c-a318-76f7-8a8f",
+					"df97-c934-b152-55a3",
+					"62b2-d4b1-4313-bded",
+					"0ba5-00a3-aede-1042"
+				],
+				"name": "bottomTabbar",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "BottomTabbar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-tab1",
+			"id": "468c-a318-76f7-8a8f",
+			"oldName": "tabBarItem1",
+			"props": {
+				"children": [],
+				"name": "tab1",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-tab2",
+			"id": "df97-c934-b152-55a3",
+			"oldName": "tab1_1",
+			"props": {
+				"children": [],
+				"name": "tab2",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-tab3",
+			"id": "62b2-d4b1-4313-bded",
+			"oldName": "tab2_2",
+			"props": {
+				"children": [],
+				"name": "tab3",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-tab4",
+			"id": "0ba5-00a3-aede-1042",
+			"oldName": "tab2_1",
+			"props": {
+				"children": [],
+				"name": "tab4",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		}
+	]
+}
