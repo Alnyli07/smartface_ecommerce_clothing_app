@@ -1,0 +1,79 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain .gradient",
+			"id": "5b9a-c31d-807b-01ff",
+			"initialized": true,
+			"props": {
+				"children": [
+					"bc15-d62f-579d-3d11",
+					"4d7c-1074-e6b4-34ec",
+					"fd38-a3ee-4e53-5edc"
+				],
+				"name": "pgFaqQuestionDetail",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "bc15-d62f-579d-3d11",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "5b9a-c31d-807b-01ff"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "4d7c-1074-e6b4-34ec",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "5b9a-c31d-807b-01ff",
+				"title": "pgFaqQuestionDetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFaqQuestionDetail"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .paddingTop .bgMain",
+			"id": "fd38-a3ee-4e53-5edc",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"412b-bbbc-9ae2-c431"
+				],
+				"name": "flWrapper",
+				"parent": "5b9a-c31d-807b-01ff"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .grow-relative .bgMain",
+			"id": "412b-bbbc-9ae2-c431",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "fd38-a3ee-4e53-5edc",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "ListView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

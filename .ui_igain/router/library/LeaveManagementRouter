@@ -1,0 +1,79 @@
+[
+	{
+		"id": "d26ff4ba-61cc-4d90-b1dd-8d99a4aa74ed",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "leaveManagementRouter",
+		"children": [
+			"fd641404-d717-4a04-b7d2-d5418150a8d6",
+			"2fe25436-f7f8-4063-9ffe-6247699b68b0",
+			"3b074438-f4c1-4fc8-b277-a3e1f93b88f6",
+			"8dc6856a-5255-47fb-ba7e-3ea184415f18"
+		],
+		"props": {
+			"path": "leave-management",
+			"x": 155.7595703584795,
+			"y": 954.4355829856152,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "fd641404-d717-4a04-b7d2-d5418150a8d6",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 831.7595703584796,
+			"y": 1566.4355829856152,
+			"page": "pgLeaveManagementMenu"
+		},
+		"parent": "d26ff4ba-61cc-4d90-b1dd-8d99a4aa74ed"
+	},
+	{
+		"id": "2fe25436-f7f8-4063-9ffe-6247699b68b0",
+		"type": "Route",
+		"isContainer": false,
+		"name": "list",
+		"children": [],
+		"props": {
+			"path": "list",
+			"x": 828.7595703584796,
+			"y": 1596.4355829856152,
+			"page": "pgLeaveManagementList"
+		},
+		"parent": "d26ff4ba-61cc-4d90-b1dd-8d99a4aa74ed"
+	},
+	{
+		"id": "3b074438-f4c1-4fc8-b277-a3e1f93b88f6",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 832.7595703584796,
+			"y": 1621.4355829856152,
+			"page": "pgLeaveManagementDetail"
+		},
+		"parent": "d26ff4ba-61cc-4d90-b1dd-8d99a4aa74ed"
+	},
+	{
+		"id": "8dc6856a-5255-47fb-ba7e-3ea184415f18",
+		"type": "Route",
+		"isContainer": false,
+		"name": "leaveForm",
+		"children": [],
+		"props": {
+			"path": "leaveForm",
+			"x": 326.7595703584795,
+			"y": 1454.4355829856152,
+			"page": "pgLeaveRequestForm"
+		},
+		"parent": "d26ff4ba-61cc-4d90-b1dd-8d99a4aa74ed"
+	}
+]

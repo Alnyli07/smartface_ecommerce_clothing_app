@@ -1,0 +1,121 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain",
+			"id": "3de3-9777-e5b3-81bd",
+			"initialized": true,
+			"props": {
+				"children": [
+					"6b26-8793-2555-51c9",
+					"d9b3-16f8-a242-48a8",
+					"e82c-51fd-80ff-a50c",
+					"7fb3-5d93-188b-e944",
+					"c3a0-509c-59d3-d14f"
+				],
+				"name": "pgUserApproveDetail",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": true
+			},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "6b26-8793-2555-51c9",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "3de3-9777-e5b3-81bd"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "d9b3-16f8-a242-48a8",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "3de3-9777-e5b3-81bd",
+				"title": "pgUserApproveDetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgUserApproveDetail"
+			}
+		},
+		{
+			"className": ".sf-listView .contentInset",
+			"id": "e82c-51fd-80ff-a50c",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "3de3-9777-e5b3-81bd",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "ListView",
+			"userProps": {
+				"testId": "-KbEZkpqG",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-safeArea",
+			"id": "7fb3-5d93-188b-e944",
+			"props": {
+				"children": [],
+				"name": "flSafeArea",
+				"parent": "3de3-9777-e5b3-81bd"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-wrapper",
+			"id": "c3a0-509c-59d3-d14f",
+			"props": {
+				"children": [
+					"9c93-38a9-97de-1cda"
+				],
+				"name": "flActionButtonWrapper",
+				"parent": "3de3-9777-e5b3-81bd",
+				"usePageVariable": false
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": false
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton.main .shadow",
+			"hiddenComponent": false,
+			"id": "9c93-38a9-97de-1cda",
+			"initialized": false,
+			"oldName": "flActionButton_1",
+			"props": {
+				"children": [],
+				"name": "flActionButtonMain",
+				"parent": "c3a0-509c-59d3-d14f",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flActionButton",
+				"id": "a812-2ded-c6b7-e3ee"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "K2IwvgRef",
+				"usePageVariable": true
+			}
+		}
+	]
+}

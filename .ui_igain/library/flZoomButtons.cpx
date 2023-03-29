@@ -1,0 +1,98 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout #pgFeedImages-flZoomButtons .notVisible",
+			"hiddenComponent": true,
+			"id": "b078-bc9d-77a9-60fd",
+			"props": {
+				"children": [
+					"1500-47f9-ce72-7b7a",
+					"ad2b-4614-a333-1a14",
+					"3c4e-e58b-0a60-526d"
+				],
+				"name": "flZoomButtons",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "G5ga4TWWi"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "1500-47f9-ce72-7b7a",
+			"props": {
+				"children": [
+					"dbb5-0275-d030-b010"
+				],
+				"name": "flPlus",
+				"parent": "b078-bc9d-77a9-60fd",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KlB2xBfEt",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative #pgFeedImages-flZoomButtons-flPlus-imgPlus",
+			"id": "dbb5-0275-d030-b010",
+			"props": {
+				"children": [],
+				"name": "imgPlus",
+				"parent": "1500-47f9-ce72-7b7a"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "7JlmLRJ3y"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgFeedImages-flZoomButtons-flSeperator",
+			"id": "ad2b-4614-a333-1a14",
+			"props": {
+				"children": [],
+				"name": "flSeperator",
+				"parent": "b078-bc9d-77a9-60fd"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KlB2xBfEt"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "3c4e-e58b-0a60-526d",
+			"props": {
+				"children": [
+					"6c2b-04cb-c550-17b3"
+				],
+				"name": "flMinus",
+				"parent": "b078-bc9d-77a9-60fd",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KlB2xBfEt",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative #pgFeedImages-flZoomButtons-flMinus-imgMinus",
+			"id": "6c2b-04cb-c550-17b3",
+			"props": {
+				"children": [],
+				"name": "imgMinus",
+				"parent": "3c4e-e58b-0a60-526d"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "NsuHPlt99"
+			}
+		}
+	]
+}

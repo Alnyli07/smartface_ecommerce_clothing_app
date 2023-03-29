@@ -1,0 +1,61 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flTag",
+			"hiddenComponent": true,
+			"id": "be26-bbd8-40f1-3230",
+			"initialized": true,
+			"props": {
+				"children": [
+					"91d9-bf76-42a5-9e70",
+					"bc22-c174-1a57-d2f7"
+				],
+				"name": "flTag",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {}
+			}
+		},
+		{
+			"className": ".sf-label .txtbox.titleSmall.white .flTag-lblTag",
+			"id": "91d9-bf76-42a5-9e70",
+			"props": {
+				"children": [],
+				"name": "lblTag",
+				"parent": "be26-bbd8-40f1-3230",
+				"text": "Product Manager",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Product Manager",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .flTag-imgRemove",
+			"id": "bc22-c174-1a57-d2f7",
+			"props": {
+				"children": [],
+				"name": "imgRemove",
+				"parent": "be26-bbd8-40f1-3230",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

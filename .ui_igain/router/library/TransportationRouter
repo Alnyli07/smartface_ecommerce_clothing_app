@@ -1,0 +1,127 @@
+[
+	{
+		"id": "ec345c14-3efa-44f8-8213-31fd6cb7e755",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "transportationRouter",
+		"children": [
+			"542df535-b0fb-4345-83ba-e78c617a8390",
+			"fdcdadb4-4e19-4058-b4bd-51f67b60e18c",
+			"f53957f1-3200-4444-a281-f9211a750676",
+			"0a79d9d3-f396-4489-ad1a-a6eb39b8afc8",
+			"eae4a1db-365e-4d0a-9989-394bf0a24baa",
+			"a8978f24-269c-410b-b0b1-69ada7d500fb"
+		],
+		"props": {
+			"path": "transportation",
+			"x": 2616.7840539875783,
+			"y": -2469.348691604072,
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "542df535-b0fb-4345-83ba-e78c617a8390",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 1972.8105768075484,
+			"y": -539.2401063119689,
+			"page": "pgTransportation"
+		},
+		"parent": "ec345c14-3efa-44f8-8213-31fd6cb7e755"
+	},
+	{
+		"id": "fdcdadb4-4e19-4058-b4bd-51f67b60e18c",
+		"type": "Route",
+		"isContainer": false,
+		"name": "myShuttleDetail",
+		"children": [],
+		"props": {
+			"path": "myShuttleDetail",
+			"x": 2122.8105768075484,
+			"y": -539.2401063119689,
+			"page": "pgMyShuttleDetail"
+		},
+		"parent": "ec345c14-3efa-44f8-8213-31fd6cb7e755"
+	},
+	{
+		"id": "f53957f1-3200-4444-a281-f9211a750676",
+		"type": "Route",
+		"isContainer": false,
+		"name": "myShuttle",
+		"children": [],
+		"props": {
+			"path": "myShuttle",
+			"x": 2272.8105768075484,
+			"y": -539.2401063119689,
+			"page": "pgMyShuttle"
+		},
+		"parent": "ec345c14-3efa-44f8-8213-31fd6cb7e755"
+	},
+	{
+		"id": "0a79d9d3-f396-4489-ad1a-a6eb39b8afc8",
+		"type": "Route",
+		"isContainer": false,
+		"name": "shuttleDetail",
+		"children": [],
+		"props": {
+			"path": "shuttleDetail",
+			"x": 2422.8105768075484,
+			"y": -539.2401063119689,
+			"page": "pgShuttleDetail"
+		},
+		"parent": "ec345c14-3efa-44f8-8213-31fd6cb7e755"
+	},
+	{
+		"id": "eae4a1db-365e-4d0a-9989-394bf0a24baa",
+		"type": "Route",
+		"isContainer": false,
+		"name": "shuttleList",
+		"children": [],
+		"props": {
+			"path": "shuttleList",
+			"x": 2572.8105768075484,
+			"y": -539.2401063119689,
+			"page": "pgShuttleList"
+		},
+		"parent": "ec345c14-3efa-44f8-8213-31fd6cb7e755"
+	},
+	{
+		"id": "a8978f24-269c-410b-b0b1-69ada7d500fb",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "shuttleForm",
+		"children": [
+			"f868b505-7522-488d-9fc7-9ed112d7a3a8"
+		],
+		"props": {
+			"path": "shuttleForm",
+			"modal": true,
+			"x": 2635.590558969967,
+			"y": -2089.377696061719,
+			"modalType": "modal",
+			"to": "main",
+			"homeRoute": "main"
+		},
+		"parent": "ec345c14-3efa-44f8-8213-31fd6cb7e755"
+	},
+	{
+		"id": "f868b505-7522-488d-9fc7-9ed112d7a3a8",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2722.8105768075484,
+			"y": -419.24010631196893,
+			"page": "pgShuttleForm"
+		},
+		"parent": "a8978f24-269c-410b-b0b1-69ada7d500fb"
+	}
+]

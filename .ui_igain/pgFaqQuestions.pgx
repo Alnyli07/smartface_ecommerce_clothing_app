@@ -1,0 +1,116 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain .gradient",
+			"id": "6b54-8aa8-bd26-3835",
+			"initialized": true,
+			"props": {
+				"children": [
+					"2adc-7e57-e4f2-066b",
+					"9738-8dc6-35cd-a90c",
+					"94ac-671a-41f3-2a7e",
+					"63ed-e379-a0f2-d2f0"
+				],
+				"name": "pgFaqQuestions",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "2adc-7e57-e4f2-066b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "6b54-8aa8-bd26-3835"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "9738-8dc6-35cd-a90c",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "6b54-8aa8-bd26-3835",
+				"title": "pgFaqQuestions"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFaqQuestions"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgFaqQuestions-flSearchBar .paddingHorizontal .notVisible .hidden .background.transparent",
+			"id": "94ac-671a-41f3-2a7e",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ff7c-a649-d012-3002"
+				],
+				"name": "flSearchBar",
+				"parent": "6b54-8aa8-bd26-3835",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-searchView .background.transparent",
+			"id": "ff7c-a649-d012-3002",
+			"oldName": "searchView1",
+			"props": {
+				"children": [],
+				"hint": "Search",
+				"name": "svMain",
+				"parent": "94ac-671a-41f3-2a7e",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "SearchView",
+			"userProps": {
+				"hint": "Search",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .paddingTop .bgMain .paddingHorizontal",
+			"id": "63ed-e379-a0f2-d2f0",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"a971-ec44-468a-5296"
+				],
+				"name": "flWrapper",
+				"parent": "6b54-8aa8-bd26-3835"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .grow-relative .bgMain",
+			"id": "a971-ec44-468a-5296",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "63ed-e379-a0f2-d2f0",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "ListView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

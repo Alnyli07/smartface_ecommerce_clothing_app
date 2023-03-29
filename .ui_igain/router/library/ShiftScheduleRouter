@@ -1,0 +1,70 @@
+[
+	{
+		"id": "dc629b31-c250-48de-aa1a-8b00ec12fe65",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "shiftScheduleRouter",
+		"children": [
+			"16770211-0aaa-4492-8b29-649a414b8712",
+			"384ae251-8371-4bea-bafb-ee78132d9959",
+			"a3b04155-dfe9-4da0-8388-dcb9c39ffcd6"
+		],
+		"props": {
+			"path": "shiftSchedule",
+			"x": 217.7595703584795,
+			"y": 1039.4355829856152,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "16770211-0aaa-4492-8b29-649a414b8712",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 348.7595703584795,
+			"y": 1628.4355829856152,
+			"page": "pgShiftSchedule"
+		},
+		"parent": "dc629b31-c250-48de-aa1a-8b00ec12fe65"
+	},
+	{
+		"id": "384ae251-8371-4bea-bafb-ee78132d9959",
+		"type": "Route",
+		"isContainer": false,
+		"name": "genericProfile",
+		"children": [],
+		"props": {
+			"path": "genericProfile",
+			"x": 323.7595703584795,
+			"y": 1770.4355829856152,
+			"page": "pgGenericProfile"
+		},
+		"parent": "dc629b31-c250-48de-aa1a-8b00ec12fe65"
+	},
+	{
+		"id": "a3b04155-dfe9-4da0-8388-dcb9c39ffcd6",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "phoneBook1",
+		"children": [],
+		"props": {
+			"path": "phoneBook",
+			"modal": true,
+			"x": 363.7595703584795,
+			"y": 1864.4355829856152,
+			"to": "main",
+			"visible": true
+		},
+		"parent": "dc629b31-c250-48de-aa1a-8b00ec12fe65",
+		"source": {
+			"id": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+		},
+		"isLib": true
+	}
+]

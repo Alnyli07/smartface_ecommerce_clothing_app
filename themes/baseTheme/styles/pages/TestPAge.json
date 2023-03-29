@@ -1,0 +1,42 @@
+{
+  "#testPAge": {
+    "&-testPAge": {
+      "flexProps": {
+        "justifyContent": "CENTER"
+      },
+      "backgroundColor": "rgba( 177, 24, 24, 1 )"
+    },
+    "&-flexLayout1": {
+      "width": null,
+      "height": 170.67,
+      "backgroundColor": "rgba( 208, 152, 152, 1 )",
+      "flexProps": {
+        "justifyContent": "CENTER",
+        "alignItems": "STRETCH"
+      }
+    },
+    "&-flexLayout3": {
+      "height": null,
+      "width": null,
+      "backgroundColor": "rgba( 126, 211, 33, 0.44 )",
+      "margin": 5,
+      "padding": 5
+    },
+    "&-flexLayout4": {
+      "height": null,
+      "width": null,
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-flexLayout2": {
+      "height": 90,
+      "width": null,
+      "margin": 5,
+      "padding": 5
+    },
+    "&-imageView": {
+      "image": "smartface.png"
+    }
+  }
+}

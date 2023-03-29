@@ -203,8 +203,8 @@
 			"props": {
 				"children": [
 					"e8e5-d2de-517e-9c53",
-					"6f12-14e4-fa92-59d4",
-					"a710-237a-7acb-015e"
+					"3eb4-c032-2ee4-3461",
+					"6f12-14e4-fa92-59d4"
 				],
 				"name": "flBottom",
 				"parent": "3485-2045-e43b-91aa"
@@ -228,24 +228,9 @@
 			}
 		},
 		{
-			"className": ".sf-label #pgItemDetail-lblSubTotal #pgItemDetail-lblPrice",
-			"id": "6f12-14e4-fa92-59d4",
-			"oldName": "lblSubTotal_1",
-			"props": {
-				"children": [],
-				"name": "lblPrice",
-				"parent": "60be-bb8b-77bb-f702",
-				"text": "$49.99"
-			},
-			"type": "Label",
-			"userProps": {
-				"text": "$49.99"
-			}
-		},
-		{
 			"className": ".sf-flexLayout .flIconButton_main .flIconButton-active .flIconButtonDark #pgItemDetail-flIconButtonDark",
 			"hiddenComponent": false,
-			"id": "a710-237a-7acb-015e",
+			"id": "3eb4-c032-2ee4-3461",
 			"props": {
 				"children": [],
 				"name": "flIconButtonDark",
@@ -264,6 +249,21 @@
 				"flexProps": {
 					"positionType": "RELATIVE"
 				}
+			}
+		},
+		{
+			"className": ".sf-label #pgItemDetail-lblSubTotal #pgItemDetail-lblPrice",
+			"id": "6f12-14e4-fa92-59d4",
+			"oldName": "lblSubTotal_1",
+			"props": {
+				"children": [],
+				"name": "lblPrice",
+				"parent": "60be-bb8b-77bb-f702",
+				"text": "$49.99"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "$49.99"
 			}
 		}
 	]

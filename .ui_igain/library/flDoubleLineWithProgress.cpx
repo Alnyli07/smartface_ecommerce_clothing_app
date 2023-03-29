@@ -1,0 +1,211 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithProgress",
+			"hiddenComponent": true,
+			"id": "d316-4700-d137-ec83",
+			"props": {
+				"children": [
+					"3565-c3d2-8187-86e5",
+					"18be-0934-35d4-d517"
+				],
+				"name": "flDoubleLineWithProgress",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 6.58,
+				"top": 221.05
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithProgress-wrapper",
+			"id": "3565-c3d2-8187-86e5",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"d7ad-eaf0-2a60-b84b",
+					"50dd-549d-3ddd-b3ee",
+					"dd49-a648-58c5-ed37"
+				],
+				"name": "flDoubleLineWithProgressWrapper",
+				"parent": "d316-4700-d137-ec83"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithProgress-progress-leftImgWrapper",
+			"id": "d7ad-eaf0-2a60-b84b",
+			"isModuleLibraryComponent": true,
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"46df-ecbf-a606-bf63"
+				],
+				"name": "flLeftImgWrapper",
+				"parent": "3565-c3d2-8187-86e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-imageView .flDoubleLineWithProgress-progress-imgLeft",
+			"id": "46df-ecbf-a606-bf63",
+			"isModuleLibraryComponent": true,
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgLeft",
+				"parent": "d7ad-eaf0-2a60-b84b"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithProgress-progress-titleWrapper",
+			"id": "50dd-549d-3ddd-b3ee",
+			"isModuleLibraryComponent": true,
+			"oldName": "flRightImgWrapper",
+			"props": {
+				"children": [
+					"9b63-8745-a146-1014"
+				],
+				"name": "flTitleWrapper",
+				"parent": "3565-c3d2-8187-86e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-label .flDoubleLineWithProgress-progress-title",
+			"id": "9b63-8745-a146-1014",
+			"isModuleLibraryComponent": true,
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "50dd-549d-3ddd-b3ee",
+				"text": "Hobbies And Interests Survey"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Hobbies And Interests Survey"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithProgress-progress-rightItemsWrapper",
+			"id": "dd49-a648-58c5-ed37",
+			"isModuleLibraryComponent": true,
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"1eed-2241-c887-90c7",
+					"aad8-065b-4386-06b6"
+				],
+				"name": "flRightItemsWrapper",
+				"parent": "3565-c3d2-8187-86e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithProgress-progress-rightImgWrapper",
+			"id": "1eed-2241-c887-90c7",
+			"isModuleLibraryComponent": true,
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"9eea-4370-495b-31c4"
+				],
+				"name": "flRightImgWrapper",
+				"parent": "dd49-a648-58c5-ed37"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flDoubleLineWithProgress-progress-imgRight",
+			"id": "9eea-4370-495b-31c4",
+			"isModuleLibraryComponent": true,
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgRight",
+				"parent": "1eed-2241-c887-90c7"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flDoubleLineWithProgress-progress-lblStatus",
+			"id": "aad8-065b-4386-06b6",
+			"isModuleLibraryComponent": true,
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblStatus",
+				"parent": "dd49-a648-58c5-ed37",
+				"text": "1 day left"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "1 day left"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithProgress-progress-seperator",
+			"id": "18be-0934-35d4-d517",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [],
+				"name": "flSeparator",
+				"parent": "d316-4700-d137-ec83"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

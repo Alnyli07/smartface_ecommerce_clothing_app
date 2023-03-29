@@ -1,0 +1,80 @@
+[
+	{
+		"id": "a02d280c-5cad-47e9-8127-fd8a3fc3227e",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "dealsRouter",
+		"children": [
+			"2232018b-dd49-48f9-bda7-e34b154d6881",
+			"fe91fa75-6940-4962-9e7e-6bc2c1a6556e",
+			"1edb07e6-10f1-4f99-b752-6a15698e9156"
+		],
+		"props": {
+			"path": "deals",
+			"x": 1543.5017865132731,
+			"y": -2890.7600866915727,
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "2232018b-dd49-48f9-bda7-e34b154d6881",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2347.501786513273,
+			"y": -398.7600866915725,
+			"page": "pgDealsList"
+		},
+		"parent": "a02d280c-5cad-47e9-8127-fd8a3fc3227e"
+	},
+	{
+		"id": "fe91fa75-6940-4962-9e7e-6bc2c1a6556e",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 2497.501786513273,
+			"y": -398.7600866915725,
+			"page": "pgDealsDetail"
+		},
+		"parent": "a02d280c-5cad-47e9-8127-fd8a3fc3227e"
+	},
+	{
+		"id": "1edb07e6-10f1-4f99-b752-6a15698e9156",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "imagesRouter",
+		"children": [
+			"320cfaf1-6e94-4526-bcca-401dc2829991"
+		],
+		"props": {
+			"path": "images",
+			"modal": true,
+			"x": 1539.5017865132731,
+			"y": -2722.7600866915727,
+			"to": "main"
+		},
+		"parent": "a02d280c-5cad-47e9-8127-fd8a3fc3227e"
+	},
+	{
+		"id": "320cfaf1-6e94-4526-bcca-401dc2829991",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2511.501786513273,
+			"y": -222.7600866915725,
+			"page": "pgDealImages"
+		},
+		"parent": "1edb07e6-10f1-4f99-b752-6a15698e9156"
+	}
+]

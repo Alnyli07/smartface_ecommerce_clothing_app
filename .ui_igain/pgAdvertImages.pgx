@@ -1,0 +1,99 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain .bgMain",
+			"id": "a54a-68b1-0ecf-b052",
+			"initialized": true,
+			"props": {
+				"children": [
+					"9be3-7266-40e7-27ce",
+					"8125-d224-ba6e-3480",
+					"680f-e400-0c48-ee0a",
+					"3449-edac-7f80-d795"
+				],
+				"name": "pgAdvertImages",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "9be3-7266-40e7-27ce",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "a54a-68b1-0ecf-b052"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "8125-d224-ba6e-3480",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "a54a-68b1-0ecf-b052",
+				"title": "pgAdvertImages"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgAdvertImages"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "680f-e400-0c48-ee0a",
+			"props": {
+				"children": [],
+				"name": "flSwipeViewLayout",
+				"parent": "a54a-68b1-0ecf-b052",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "2zGvoMjs8",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgAdvertImages-flImageCounter",
+			"id": "3449-edac-7f80-d795",
+			"props": {
+				"children": [
+					"e2d2-1fe0-3386-bbc4"
+				],
+				"name": "flImagesCounter",
+				"parent": "a54a-68b1-0ecf-b052",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "M9xPtp7bD",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .rows.title.smaller #pgAdvertImages-flImageCounter-lblImagesCounter",
+			"id": "e2d2-1fe0-3386-bbc4",
+			"props": {
+				"children": [],
+				"name": "lblImagesCounter",
+				"parent": "3449-edac-7f80-d795",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "aG80HR7l5",
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

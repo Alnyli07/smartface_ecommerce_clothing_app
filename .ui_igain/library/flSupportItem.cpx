@@ -1,0 +1,200 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flSupportItem .borderRadius-8 .paddingHorizontal .paddingVertical",
+			"hiddenComponent": false,
+			"id": "1306-c453-9a30-d856",
+			"props": {
+				"children": [
+					"bfe1-c86d-5813-be91",
+					"77b2-3286-aa65-ee15"
+				],
+				"name": "flSupportItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 7.41,
+				"top": 274.07
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSupportItem-flLeftWrapper .grow-relative",
+			"id": "bfe1-c86d-5813-be91",
+			"props": {
+				"children": [
+					"0058-f277-47bf-a1a8",
+					"aa1b-54c7-aa90-700c",
+					"5869-2431-8540-9016",
+					"aa3b-3208-f066-5f5c"
+				],
+				"name": "flLeftWrapper",
+				"parent": "1306-c453-9a30-d856",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .adverts.title.detail .flSupportItem-flLeftWrapper-lblTitle",
+			"id": "0058-f277-47bf-a1a8",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "bfe1-c86d-5813-be91",
+				"text": "Onarim",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Onarim",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .adverts.title .flSupportItem-flLeftWrapper-lblShortDescription",
+			"id": "aa1b-54c7-aa90-700c",
+			"props": {
+				"children": [],
+				"name": "lblShortDescription",
+				"parent": "bfe1-c86d-5813-be91",
+				"text": "Cam Su Sizdirmasi",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Cam Su Sizdirmasi",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .adverts.time .flSupportItem-flLeftWrapper-lblShortDescription",
+			"id": "5869-2431-8540-9016",
+			"props": {
+				"children": [],
+				"name": "lblSupportTime",
+				"parent": "bfe1-c86d-5813-be91",
+				"text": "07.03.2022",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "07.03.2022",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .adverts.time .flSupportItem-flLeftWrapper-lblShortDescription",
+			"id": "aa3b-3208-f066-5f5c",
+			"props": {
+				"children": [],
+				"name": "lblSupportId",
+				"parent": "bfe1-c86d-5813-be91",
+				"text": "#DT0001",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "#DT0001",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSupportItem-flRightWrapper",
+			"id": "77b2-3286-aa65-ee15",
+			"props": {
+				"children": [
+					"9f3d-00e7-eed0-fff9",
+					"1c57-6e44-67fc-753c"
+				],
+				"name": "flRightWrapper",
+				"parent": "1306-c453-9a30-d856",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSupportItem-flRightWrapper-flImageWrapper",
+			"id": "9f3d-00e7-eed0-fff9",
+			"props": {
+				"children": [
+					"ea5b-9785-2a23-b591"
+				],
+				"name": "flImageWrapper",
+				"parent": "77b2-3286-aa65-ee15",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative .flSupportItem-flRightWrapper-flImageWrapper-imgSupport",
+			"id": "ea5b-9785-2a23-b591",
+			"props": {
+				"children": [],
+				"name": "imgStatus",
+				"parent": "9f3d-00e7-eed0-fff9",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .textCenter .flSupportItem-flRightWrapper-lblStatus .adverts.time",
+			"id": "1c57-6e44-67fc-753c",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "lblStatus",
+				"parent": "77b2-3286-aa65-ee15",
+				"text": "Devam Ediyor",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 2,
+				"text": "Devam Ediyor",
+				"usePageVariable": true
+			}
+		}
+	]
+}

@@ -1,0 +1,101 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain .gradient",
+			"id": "677e-da63-6cb8-4954",
+			"initialized": true,
+			"props": {
+				"children": [
+					"d6b5-30e6-bbdb-d8fc",
+					"7301-3a50-8e49-7e21",
+					"522d-7c97-6a88-69e2",
+					"2554-68c7-abd0-1bc8"
+				],
+				"name": "pgSupports",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "d6b5-30e6-bbdb-d8fc",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "677e-da63-6cb8-4954"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "7301-3a50-8e49-7e21",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "677e-da63-6cb8-4954",
+				"title": "pgSupport"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSupport"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flNewsSegmentedControl .marginHorizontal .marginVertical .hidden",
+			"hiddenComponent": false,
+			"id": "522d-7c97-6a88-69e2",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "flSegment",
+				"parent": "677e-da63-6cb8-4954",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flNewsSegmentedControl",
+				"id": "d459-6fd8-79e2-434f"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "diVXIsBVN",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .bgMain",
+			"id": "2554-68c7-abd0-1bc8",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"d7e4-12e8-7d42-4d21"
+				],
+				"name": "flWrapper",
+				"parent": "677e-da63-6cb8-4954"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .contentInset .paddingHorizontal .bgMain .contentInset-10",
+			"id": "d7e4-12e8-7d42-4d21",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "2554-68c7-abd0-1bc8",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "chaLbC-oc",
+				"usePageVariable": true
+			}
+		}
+	]
+}

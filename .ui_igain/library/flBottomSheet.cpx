@@ -1,0 +1,191 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flBottomSheet",
+			"hiddenComponent": false,
+			"id": "e6e1-e7f3-3dae-82e1",
+			"props": {
+				"children": [
+					"1c98-03f4-8a3a-858d",
+					"c654-eb52-62c9-8581"
+				],
+				"name": "flBottomSheet",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 16.87,
+				"top": 90.36
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flBottomSheet-flWrapper",
+			"id": "1c98-03f4-8a3a-858d",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"8e6c-1dcc-3f72-c64c",
+					"6dc6-d3a6-f13c-76ab"
+				],
+				"name": "flWrapper",
+				"parent": "e6e1-e7f3-3dae-82e1"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flBottomSheet-flWrapper-lblTitle",
+			"id": "8e6c-1dcc-3f72-c64c",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "1c98-03f4-8a3a-858d",
+				"text": "ModalBottomSheet"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "ModalBottomSheet"
+			}
+		},
+		{
+			"className": ".icon .flBottomSheet-flWrapper-iconBack",
+			"id": "6dc6-d3a6-f13c-76ab",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "iconBack",
+				"parent": "1c98-03f4-8a3a-858d"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flBottomSheet-flInfoWrapper .paddingHorizontal .grow-relative .bgMain",
+			"id": "c654-eb52-62c9-8581",
+			"oldName": "flSingleLinePhoneItem",
+			"props": {
+				"children": [
+					"6e11-57b6-4e9d-9afb",
+					"5b3f-79db-d085-2bf4",
+					"1eca-5b84-d96e-e138",
+					"59a3-8785-d103-74d7"
+				],
+				"name": "flInfoWrapper",
+				"parent": "e6e1-e7f3-3dae-82e1"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .lviRow1Line-flMain .grow-relative .flBottomSheet-flSingleLine",
+			"hiddenComponent": false,
+			"id": "6e11-57b6-4e9d-9afb",
+			"initialized": false,
+			"oldName": "flSingleLine",
+			"props": {
+				"children": [],
+				"name": "flSingleLineNameItem",
+				"parent": "c654-eb52-62c9-8581"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSingleLine",
+				"id": "69eb-096d-c728-a32e"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviRow1Line-flMain .grow-relative .flBottomSheet-flSingleLine",
+			"hiddenComponent": false,
+			"id": "5b3f-79db-d085-2bf4",
+			"initialized": false,
+			"oldName": "flSingleLine_1",
+			"props": {
+				"children": [],
+				"name": "flSingleLinePhoneItem",
+				"parent": "c654-eb52-62c9-8581"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSingleLine",
+				"id": "69eb-096d-c728-a32e"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviRow1Line-flMain .grow-relative .flBottomSheet-flSingleLine",
+			"hiddenComponent": false,
+			"id": "1eca-5b84-d96e-e138",
+			"initialized": false,
+			"oldName": "flSingleLinePhoneItem_1",
+			"props": {
+				"children": [],
+				"name": "flSingleLineMailItem",
+				"parent": "c654-eb52-62c9-8581"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSingleLine",
+				"id": "69eb-096d-c728-a32e"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviRow1Line-flMain .grow-relative .flBottomSheet-flSingleLine",
+			"hiddenComponent": false,
+			"id": "59a3-8785-d103-74d7",
+			"initialized": false,
+			"oldName": "flSingleLineMailItem_1",
+			"props": {
+				"children": [],
+				"name": "flSingleLineWebItem",
+				"parent": "c654-eb52-62c9-8581"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSingleLine",
+				"id": "69eb-096d-c728-a32e"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

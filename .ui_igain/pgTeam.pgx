@@ -1,0 +1,115 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "905e-f1e2-8540-f9e9",
+			"initialized": true,
+			"props": {
+				"children": [
+					"8ce3-eb7d-ae78-dd12",
+					"ccaf-81c9-584b-145c",
+					"82de-754f-57d5-2a4e",
+					"24b1-3551-965c-f191"
+				],
+				"name": "pgTeam",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "8ce3-eb7d-ae78-dd12",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "905e-f1e2-8540-f9e9"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "ccaf-81c9-584b-145c",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "905e-f1e2-8540-f9e9",
+				"title": "pgTeam"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgTeam"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .gradient #pgTeams-flCalendarWrapper",
+			"id": "82de-754f-57d5-2a4e",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flCalendarWrapper",
+				"parent": "905e-f1e2-8540-f9e9"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .grow-relative .paddingTop .borderTopRightRadius",
+			"id": "24b1-3551-965c-f191",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"06f5-ad44-b819-272e"
+				],
+				"name": "flWrapper",
+				"parent": "905e-f1e2-8540-f9e9"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgMain",
+			"id": "06f5-ad44-b819-272e",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"b924-00a3-318c-1578"
+				],
+				"name": "lvMain",
+				"parent": "24b1-3551-965c-f191"
+			},
+			"type": "ListView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listViewItem .lviRow2Line .lviDoubleLine #pgTeam-lviDoubleLine",
+			"hiddenComponent": false,
+			"id": "b924-00a3-318c-1578",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "lviDoubleLine",
+				"parent": "06f5-ad44-b819-272e"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviDoubleLine",
+				"id": "d8b4-b337-6e5b-40a5"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

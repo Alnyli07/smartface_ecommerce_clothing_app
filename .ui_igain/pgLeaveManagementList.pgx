@@ -1,0 +1,108 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "5859-e7e6-aac9-0a3e",
+			"initialized": true,
+			"props": {
+				"children": [
+					"df77-ae85-c7d2-168e",
+					"cc81-ae93-baa3-6e5c",
+					"8cde-022d-058e-4949",
+					"aa3d-354a-c989-93d4"
+				],
+				"name": "pgLeaveManagementList",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "df77-ae85-c7d2-168e",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "5859-e7e6-aac9-0a3e"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "cc81-ae93-baa3-6e5c",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "5859-e7e6-aac9-0a3e",
+				"title": "pgLeaveManagementList"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgLeaveManagementList"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .gradient #pgLeaveList-flCalendarWrapper",
+			"id": "8cde-022d-058e-4949",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flCalendarWrapper",
+				"parent": "5859-e7e6-aac9-0a3e"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .paddingTop .borderTopRightRadius .paddingHorizontal .grow-relative",
+			"id": "aa3d-354a-c989-93d4",
+			"oldName": "flContaier",
+			"props": {
+				"children": [
+					"2f40-1a2a-dfe2-c54f"
+				],
+				"name": "flContainer",
+				"parent": "5859-e7e6-aac9-0a3e"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .grow-relative .bgMain",
+			"id": "2f40-1a2a-dfe2-c54f",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"8dc8-33f3-2295-502f"
+				],
+				"name": "lvMain",
+				"parent": "aa3d-354a-c989-93d4"
+			},
+			"type": "ListView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listViewItem .lviRow2Line .lviDoubleLine",
+			"hiddenComponent": false,
+			"id": "8dc8-33f3-2295-502f",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "lviDoubleLine",
+				"parent": "2f40-1a2a-dfe2-c54f"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviDoubleLine",
+				"id": "d8b4-b337-6e5b-40a5"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		}
+	]
+}

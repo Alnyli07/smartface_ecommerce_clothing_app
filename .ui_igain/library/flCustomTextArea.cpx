@@ -1,0 +1,110 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flCustomTextArea",
+			"hiddenComponent": true,
+			"id": "9a2f-8315-00c8-e7bd",
+			"props": {
+				"children": [
+					"370b-d708-ce22-a5af",
+					"27c9-85fe-c1d1-7f68"
+				],
+				"name": "flCustomTextArea",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 1.23,
+				"top": 208.64
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flCustomTextArea-flTextAreaWrapper .paddingHorizontal",
+			"id": "370b-d708-ce22-a5af",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"1466-7e41-2662-e3f7",
+					"5c22-115d-6abd-328b"
+				],
+				"name": "flTextAreaWrapper",
+				"parent": "9a2f-8315-00c8-e7bd"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textArea .noBorder .rows.title.small-thin .flCustomTextArea-ta .grow-relative",
+			"hiddenComponent": false,
+			"id": "1466-7e41-2662-e3f7",
+			"oldName": "textArea1",
+			"props": {
+				"children": [],
+				"name": "taMain",
+				"parent": "370b-d708-ce22-a5af",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti."
+			},
+			"type": "TextArea",
+			"userProps": {
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti."
+			}
+		},
+		{
+			"className": ".sf-label .rows.title.small-thin .flCustomTextArea-lblHint .paddingHorizontal",
+			"id": "5c22-115d-6abd-328b",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblHint",
+				"parent": "370b-d708-ce22-a5af",
+				"text": "label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flCustomTextBox-flLabelWrapper",
+			"id": "27c9-85fe-c1d1-7f68",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"243c-3448-2e0e-35f5",
+					"4ef6-3d60-50f4-ac2b"
+				],
+				"name": "flLabelWrapper",
+				"parent": "9a2f-8315-00c8-e7bd"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flCustomTextArea-lblError .login.error",
+			"id": "243c-3448-2e0e-35f5",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblError",
+				"parent": "27c9-85fe-c1d1-7f68"
+			},
+			"type": "Label",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flCustomTextArea-lblCharCounter",
+			"id": "4ef6-3d60-50f4-ac2b",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblCharCount",
+				"parent": "27c9-85fe-c1d1-7f68"
+			},
+			"type": "Label",
+			"userProps": {}
+		}
+	]
+}

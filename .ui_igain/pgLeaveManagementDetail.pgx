@@ -1,0 +1,93 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "3582-0f96-0e0b-e1bd",
+			"initialized": true,
+			"props": {
+				"children": [
+					"2f42-52bc-dbf8-659a",
+					"bbcb-ef81-a843-f47d",
+					"0d76-aefb-e55e-76af"
+				],
+				"name": "pgLeaveManagementDetail",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "2f42-52bc-dbf8-659a",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "3582-0f96-0e0b-e1bd"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "bbcb-ef81-a843-f47d",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "3582-0f96-0e0b-e1bd",
+				"title": "pgLeaveManagementDetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgLeaveManagementDetail"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .paddingTop .borderTopRightRadius .paddingHorizontal .grow-relative",
+			"id": "0d76-aefb-e55e-76af",
+			"oldName": "flContaier",
+			"props": {
+				"children": [
+					"6a35-207c-0d31-ce06"
+				],
+				"name": "flContainer",
+				"parent": "3582-0f96-0e0b-e1bd"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .bgWhite",
+			"id": "6a35-207c-0d31-ce06",
+			"oldName": "flWrapper_1",
+			"props": {
+				"children": [
+					"2880-9d69-acc0-1c0e"
+				],
+				"name": "flDetailWrapper",
+				"parent": "0d76-aefb-e55e-76af"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgWhite #pgShuttleDetail-lvMain",
+			"id": "2880-9d69-acc0-1c0e",
+			"oldName": "lvMain_1",
+			"props": {
+				"children": [],
+				"name": "lvMainDetail",
+				"parent": "6a35-207c-0d31-ce06",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "nznvRtXmq",
+				"usePageVariable": true
+			}
+		}
+	]
+}

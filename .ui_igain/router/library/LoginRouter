@@ -1,0 +1,64 @@
+[
+	{
+		"id": "38167813-f729-4db5-8086-ba795cd6ccba",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "loginRouter",
+		"children": [
+			"cfa0e0ee-e38c-4a37-8c96-645603354fbf",
+			"f18e0c6d-f98f-41ef-b7ff-0c10c891e3f0",
+			"198492dc-6fb4-4a40-bb27-db0722f0e8ed"
+		],
+		"props": {
+			"path": "login",
+			"x": 555.7218468193189,
+			"y": -2182.9364275160387,
+			"modal": true,
+			"to": "main",
+			"visible": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "cfa0e0ee-e38c-4a37-8c96-645603354fbf",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": -139.7404296415205,
+			"y": -132.0644170143849,
+			"page": "pgSignInWithEmail"
+		},
+		"parent": "38167813-f729-4db5-8086-ba795cd6ccba"
+	},
+	{
+		"id": "f18e0c6d-f98f-41ef-b7ff-0c10c891e3f0",
+		"type": "Route",
+		"isContainer": false,
+		"name": "forgotPassword",
+		"children": [],
+		"props": {
+			"path": "forgotPassword",
+			"x": 10.259570358479493,
+			"y": -132.0644170143849,
+			"page": "pgForgotPassword"
+		},
+		"parent": "38167813-f729-4db5-8086-ba795cd6ccba"
+	},
+	{
+		"id": "198492dc-6fb4-4a40-bb27-db0722f0e8ed",
+		"type": "Route",
+		"isContainer": false,
+		"name": "otp",
+		"children": [],
+		"props": {
+			"path": "otp",
+			"x": 160.2595703584795,
+			"y": -132.0644170143849,
+			"page": "pgLoginWithOtp"
+		},
+		"parent": "38167813-f729-4db5-8086-ba795cd6ccba"
+	}
+]

@@ -1,0 +1,105 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain",
+			"id": "962b-726e-cb9d-4791",
+			"initialized": true,
+			"props": {
+				"children": [
+					"b397-52cb-8101-0897",
+					"c9f6-e1ee-2ab1-0b84",
+					"4631-7b13-5240-4104",
+					"96cb-7baf-4258-9a4d"
+				],
+				"name": "pgUserApproveList",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "b397-52cb-8101-0897",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "962b-726e-cb9d-4791"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "c9f6-e1ee-2ab1-0b84",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "962b-726e-cb9d-4791",
+				"title": "pgUserApproveList"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgUserApproveList"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .paddingHorizontal #pgUserApproveList-flSegmentWrapper",
+			"id": "4631-7b13-5240-4104",
+			"oldName": "flSegment",
+			"props": {
+				"children": [
+					"943d-87a2-3b71-cdc8"
+				],
+				"name": "flSegmentWrapper",
+				"parent": "962b-726e-cb9d-4791"
+			},
+			"ref": null,
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flNewsSegmentedControl",
+			"hiddenComponent": false,
+			"id": "943d-87a2-3b71-cdc8",
+			"initialized": false,
+			"oldName": "flNewsSegmentedControl",
+			"props": {
+				"children": [],
+				"name": "flSegment",
+				"parent": "4631-7b13-5240-4104",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flNewsSegmentedControl",
+				"id": "d459-6fd8-79e2-434f"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "fu_0smqub",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listView .contentInset",
+			"id": "96cb-7baf-4258-9a4d",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "962b-726e-cb9d-4791",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "ListView",
+			"userProps": {
+				"testId": "bttr7WZV-t",
+				"usePageVariable": true
+			}
+		}
+	]
+}

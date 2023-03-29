@@ -1,0 +1,87 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundSecondary",
+			"id": "414d-3595-3fe0-88eb",
+			"initialized": true,
+			"props": {
+				"children": [
+					"8b27-2bab-85f1-acad",
+					"b22d-0a18-c159-eb49",
+					"b21a-2c04-d462-8732",
+					"5124-9dd0-c74d-8e53"
+				],
+				"name": "pgSwipeViewFeedImage",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "8b27-2bab-85f1-acad",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "414d-3595-3fe0-88eb"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "b22d-0a18-c159-eb49",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "414d-3595-3fe0-88eb",
+				"title": "pgSwipeViewFeedImage"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSwipeViewFeedImage"
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative #pgSwipeViewFeedImage-imgMain .background.main50",
+			"hiddenComponent": false,
+			"id": "b21a-2c04-d462-8732",
+			"props": {
+				"children": [],
+				"name": "imgMain",
+				"parent": "414d-3595-3fe0-88eb",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "kZEUSTopm",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flWaitDialog .notVisible",
+			"hiddenComponent": false,
+			"id": "5124-9dd0-c74d-8e53",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flWaitDialog",
+				"parent": "414d-3595-3fe0-88eb",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flWaitDialog",
+				"id": "f991-f031-9d6c-d639"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "RlbNgTBEh",
+				"usePageVariable": true
+			}
+		}
+	]
+}

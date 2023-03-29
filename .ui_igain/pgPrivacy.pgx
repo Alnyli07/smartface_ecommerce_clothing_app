@@ -1,0 +1,61 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "8425-21a7-27a6-6eb4",
+			"initialized": true,
+			"props": {
+				"children": [
+					"16b9-8507-6e74-fa0f",
+					"faad-dfd6-d80e-4e79",
+					"4d3b-fe00-94b7-fdbd"
+				],
+				"name": "pgPrivacy",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.0-rc.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "16b9-8507-6e74-fa0f",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "8425-21a7-27a6-6eb4"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "faad-dfd6-d80e-4e79",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "8425-21a7-27a6-6eb4",
+				"title": "pgPrivacy"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgPrivacy"
+			}
+		},
+		{
+			"className": ".sf-webView #pgPrivacy-webView",
+			"id": "4d3b-fe00-94b7-fdbd",
+			"oldName": "webView1",
+			"props": {
+				"children": [],
+				"name": "webViewPrivacy",
+				"parent": "8425-21a7-27a6-6eb4"
+			},
+			"type": "WebView",
+			"userProps": {}
+		}
+	]
+}

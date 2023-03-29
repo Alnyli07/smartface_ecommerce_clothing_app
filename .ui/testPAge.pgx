@@ -1,0 +1,183 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #testPAge-testPAge",
+			"id": "2f91-e08a-2123-4dd1",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a9c0-a8e8-efba-9160",
+					"fe41-5458-3706-d8e4",
+					"f29b-8cc9-e480-0923",
+					"2db7-6428-371b-63a7",
+					"ecad-ddb3-bbe6-b024"
+				],
+				"name": "testPAge",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.11.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "a9c0-a8e8-efba-9160",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "2f91-e08a-2123-4dd1"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "fe41-5458-3706-d8e4",
+			"props": {
+				"children": [
+					"1a90-3cab-4ea4-3b47"
+				],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "2f91-e08a-2123-4dd1",
+				"title": "testPAge"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "testPAge"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flexLayout5",
+			"id": "1a90-3cab-4ea4-3b47",
+			"props": {
+				"children": [
+					"ac79-6e39-6e21-4a32",
+					"1e60-dd1d-a3b1-8e82",
+					"b784-5ac0-afb5-4ba6"
+				],
+				"name": "flexLayout5",
+				"parent": "fe41-5458-3706-d8e4"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button #page1-button1",
+			"id": "ac79-6e39-6e21-4a32",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "1a90-3cab-4ea4-3b47",
+				"text": "button1"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "button1"
+			}
+		},
+		{
+			"className": ".sf-activityIndicator #page1-activityIndicator3",
+			"id": "1e60-dd1d-a3b1-8e82",
+			"props": {
+				"children": [],
+				"name": "activityIndicator3",
+				"parent": "1a90-3cab-4ea4-3b47"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #page1-label2",
+			"id": "b784-5ac0-afb5-4ba6",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "1a90-3cab-4ea4-3b47",
+				"text": "label2"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label2"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #testPAge-flexLayout1",
+			"id": "f29b-8cc9-e480-0923",
+			"props": {
+				"children": [
+					"2627-4049-b9db-1bc9",
+					"d3ff-dc59-5e73-2213"
+				],
+				"name": "flexLayout1",
+				"parent": "2f91-e08a-2123-4dd1"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #testPAge-flexLayout3",
+			"id": "2627-4049-b9db-1bc9",
+			"props": {
+				"children": [
+					"cfea-752c-af37-b6ad"
+				],
+				"name": "flexLayout3",
+				"parent": "f29b-8cc9-e480-0923"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #testPAge-flexLayout4",
+			"id": "cfea-752c-af37-b6ad",
+			"props": {
+				"children": [],
+				"name": "flexLayout4",
+				"parent": "2627-4049-b9db-1bc9"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #testPAge-flexLayout2",
+			"id": "d3ff-dc59-5e73-2213",
+			"props": {
+				"children": [],
+				"name": "flexLayout2",
+				"parent": "f29b-8cc9-e480-0923"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView #page1-textView1",
+			"id": "2db7-6428-371b-63a7",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255); line-height: 18.6226px;\"><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. </font><span style=\"font-family: SFProText-Regular; color: rgb(0, 161, 241); font-size: 17.3913px; background-color: rgb(255, 255, 255); line-height: 20.8135px;\">Donec </span><span style=\"color: rgb(0, 161, 241); font-size: 25px; background-color: rgb(255, 255, 255); line-height: 30.6725px;\"><font face=\"SFProText-Semibold\" style=\"font-size: 25px; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); line-height: 30.6725px;\">quis</font></span><span style=\"font-family: SFProText-Regular; color: rgb(0, 161, 241); font-size: 17.3913px; background-color: rgb(255, 255, 255); line-height: 20.8135px;\"> semper justo. In  \n  ultrices metus nec sodales consectetur.</span><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\"> \n  Aliquam erat volutpat. </font><span style=\"font-family: SFProText-Regular; font-size: 16px; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline; line-height: 19.718px;\">Suspendisse</span><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\"> potenti.</font></span>",
+				"name": "textView1",
+				"parent": "2f91-e08a-2123-4dd1",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti."
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255); line-height: 18.6226px;\"><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. </font><span style=\"font-family: SFProText-Regular; color: rgb(0, 161, 241); font-size: 17.3913px; background-color: rgb(255, 255, 255); line-height: 20.8135px;\">Donec </span><span style=\"color: rgb(0, 161, 241); font-size: 25px; background-color: rgb(255, 255, 255); line-height: 30.6725px;\"><font face=\"SFProText-Semibold\" style=\"font-size: 25px; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); line-height: 30.6725px;\">quis</font></span><span style=\"font-family: SFProText-Regular; color: rgb(0, 161, 241); font-size: 17.3913px; background-color: rgb(255, 255, 255); line-height: 20.8135px;\"> semper justo. In  \n  ultrices metus nec sodales consectetur.</span><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\"> \n  Aliquam erat volutpat. </font><span style=\"font-family: SFProText-Regular; font-size: 16px; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline; line-height: 19.718px;\">Suspendisse</span><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\"> potenti.</font></span>",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti."
+			}
+		},
+		{
+			"className": ".sf-imageView #testPAge-imageView",
+			"id": "ecad-ddb3-bbe6-b024",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "2f91-e08a-2123-4dd1"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		}
+	]
+}

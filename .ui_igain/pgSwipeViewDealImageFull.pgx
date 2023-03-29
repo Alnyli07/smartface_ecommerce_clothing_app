@@ -1,0 +1,71 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .background.black",
+			"id": "cdbb-e7f4-a717-d064",
+			"initialized": true,
+			"props": {
+				"children": [
+					"1ab5-529c-05a1-2c71",
+					"e258-48f6-cdf4-fb90",
+					"abe3-e332-f8b6-3a1c"
+				],
+				"name": "pgSwipeViewDealImageFull",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "1ab5-529c-05a1-2c71",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "cdbb-e7f4-a717-d064"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "e258-48f6-cdf4-fb90",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "cdbb-e7f4-a717-d064",
+				"title": "pgSwipeViewDealsDetailFull"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSwipeViewDealsDetailFull"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flWaitDialog .notVisible",
+			"hiddenComponent": false,
+			"id": "abe3-e332-f8b6-3a1c",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flWaitDialog",
+				"parent": "cdbb-e7f4-a717-d064",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flWaitDialog",
+				"id": "f991-f031-9d6c-d639"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KmVmRsFMY",
+				"usePageVariable": true
+			}
+		}
+	]
+}

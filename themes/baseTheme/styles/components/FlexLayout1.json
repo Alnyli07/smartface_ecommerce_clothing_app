@@ -1,0 +1,11 @@
+{
+  ".flexLayout1": {
+    "width": 176.54,
+    "height": 182.72,
+    "flexProps": {
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "backgroundColor": "${mainTextColor}"
+  }
+}

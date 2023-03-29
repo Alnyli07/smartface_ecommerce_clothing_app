@@ -1,0 +1,165 @@
+[
+	{
+		"id": "44424a53-85fa-4056-be27-7c05cabbefb7",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "supportRouter",
+		"children": [
+			"f94fb4f3-ce76-492c-80b2-26354bb0d343",
+			"311f8a15-b9f2-4f4b-a79b-33169e347b5c",
+			"73c7d1ab-805d-420e-b787-7115ae035c97",
+			"41c1f445-0686-4d57-bf7c-1bae88dc81df",
+			"62d99698-e41e-4635-8c2c-aa6136c5571a",
+			"2e02ea9f-ea75-4042-b7b4-e3767d307023"
+		],
+		"props": {
+			"path": "supports",
+			"x": 1149.4144301205984,
+			"y": -2893.03432187949,
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "f94fb4f3-ce76-492c-80b2-26354bb0d343",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2527.501786513273,
+			"y": -1314.7600866915725,
+			"page": "pgSupport"
+		},
+		"parent": "44424a53-85fa-4056-be27-7c05cabbefb7"
+	},
+	{
+		"id": "311f8a15-b9f2-4f4b-a79b-33169e347b5c",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 2677.501786513273,
+			"y": -1314.7600866915725,
+			"page": "pgSupportDetail"
+		},
+		"parent": "44424a53-85fa-4056-be27-7c05cabbefb7"
+	},
+	{
+		"id": "73c7d1ab-805d-420e-b787-7115ae035c97",
+		"type": "Route",
+		"isContainer": false,
+		"name": "allSupports",
+		"children": [],
+		"props": {
+			"path": "allSupports",
+			"x": 1494.4144301205984,
+			"y": -2345.03432187949,
+			"page": "pgSupports"
+		},
+		"parent": "44424a53-85fa-4056-be27-7c05cabbefb7"
+	},
+	{
+		"id": "41c1f445-0686-4d57-bf7c-1bae88dc81df",
+		"type": "Route",
+		"isContainer": false,
+		"name": "mySupports",
+		"children": [],
+		"props": {
+			"path": "mySupports",
+			"x": 1489.4144301205984,
+			"y": -2313.03432187949,
+			"page": "pgSupports"
+		},
+		"parent": "44424a53-85fa-4056-be27-7c05cabbefb7"
+	},
+	{
+		"id": "62d99698-e41e-4635-8c2c-aa6136c5571a",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "create",
+		"children": [
+			"e6d9dc2c-87f5-4d70-b763-f0dac02b775d",
+			"b16dbf77-a279-4872-92e0-45ebae2d3431"
+		],
+		"props": {
+			"path": "create",
+			"modal": true,
+			"x": 1315.4144301205984,
+			"y": -1980.03432187949,
+			"homeRoute": "main",
+			"to": "main",
+			"modalType": "modal"
+		},
+		"parent": "44424a53-85fa-4056-be27-7c05cabbefb7"
+	},
+	{
+		"id": "e6d9dc2c-87f5-4d70-b763-f0dac02b775d",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 1435.4144301205984,
+			"y": -1082.03432187949,
+			"page": "pgCreateSupport"
+		},
+		"parent": "62d99698-e41e-4635-8c2c-aa6136c5571a"
+	},
+	{
+		"id": "b16dbf77-a279-4872-92e0-45ebae2d3431",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "cropRouter",
+		"children": [],
+		"props": {
+			"path": "crop",
+			"x": 1425.4144301205984,
+			"y": -1052.03432187949,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true
+		},
+		"parent": "62d99698-e41e-4635-8c2c-aa6136c5571a",
+		"source": {
+			"id": "0fef90ae-a205-4697-a94a-2999bf02f774"
+		},
+		"isLib": true
+	},
+	{
+		"id": "2e02ea9f-ea75-4042-b7b4-e3767d307023",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "imagesRouter",
+		"children": [
+			"ccccc94a-c95a-40d2-8912-2f665b79c014"
+		],
+		"props": {
+			"path": "images",
+			"modal": true,
+			"x": 1465.4144301205984,
+			"y": -1980.03432187949,
+			"to": "main"
+		},
+		"parent": "44424a53-85fa-4056-be27-7c05cabbefb7"
+	},
+	{
+		"id": "ccccc94a-c95a-40d2-8912-2f665b79c014",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2437.4144301205984,
+			"y": 519.9656781205101,
+			"page": "pgSupportImages"
+		},
+		"parent": "2e02ea9f-ea75-4042-b7b4-e3767d307023"
+	}
+]

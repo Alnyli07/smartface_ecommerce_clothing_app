@@ -1,0 +1,162 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flGenericContent",
+			"hiddenComponent": true,
+			"id": "cc55-cec1-7fe6-a176",
+			"props": {
+				"children": [
+					"5847-22ba-4873-2d00",
+					"e61c-6ae3-b8c8-1706",
+					"f291-c75a-409f-28f7"
+				],
+				"name": "flGenericContent",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 19.64,
+				"top": 76.79
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flGenericContent-flTop",
+			"id": "5847-22ba-4873-2d00",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"79d8-a4ec-dbf1-1228",
+					"15c6-cf33-6c59-4389"
+				],
+				"name": "flTop",
+				"parent": "cc55-cec1-7fe6-a176"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flGenericContent-flTop-lblTitle .genericContent.title",
+			"id": "79d8-a4ec-dbf1-1228",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "lblTitle",
+				"parent": "5847-22ba-4873-2d00",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 2,
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+			}
+		},
+		{
+			"className": ".sf-label .flGenericContent-flTop-lblDate .genericContent.time",
+			"id": "15c6-cf33-6c59-4389",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "lblDate",
+				"parent": "5847-22ba-4873-2d00",
+				"text": "1 Day ago"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 2,
+				"text": "1 Day ago"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flGenericContent-flImageWrapper",
+			"id": "e61c-6ae3-b8c8-1706",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"5b67-c4c1-6a70-a711"
+				],
+				"name": "flImageWrapper",
+				"parent": "cc55-cec1-7fe6-a176"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flPhotoDisplayer",
+			"hiddenComponent": true,
+			"id": "5b67-c4c1-6a70-a711",
+			"props": {
+				"children": [],
+				"name": "flPhotoDisplayer",
+				"parent": "e61c-6ae3-b8c8-1706"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flPhotoDisplayer",
+				"id": "9b4c-c52c-1e87-37fc"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flGenericContent-flBottom",
+			"id": "f291-c75a-409f-28f7",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"9b94-e042-4d5d-92ff"
+				],
+				"name": "flBottom",
+				"parent": "cc55-cec1-7fe6-a176"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flGenericContent-flBottom-lblDescription .genericContent.description",
+			"id": "9b94-e042-4d5d-92ff",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"maxLines": 3,
+				"name": "lblDescription",
+				"parent": "f291-c75a-409f-28f7",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 3,
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+			}
+		}
+	]
+}

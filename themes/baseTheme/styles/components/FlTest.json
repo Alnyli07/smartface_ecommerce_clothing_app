@@ -1,0 +1,9 @@
+{
+  ".flTest": {
+    "&-icon1": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      }
+    }
+  }
+}

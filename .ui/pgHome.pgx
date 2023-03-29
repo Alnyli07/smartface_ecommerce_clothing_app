@@ -271,8 +271,7 @@
 				"page": "__library__"
 			},
 			"type": "FlexLayout",
-			"userProps": {
-			}
+			"userProps": {}
 		},
 		{
 			"className": ".sf-label .flIconButton-lbl .button_text #pgHome-lbl",
@@ -312,6 +311,7 @@
 			"id": "5214-8b77-0b0f-ba41",
 			"oldName": "scrollView1",
 			"props": {
+				"align": "HORIZONTAL",
 				"autoSizeEnabled": true,
 				"children": [
 					"2a33-73f7-5b63-81b6",
@@ -556,20 +556,22 @@
 				"children": [
 					"7522-a8d9-799c-bc93"
 				],
-				"itemCount": 5,
+				"itemCount": 15,
 				"itemLength": 275,
 				"layoutManager": {
-					"spanCount": 2
+					"spanCount": 2,
+					"scrollDirection": "VERTICAL"
 				},
 				"name": "gird",
 				"parent": "317a-6736-f7d2-f686"
 			},
 			"type": "GridView",
 			"userProps": {
-				"itemCount": 5,
+				"itemCount": 15,
 				"itemLength": 275,
 				"layoutManager": {
-					"spanCount": 2
+					"spanCount": 2,
+					"scrollDirection": "VERTICAL"
 				}
 			}
 		},

@@ -1,0 +1,182 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flNewsSegmentedControl",
+			"hiddenComponent": true,
+			"id": "d459-6fd8-79e2-434f",
+			"initialized": true,
+			"props": {
+				"children": [
+					"1961-c853-a705-018b",
+					"1470-a273-fc30-cc7f",
+					"089f-d081-6667-5b3d",
+					"8883-b759-afc5-cdd7",
+					"f49b-d07d-10a2-297e"
+				],
+				"name": "flNewsSegmentedControl",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 6.02,
+				"showInToolbox": true,
+				"top": 486.75
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flNewsSegmentedControl-segment.active",
+			"id": "1961-c853-a705-018b",
+			"props": {
+				"children": [
+					"9722-1f34-d0a8-9539"
+				],
+				"name": "flLeftSegment",
+				"parent": "d459-6fd8-79e2-434f",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flNewsSegmentedControl-segment-label .news.segment .grow-relative",
+			"id": "9722-1f34-d0a8-9539",
+			"props": {
+				"autoHeight": "20.31",
+				"children": [],
+				"name": "lblLeftSegment",
+				"parent": "1961-c853-a705-018b",
+				"text": "Lorem",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": "20.31",
+				"text": "Lorem",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flNewsSegmentedControl-segment-verticalLine",
+			"id": "1470-a273-fc30-cc7f",
+			"props": {
+				"children": [],
+				"name": "flLeftVerticalLine",
+				"parent": "d459-6fd8-79e2-434f"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flNewsSegmentedControl-segment",
+			"id": "089f-d081-6667-5b3d",
+			"props": {
+				"children": [
+					"c800-8f07-51dd-b185"
+				],
+				"name": "flCenterSegment",
+				"parent": "d459-6fd8-79e2-434f",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .news.segment .flNewsSegmentedControl-segment-label",
+			"id": "c800-8f07-51dd-b185",
+			"props": {
+				"autoHeight": "20.50",
+				"children": [],
+				"name": "lblCenterSegment",
+				"parent": "089f-d081-6667-5b3d",
+				"text": "Ipsum",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": "20.50",
+				"text": "Ipsum",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flNewsSegmentedControl-segment-verticalLine",
+			"id": "8883-b759-afc5-cdd7",
+			"props": {
+				"children": [],
+				"name": "flRighthVerticalLine",
+				"parent": "d459-6fd8-79e2-434f",
+				"usePageVariable": false
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": false
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flNewsSegmentedControl-segment.right",
+			"id": "f49b-d07d-10a2-297e",
+			"props": {
+				"children": [
+					"d1c3-2c42-a3f1-320c"
+				],
+				"name": "flRightSegment",
+				"parent": "d459-6fd8-79e2-434f",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .news.segment .flNewsSegmentedControl-segment-label",
+			"id": "d1c3-2c42-a3f1-320c",
+			"props": {
+				"autoHeight": "20.31",
+				"children": [],
+				"name": "lblRightSegment",
+				"parent": "f49b-d07d-10a2-297e",
+				"text": "Dolor",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": "20.31",
+				"text": "Dolor",
+				"usePageVariable": true
+			}
+		}
+	]
+}

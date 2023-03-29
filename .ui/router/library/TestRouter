@@ -1,0 +1,32 @@
+[
+	{
+		"id": "3d3bb410-e1bb-41c1-8cf5-70bdbdc45ea2",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "testRouter",
+		"children": [
+			"9f91b7fc-2128-41ca-98e1-16e256375979"
+		],
+		"props": {
+			"path": "stackRouter1",
+			"x": 318.7595703584795,
+			"y": 40.4355829856151,
+			"homeRoute": "route2",
+			"to": "route2"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "9f91b7fc-2128-41ca-98e1-16e256375979",
+		"type": "Route",
+		"isContainer": false,
+		"name": "route2",
+		"children": [],
+		"props": {
+			"path": "route1",
+			"x": 318.7595703584795,
+			"y": 160.4355829856151
+		},
+		"parent": "3d3bb410-e1bb-41c1-8cf5-70bdbdc45ea2"
+	}
+]

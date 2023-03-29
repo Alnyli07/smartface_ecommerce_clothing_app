@@ -2,6 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .dotIndicator",
+			"hiddenComponent": true,
 			"id": "92d0-85aa-339d-a5cd",
 			"props": {
 				"children": [

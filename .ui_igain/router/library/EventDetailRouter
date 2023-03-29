@@ -1,0 +1,107 @@
+[
+	{
+		"id": "25fd265b-6fc0-42dc-b6ea-f293c38ae4c5",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "eventDetailRouter",
+		"children": [
+			"0aea20b0-9073-40b4-80b3-bbf2737f627f",
+			"13c2da73-017c-4ecf-a5b0-e8e1907a894a",
+			"efd76639-49f8-48a9-b7c2-03c8d16f182e"
+		],
+		"props": {
+			"path": "eventDetail",
+			"x": 2070.46616962292,
+			"y": -2582.745839935431,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true,
+			"modalType": "modal"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "0aea20b0-9073-40b4-80b3-bbf2737f627f",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2226.46616962292,
+			"y": -2768.745839935431,
+			"page": "pgEventDetail"
+		},
+		"parent": "25fd265b-6fc0-42dc-b6ea-f293c38ae4c5"
+	},
+	{
+		"id": "13c2da73-017c-4ecf-a5b0-e8e1907a894a",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "images",
+		"children": [
+			"bd4a5a0b-6204-44f6-80f6-8a333752e86b"
+		],
+		"props": {
+			"path": "images",
+			"modal": true,
+			"x": 2134.149811598229,
+			"y": -2370.4495436391344,
+			"homeRoute": "main",
+			"to": "main"
+		},
+		"parent": "25fd265b-6fc0-42dc-b6ea-f293c38ae4c5"
+	},
+	{
+		"id": "bd4a5a0b-6204-44f6-80f6-8a333752e86b",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2086.149811598229,
+			"y": -2602.4495436391344,
+			"page": "pgDealImages"
+		},
+		"parent": "13c2da73-017c-4ecf-a5b0-e8e1907a894a"
+	},
+	{
+		"id": "efd76639-49f8-48a9-b7c2-03c8d16f182e",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "bottomSheet",
+		"children": [
+			"9862e4c0-a165-4dc0-9ffc-90690fe32e62"
+		],
+		"props": {
+			"path": "bsOrganizerInfo",
+			"modal": true,
+			"x": 2307.46616962292,
+			"y": -2366.745839935431,
+			"homeRoute": "main",
+			"to": "main",
+			"modalType": "bottom-sheet",
+			"bottomSheetOptions": {
+				"cornerRadius": 20,
+				"detents": "medium",
+				"isGrabberVisible": true
+			}
+		},
+		"parent": "25fd265b-6fc0-42dc-b6ea-f293c38ae4c5"
+	},
+	{
+		"id": "9862e4c0-a165-4dc0-9ffc-90690fe32e62",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2532.46616962292,
+			"y": -2142.745839935431,
+			"page": "bsOrganizerInfo"
+		},
+		"parent": "efd76639-49f8-48a9-b7c2-03c8d16f182e"
+	}
+]

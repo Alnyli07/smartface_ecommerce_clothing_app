@@ -1,0 +1,100 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flCommentInput .gradient",
+			"hiddenComponent": true,
+			"id": "233e-1cd5-fa30-ec84",
+			"props": {
+				"children": [
+					"d3ed-d747-39f2-832c",
+					"6522-38f7-8030-1c00"
+				],
+				"name": "flCommentInput",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 12.68,
+				"top": 109.86
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flCommentInput-flText .paddingHorizontal",
+			"id": "d3ed-d747-39f2-832c",
+			"props": {
+				"children": [
+					"28e0-b1b5-af10-622c"
+				],
+				"name": "flText",
+				"parent": "233e-1cd5-fa30-ec84",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-textBox .grow-relative .flCommentInput-flText-txtMain",
+			"id": "28e0-b1b5-af10-622c",
+			"props": {
+				"children": [],
+				"hint": "Yorum yaz.",
+				"name": "txtMain",
+				"parent": "d3ed-d747-39f2-832c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextBox",
+			"userProps": {
+				"hint": "Yorum yaz.",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flCommentInput-flSend",
+			"id": "6522-38f7-8030-1c00",
+			"props": {
+				"children": [
+					"e4ee-b717-d4ce-19b3"
+				],
+				"name": "flSend",
+				"parent": "233e-1cd5-fa30-ec84",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .flCommentInput-flSend-imgSend",
+			"id": "e4ee-b717-d4ce-19b3",
+			"props": {
+				"children": [],
+				"name": "imgSend",
+				"parent": "6522-38f7-8030-1c00",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

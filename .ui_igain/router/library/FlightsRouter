@@ -1,0 +1,34 @@
+[
+	{
+		"id": "73d6645d-4883-4ed6-aa05-12a907472bb8",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "flightsRouter",
+		"children": [
+			"9d1c7116-ba63-451a-b903-58a2b62e3dfc"
+		],
+		"props": {
+			"path": "flights",
+			"x": 208.7595703584795,
+			"y": 1173.4355829856152,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "9d1c7116-ba63-451a-b903-58a2b62e3dfc",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 418.7595703584795,
+			"y": 1901.4355829856152,
+			"page": "pgFlights"
+		},
+		"parent": "73d6645d-4883-4ed6-aa05-12a907472bb8"
+	}
+]

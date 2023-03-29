@@ -1,0 +1,115 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain #pgAdvertList .gradient",
+			"id": "2987-19d3-37b9-d112",
+			"initialized": true,
+			"props": {
+				"children": [
+					"e2d3-99d1-7bfb-e341",
+					"0ce3-0b91-e06a-1510",
+					"08cd-ed68-9125-e5c1",
+					"a581-23d3-db5f-a3d1"
+				],
+				"name": "pgAdvertList",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "e2d3-99d1-7bfb-e341",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "2987-19d3-37b9-d112"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "0ce3-0b91-e06a-1510",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "2987-19d3-37b9-d112",
+				"title": "pgAdvertList"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgAdvertList"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgAdvertList-flCategory .gradient",
+			"id": "08cd-ed68-9125-e5c1",
+			"props": {
+				"children": [
+					"fd6a-51fa-2493-97c5"
+				],
+				"name": "flCategory",
+				"parent": "2987-19d3-37b9-d112"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-gridView .grow-relative",
+			"id": "fd6a-51fa-2493-97c5",
+			"props": {
+				"children": [],
+				"layoutManager": {
+					"scrollDirection": "HORIZONTAL",
+					"spanCount": 1
+				},
+				"name": "gvMain",
+				"parent": "08cd-ed68-9125-e5c1",
+				"usePageVariable": true
+			},
+			"type": "GridView",
+			"userProps": {
+				"layoutManager": {
+					"scrollDirection": "HORIZONTAL",
+					"spanCount": 1
+				},
+				"testId": "_NfWbiPJZ",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .bgMain",
+			"id": "a581-23d3-db5f-a3d1",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"057c-4ed6-76e7-e8f5"
+				],
+				"name": "flWrapper",
+				"parent": "2987-19d3-37b9-d112"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgMain .contentInset-10",
+			"id": "057c-4ed6-76e7-e8f5",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "a581-23d3-db5f-a3d1",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "20K6msH2p",
+				"usePageVariable": true
+			}
+		}
+	]
+}

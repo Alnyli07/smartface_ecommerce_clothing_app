@@ -1,0 +1,44 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flMiniTag",
+			"hiddenComponent": true,
+			"id": "2bf7-c321-dea5-91a1",
+			"props": {
+				"children": [
+					"ce5c-e176-dba0-9c39"
+				],
+				"name": "flMiniTag",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 7.23,
+				"top": 104.82
+			}
+		},
+		{
+			"className": ".sf-label .feeds.time .flMiniTag-lblTag",
+			"id": "ce5c-e176-dba0-9c39",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"maxLines": 1,
+				"name": "lblTag",
+				"parent": "2bf7-c321-dea5-91a1",
+				"text": "Artifical Intelligence"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 1,
+				"text": "Artifical Intelligence"
+			}
+		}
+	]
+}

@@ -1,0 +1,254 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flEvent",
+			"hiddenComponent": true,
+			"id": "88e7-8362-9c3d-acd4",
+			"props": {
+				"children": [
+					"e464-e9eb-2ade-376f",
+					"5d40-e54f-1fff-7100",
+					"630c-275c-1b81-4d1a",
+					"c2a3-2361-e054-6e5c"
+				],
+				"name": "flEvent",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 8.43,
+				"top": 98.8
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flEvent-flImageWrapper",
+			"id": "e464-e9eb-2ade-376f",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"d405-42f0-9707-bdc2",
+					"40db-bce9-ec5a-49a6"
+				],
+				"name": "flImageWrapper",
+				"parent": "88e7-8362-9c3d-acd4"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flPhotoDisplayer",
+			"hiddenComponent": false,
+			"id": "d405-42f0-9707-bdc2",
+			"oldName": "flPhotoDisplayer_1",
+			"props": {
+				"children": [],
+				"name": "flPhotoDisplayer",
+				"parent": "e464-e9eb-2ade-376f"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flPhotoDisplayer",
+				"id": "9b4c-c52c-1e87-37fc"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flHorizontalImageAndTextArray .flEvent-flHorizontalImageAndTextArray .paddingHorizontal .borderRadius",
+			"hiddenComponent": false,
+			"id": "40db-bce9-ec5a-49a6",
+			"props": {
+				"children": [],
+				"name": "flHorizontalImageAndTextArray",
+				"parent": "e464-e9eb-2ade-376f",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flHorizontalImageAndTextArray",
+				"id": "92c0-db7c-112d-182b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flEvent-flContentWrapper .paddingHorizontal",
+			"id": "5d40-e54f-1fff-7100",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"e64b-1845-c946-7f0b",
+					"1f38-0005-0a5e-f248",
+					"4183-71cf-d39c-6ae0"
+				],
+				"name": "flContentWrapper",
+				"parent": "88e7-8362-9c3d-acd4"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .feeds.title .flEvent-flContentWrapper-lblTitle",
+			"id": "e64b-1845-c946-7f0b",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"maxLines": 1,
+				"name": "lblTitle",
+				"parent": "5d40-e54f-1fff-7100",
+				"text": "Tech Talk on Machine Learning"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 1,
+				"text": "Tech Talk on Machine Learning"
+			}
+		},
+		{
+			"className": ".sf-label .feeds.time .flEvent-flContentWrapper-lblDate",
+			"id": "1f38-0005-0a5e-f248",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblDate",
+				"parent": "5d40-e54f-1fff-7100",
+				"text": "4 Şubat 2023 - 20:00"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "4 Şubat 2023 - 20:00"
+			}
+		},
+		{
+			"className": ".sf-label .feeds.spot",
+			"id": "4183-71cf-d39c-6ae0",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"maxLines": 3,
+				"name": "lblSpot",
+				"parent": "5d40-e54f-1fff-7100",
+				"text": "Learn the latest techniques in machine learningLearn the latest techniques in machine learningLearn the latest techniques in machine learning"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 3,
+				"text": "Learn the latest techniques in machine learningLearn the latest techniques in machine learningLearn the latest techniques in machine learning"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flEvent-flTagsWrapper .paddingHorizontal",
+			"id": "630c-275c-1b81-4d1a",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"6aaa-e7a4-0625-e189"
+				],
+				"name": "flTagsWrapper",
+				"parent": "88e7-8362-9c3d-acd4"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-gridView .flEvent-flTagsWrapper-gvMain",
+			"id": "6aaa-e7a4-0625-e189",
+			"oldName": "gridView1",
+			"props": {
+				"children": [
+					"8be0-57ac-a1f3-e010"
+				],
+				"itemCount": 5,
+				"itemLength": 100,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				},
+				"name": "gvMain",
+				"parent": "630c-275c-1b81-4d1a"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 5,
+				"itemLength": 100,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				}
+			}
+		},
+		{
+			"className": ".sf-gridViewItem .gviMiniTag .flEvent-gviMiniTag",
+			"hiddenComponent": false,
+			"id": "8be0-57ac-a1f3-e010",
+			"oldName": "gridViewItem1",
+			"props": {
+				"children": [],
+				"name": "gviMiniTag",
+				"parent": "6aaa-e7a4-0625-e189"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "gviMiniTag",
+				"id": "6900-dc4d-0bee-45a8"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-label .flEvent-lblName .feeds.owner .marginHorizontal",
+			"id": "c2a3-2361-e054-6e5c",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblName",
+				"parent": "88e7-8362-9c3d-acd4",
+				"text": "Smartface"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Smartface"
+			}
+		}
+	]
+}

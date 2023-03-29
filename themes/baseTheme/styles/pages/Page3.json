@@ -7,6 +7,36 @@
     },
     "flexProps": {
       "justifyContent": "FLEX_END"
+    },
+    "&-imageView1": {
+      "image": "intro_black_suit.png",
+      "imageFillType": "NORMAL",
+      "backgroundColor": "rgba( 117, 181, 48, 0.46 )",
+      "width": null,
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      },
+      "height": null,
+      "marginTop": 5,
+      "marginLeft": 5,
+      "marginBottom": 5,
+      "marginRight": 5
+    },
+    "&-flexLayout1": {
+      "left": 1,
+      "backgroundColor": "rgba( 135, 38, 38, 0.36 )",
+      "flexProps": {
+        "alignItems": "AUTO",
+        "flexWrap": "NOWRAP",
+        "alignContent": "STRETCH",
+        "flexDirection": "ROW_REVERSE",
+        "positionType": "RELATIVE"
+      },
+      "borderRadius": 30,
+      "height": 81
+    },
+    "&-flexLayout2": {
+      "backgroundColor": "rgba( 126, 211, 33, 0.59 )"
     }
   }
 }

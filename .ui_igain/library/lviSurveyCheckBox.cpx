@@ -1,0 +1,48 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviSurveyCheckBox",
+			"hiddenComponent": true,
+			"id": "946d-2505-bd50-2a76",
+			"props": {
+				"children": [
+					"4775-8654-880e-a6a1"
+				],
+				"name": "lviSurveyCheckBox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 21.35,
+				"top": 283.15
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSurveyCheckBox .lviSurveyCheckBox-flSurveyCheckBox",
+			"hiddenComponent": false,
+			"id": "4775-8654-880e-a6a1",
+			"props": {
+				"children": [],
+				"name": "flSurveyCheckBox",
+				"parent": "946d-2505-bd50-2a76"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSurveyCheckBox",
+				"id": "4569-6da2-2787-4901"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,129 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "f8c7-eeb3-56e5-0d28",
+			"initialized": true,
+			"props": {
+				"children": [
+					"b2ce-4905-c414-f828",
+					"862d-b314-dfb0-a8c6",
+					"24af-e392-7b2d-679b",
+					"6021-d783-8532-e9ac",
+					"7fa1-a63d-6597-3d26"
+				],
+				"name": "pgShuttleForm",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5-rc.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "b2ce-4905-c414-f828",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "f8c7-eeb3-56e5-0d28"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "862d-b314-dfb0-a8c6",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "f8c7-eeb3-56e5-0d28",
+				"title": "pgShuttleForm"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgShuttleForm"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgWhite .borderTopRightRadius .paddingTop .grow-relative",
+			"id": "24af-e392-7b2d-679b",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"bace-d757-709a-82b6"
+				],
+				"name": "flWrapper",
+				"parent": "f8c7-eeb3-56e5-0d28"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgWhite",
+			"id": "bace-d757-709a-82b6",
+			"oldName": "lvMai",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "24af-e392-7b2d-679b",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "wpp6jngMe",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-safeArea",
+			"id": "6021-d783-8532-e9ac",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flSafeArea",
+				"parent": "f8c7-eeb3-56e5-0d28"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-wrapper .marginBottom",
+			"id": "7fa1-a63d-6597-3d26",
+			"oldName": "flActionButtonWrappe",
+			"props": {
+				"children": [
+					"53d1-49ef-2938-6f4e"
+				],
+				"name": "flActionButtonWrapper",
+				"parent": "f8c7-eeb3-56e5-0d28"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton.gradient",
+			"hiddenComponent": false,
+			"id": "53d1-49ef-2938-6f4e",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flActionButton",
+				"parent": "7fa1-a63d-6597-3d26",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flActionButton",
+				"id": "a812-2ded-c6b7-e3ee"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KnvRNmZSB",
+				"usePageVariable": true
+			}
+		}
+	]
+}

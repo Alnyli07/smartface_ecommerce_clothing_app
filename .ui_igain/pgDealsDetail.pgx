@@ -1,0 +1,178 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .bgBoxGray",
+			"id": "f622-1853-5e07-e6df",
+			"initialized": true,
+			"props": {
+				"children": [
+					"c36c-c9bc-6076-c0d7",
+					"ab9e-eb30-f30e-e6ec",
+					"8706-16be-2b0c-3b86"
+				],
+				"name": "pgDealsDetail",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "c36c-c9bc-6076-c0d7",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "f622-1853-5e07-e6df"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "ab9e-eb30-f30e-e6ec",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "f622-1853-5e07-e6df",
+				"title": "pgDealsDetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgDealsDetail"
+			}
+		},
+		{
+			"className": ".sf-scrollView .grow-relative",
+			"id": "8706-16be-2b0c-3b86",
+			"oldName": "scrollView1",
+			"props": {
+				"autoSizeEnabled": false,
+				"children": [
+					"6aa4-d597-4162-ac9c",
+					"128a-8b37-7b16-6427",
+					"fc69-2dd7-190a-469d"
+				],
+				"name": "svMain",
+				"parent": "f622-1853-5e07-e6df"
+			},
+			"type": "ScrollView",
+			"userProps": {
+				"autoSizeEnabled": false
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgDealsDetail-flMediaWrapper",
+			"id": "6aa4-d597-4162-ac9c",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"232e-6dca-f48a-8315",
+					"a808-a690-7ad9-647c"
+				],
+				"name": "flMediaWrapper",
+				"parent": "8706-16be-2b0c-3b86"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "232e-6dca-f48a-8315",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flSwipeViewLayout",
+				"parent": "6aa4-d597-4162-ac9c"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flRadiusDotIndicator #pgFeedDetail-flImagesWrapper-flRadiusDotIndicator .borderRadius-12",
+			"hiddenComponent": false,
+			"id": "a808-a690-7ad9-647c",
+			"props": {
+				"children": [],
+				"name": "flRadiusDotIndicator",
+				"parent": "6aa4-d597-4162-ac9c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flRadiusDotIndicator",
+				"id": "d5de-f89e-c67d-663b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "8qetqeKz5",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgDealsDetail-flInfo",
+			"id": "128a-8b37-7b16-6427",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ad8e-7ee8-bcf3-1fd3",
+					"e849-758e-ca0d-0ce2"
+				],
+				"name": "flInfo",
+				"parent": "8706-16be-2b0c-3b86"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .feeds.time #pgDealsDetail-flInfo-lblDate",
+			"id": "ad8e-7ee8-bcf3-1fd3",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblDate",
+				"parent": "128a-8b37-7b16-6427",
+				"text": "label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1"
+			}
+		},
+		{
+			"className": ".sf-label .feeds.title .ellipsize-WordWrap #pgDealsDetail-flInfo-lblTitle",
+			"id": "e849-758e-ca0d-0ce2",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"maxLines": 0,
+				"name": "lblTitle",
+				"parent": "128a-8b37-7b16-6427",
+				"text": "label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 0,
+				"text": "label1"
+			}
+		},
+		{
+			"className": ".sf-textView .feeds.description #pgDealsDetail-flInfo-flDescWrapper-tvDescription",
+			"id": "fc69-2dd7-190a-469d",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. <span style=\"color: rgb(0, 161, 241); font-size: 17.3913px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255);\">Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur.</span> \n  Aliquam erat volutpat. <span style=\"font-size: 16px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline;\">Suspendisse</span> potenti.</span><br>",
+				"name": "tvDescription",
+				"parent": "8706-16be-2b0c-3b86"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. <span style=\"color: rgb(0, 161, 241); font-size: 17.3913px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255);\">Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur.</span> \n  Aliquam erat volutpat. <span style=\"font-size: 16px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline;\">Suspendisse</span> potenti.</span><br>"
+			}
+		}
+	]
+}

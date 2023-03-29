@@ -1,0 +1,120 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flSurveyQuestion",
+			"hiddenComponent": true,
+			"id": "9972-1d4e-d94b-3b5e",
+			"props": {
+				"children": [
+					"9e37-9d34-3660-d7e3",
+					"4fb2-d097-8d0c-df4f"
+				],
+				"name": "flSurveyQuestion",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 7.87,
+				"top": 124.72
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSurveyQuestion-titleContainer",
+			"id": "9e37-9d34-3660-d7e3",
+			"oldName": "flQuestionContainer",
+			"props": {
+				"children": [
+					"e03b-9c7a-3f2b-56b5",
+					"7989-7b7f-1a99-e265"
+				],
+				"name": "flQuestionTitleContainer",
+				"parent": "9972-1d4e-d94b-3b5e"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flSurveyQuestion-lblQuestion",
+			"id": "e03b-9c7a-3f2b-56b5",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"maxLines": 10,
+				"name": "txtQuestion",
+				"parent": "9e37-9d34-3660-d7e3",
+				"text": "label2"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"maxLines": 10,
+				"text": "label2",
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-label .flSurveyQuestion-lblMultiAnswer",
+			"id": "7989-7b7f-1a99-e265",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblMultiAnswer",
+				"parent": "9e37-9d34-3660-d7e3",
+				"text": "label1"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSurveyQuestion-listContainer",
+			"id": "4fb2-d097-8d0c-df4f",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"1698-7a11-5bde-ee9b"
+				],
+				"name": "flListContainer",
+				"parent": "9972-1d4e-d94b-3b5e"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .lvQuestion",
+			"id": "1698-7a11-5bde-ee9b",
+			"oldName": "lvQuestion",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "4fb2-d097-8d0c-df4f",
+				"refreshEnabled": false
+			},
+			"type": "ListView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"refreshEnabled": false,
+				"top": 0
+			}
+		}
+	]
+}

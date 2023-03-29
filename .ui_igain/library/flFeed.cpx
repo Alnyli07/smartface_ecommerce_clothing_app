@@ -1,0 +1,350 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flFeed .grow-relative",
+			"hiddenComponent": true,
+			"id": "123a-79d2-dc13-a3da",
+			"props": {
+				"children": [
+					"8e6f-360c-ade7-0c31",
+					"1f8a-f230-d2c7-2fed",
+					"8f7c-abcd-0032-5c82",
+					"ccaf-1cb9-f4d8-6fa7",
+					"6c72-c095-835f-76fd"
+				],
+				"name": "flFeed",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 9.86,
+				"top": 153.52
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flFeed-flStatus .absolute .borderRadius-20",
+			"id": "8e6f-360c-ade7-0c31",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ec03-3f24-08f8-5b74"
+				],
+				"name": "flStatus",
+				"parent": "123a-79d2-dc13-a3da",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative .flFeed-flStatus-imgStatus",
+			"id": "ec03-3f24-08f8-5b74",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgStatus",
+				"parent": "8e6f-360c-ade7-0c31",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flFeed-flImagesLayout",
+			"id": "1f8a-f230-d2c7-2fed",
+			"props": {
+				"children": [
+					"e38d-173e-e37d-1a57"
+				],
+				"name": "flImagesLayout",
+				"parent": "123a-79d2-dc13-a3da",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flPhotoDisplayer .grow-relative",
+			"hiddenComponent": false,
+			"id": "e38d-173e-e37d-1a57",
+			"props": {
+				"children": [],
+				"name": "flPhotoDisplayer",
+				"parent": "1f8a-f230-d2c7-2fed",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flPhotoDisplayer",
+				"id": "9b4c-c52c-1e87-37fc"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flFeed-flTopAndActionsWrapper",
+			"id": "8f7c-abcd-0032-5c82",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"7533-9a0d-3e58-ca21",
+					"4fea-937b-e718-5043"
+				],
+				"name": "flTopAndActionsWrapper",
+				"parent": "123a-79d2-dc13-a3da"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flFeed-flTop .paddingHorizontal",
+			"id": "7533-9a0d-3e58-ca21",
+			"props": {
+				"children": [
+					"d1ab-b0cc-c4a7-6b28",
+					"83e4-ab97-2beb-cb43"
+				],
+				"name": "flTop",
+				"parent": "8f7c-abcd-0032-5c82",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .flFeed-flTop-imgUser",
+			"id": "d1ab-b0cc-c4a7-6b28",
+			"props": {
+				"children": [],
+				"name": "imgUser",
+				"parent": "7533-9a0d-3e58-ca21",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flFeed-flTop-flUser .grow-relative",
+			"id": "83e4-ab97-2beb-cb43",
+			"props": {
+				"children": [
+					"14d7-fd7a-4070-76d5",
+					"c156-47c8-e914-355c"
+				],
+				"name": "flUser",
+				"parent": "7533-9a0d-3e58-ca21"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flFeed-flTop-flUser-lblUser .feeds.owner",
+			"id": "14d7-fd7a-4070-76d5",
+			"props": {
+				"children": [],
+				"name": "lblUser",
+				"parent": "83e4-ab97-2beb-cb43",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flFeed-flTop-flUser-lblDate .feeds.time",
+			"id": "c156-47c8-e914-355c",
+			"props": {
+				"children": [],
+				"name": "lblDate",
+				"parent": "83e4-ab97-2beb-cb43",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flFeed-flActions",
+			"id": "4fea-937b-e718-5043",
+			"props": {
+				"children": [
+					"92d7-4cc0-f762-3673",
+					"cf6a-1dee-d4aa-fe15",
+					"5ed0-acaa-a27a-2b2a"
+				],
+				"name": "flActions",
+				"parent": "8f7c-abcd-0032-5c82",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIconAndText .flFeed-flIconAndText",
+			"hiddenComponent": false,
+			"id": "92d7-4cc0-f762-3673",
+			"oldName": "flL",
+			"props": {
+				"children": [],
+				"name": "flLike",
+				"parent": "4fea-937b-e718-5043"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flIconAndText",
+				"id": "aa2d-6f02-ba7d-182b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIconAndText .flFeed-flIconAndText",
+			"hiddenComponent": false,
+			"id": "cf6a-1dee-d4aa-fe15",
+			"oldName": "flC",
+			"props": {
+				"children": [],
+				"name": "flComment",
+				"parent": "4fea-937b-e718-5043"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flIconAndText",
+				"id": "aa2d-6f02-ba7d-182b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIconAndText .flFeed-flIconAndText",
+			"hiddenComponent": false,
+			"id": "5ed0-acaa-a27a-2b2a",
+			"oldName": "flComment_1",
+			"props": {
+				"children": [],
+				"name": "flSend",
+				"parent": "4fea-937b-e718-5043"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flIconAndText",
+				"id": "aa2d-6f02-ba7d-182b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-label .flFeed-lblTitle .feeds.title .marginHorizontal",
+			"id": "ccaf-1cb9-f4d8-6fa7",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "123a-79d2-dc13-a3da",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flFeed-lblSpot .feeds.spot .maxLines2 .marginHorizontal",
+			"id": "6c72-c095-835f-76fd",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "lblSpot",
+				"parent": "123a-79d2-dc13-a3da",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"ellipsizeMode": "END",
+				"maxLines": 2,
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+				"usePageVariable": true
+			}
+		}
+	]
+}

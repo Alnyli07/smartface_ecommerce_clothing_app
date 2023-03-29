@@ -1,0 +1,75 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.black",
+			"id": "c575-0d9e-9882-8499",
+			"initialized": false,
+			"props": {
+				"children": [
+					"2448-724f-7682-ed19",
+					"3f76-2eb6-04be-f43b",
+					"910b-eeb6-ac35-824c"
+				],
+				"name": "pgSwipeViewCampusImageFull",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5-rc.0",
+			"degree": 0
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "2448-724f-7682-ed19",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "c575-0d9e-9882-8499"
+			},
+			"type": "StatusBar",
+			"userProps": {},
+			"degree": 1
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "3f76-2eb6-04be-f43b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "c575-0d9e-9882-8499",
+				"title": "pgSwipeViewFeedImage"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSwipeViewFeedImage"
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-flexLayout .flWaitDialog .notVisible",
+			"hiddenComponent": false,
+			"id": "910b-eeb6-ac35-824c",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flWaitDialog",
+				"parent": "c575-0d9e-9882-8499",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flWaitDialog",
+				"id": "f991-f031-9d6c-d639"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KmVmRsFMY",
+				"usePageVariable": true
+			},
+			"degree": 1
+		}
+	]
+}

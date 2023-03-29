@@ -1,0 +1,94 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "87ce-ae72-eef9-77bf",
+			"initialized": true,
+			"props": {
+				"children": [
+					"b9ec-6bbc-48e5-2dd4",
+					"c29f-6841-516a-c018",
+					"1dbb-9cc3-82d6-bf80"
+				],
+				"name": "pgNewsAndAnnouncements",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "b9ec-6bbc-48e5-2dd4",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "87ce-ae72-eef9-77bf"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "c29f-6841-516a-c018",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "87ce-ae72-eef9-77bf",
+				"title": "pgNewsAndAnnouncements"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgNewsAndAnnouncements"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .grow-relative",
+			"id": "1dbb-9cc3-82d6-bf80",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"7298-28f1-464e-ac14"
+				],
+				"name": "flWrapper",
+				"parent": "87ce-ae72-eef9-77bf"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgMain .contentInsetBottom-10",
+			"id": "7298-28f1-464e-ac14",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"5aed-d205-2022-a425"
+				],
+				"name": "lvMain",
+				"parent": "1dbb-9cc3-82d6-bf80"
+			},
+			"type": "ListView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listViewItem .lviGenericContent",
+			"hiddenComponent": false,
+			"id": "5aed-d205-2022-a425",
+			"props": {
+				"children": [],
+				"name": "lviGenericContent",
+				"parent": "7298-28f1-464e-ac14"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviGenericContent",
+				"id": "0187-6f06-ab0c-df1d"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flPhotoDisplayerItem3",
+			"hiddenComponent": true,
+			"id": "2974-5693-25fc-6a82",
+			"props": {
+				"children": [
+					"9943-272b-2311-b5fc",
+					"01e5-f012-d6bd-f49e"
+				],
+				"name": "flPhotoDisplayerItem3",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {}
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative .flPhotoDisplayerItem3-imgLeft",
+			"id": "9943-272b-2311-b5fc",
+			"props": {
+				"children": [],
+				"name": "imgLeft",
+				"parent": "2974-5693-25fc-6a82",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flPhotoDisplayerItem3-flRightImages",
+			"id": "01e5-f012-d6bd-f49e",
+			"props": {
+				"children": [
+					"5f1f-4a75-9fd2-25d1",
+					"0c06-a0c0-2c41-9c8b"
+				],
+				"name": "flRightImages",
+				"parent": "2974-5693-25fc-6a82"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .grow-relative .flPhotoDisplayerItem3-flRightImages-imgRightTop",
+			"id": "5f1f-4a75-9fd2-25d1",
+			"props": {
+				"children": [],
+				"name": "imgRightTop",
+				"parent": "01e5-f012-d6bd-f49e",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative .flPhotoDisplayerItem3-flRightImages-imgRightBottom",
+			"id": "0c06-a0c0-2c41-9c8b",
+			"props": {
+				"children": [],
+				"name": "imgRightBottom",
+				"parent": "01e5-f012-d6bd-f49e",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

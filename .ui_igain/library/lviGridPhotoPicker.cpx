@@ -1,0 +1,52 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviGridPhotoPicker",
+			"hiddenComponent": true,
+			"id": "f3ee-ad73-0601-d79e",
+			"props": {
+				"children": [
+					"12a2-487c-c68e-c84e"
+				],
+				"name": "lviGridPhotoPicker",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"testId": "yGhD6O6J8"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flGridPhotoPicker .grow-relative",
+			"hiddenComponent": false,
+			"id": "12a2-487c-c68e-c84e",
+			"props": {
+				"children": [],
+				"name": "flGridPhotoPicker",
+				"parent": "f3ee-ad73-0601-d79e",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flGridPhotoPicker",
+				"id": "630e-d47d-792f-78ed"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"testId": "uDmdIxQnV",
+				"top": 0,
+				"usePageVariable": true
+			}
+		}
+	]
+}

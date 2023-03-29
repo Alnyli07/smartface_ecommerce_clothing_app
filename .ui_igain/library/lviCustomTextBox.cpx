@@ -1,0 +1,48 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviCustomTextBox",
+			"hiddenComponent": true,
+			"id": "3a80-accd-c3ce-78e9",
+			"props": {
+				"children": [
+					"5deb-7766-ccd0-c0c2"
+				],
+				"name": "lviCustomTextBox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 12,
+				"top": 105.33
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flCustomTextBox .lviCustomTextBox-flCustomTextBox .paddingHorizontal",
+			"hiddenComponent": false,
+			"id": "5deb-7766-ccd0-c0c2",
+			"props": {
+				"children": [],
+				"name": "flCustomTextBox",
+				"parent": "3a80-accd-c3ce-78e9"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flCustomTextBox",
+				"id": "0913-c422-1ab5-e5ab"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,33 @@
+[
+	{
+		"id": "69800f3e-b753-4c98-aab2-0f552f74d6eb",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "diningMenuRouter",
+		"children": [
+			"9774ecec-0df4-497b-9cbf-5d168e81a1f3"
+		],
+		"props": {
+			"path": "diningMenu",
+			"modal": true,
+			"x": 2825.4309798786467,
+			"y": -2904.154940519858,
+			"to": "main"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "9774ecec-0df4-497b-9cbf-5d168e81a1f3",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2676.04844648728,
+			"y": 78.31252738749751,
+			"page": "pgDiningMenu"
+		},
+		"parent": "69800f3e-b753-4c98-aab2-0f552f74d6eb"
+	}
+]

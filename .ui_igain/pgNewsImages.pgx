@@ -1,0 +1,99 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain",
+			"id": "221c-0a1e-ab70-1022",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a5c5-18ce-dbf7-f11c",
+					"e3dc-3383-952e-61b7",
+					"c04e-3617-42ff-574b",
+					"b41d-aad2-972d-d233"
+				],
+				"name": "pgNewsImages",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "a5c5-18ce-dbf7-f11c",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "221c-0a1e-ab70-1022"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "e3dc-3383-952e-61b7",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "221c-0a1e-ab70-1022",
+				"title": "pgFeedImages"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFeedImages"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "c04e-3617-42ff-574b",
+			"props": {
+				"children": [],
+				"name": "flSwipeViewLayout",
+				"parent": "221c-0a1e-ab70-1022",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "2zGvoMjs8",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgFeedImages-flImageCounter",
+			"id": "b41d-aad2-972d-d233",
+			"props": {
+				"children": [
+					"5249-0278-a959-9605"
+				],
+				"name": "flImagesCounter",
+				"parent": "221c-0a1e-ab70-1022",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "M9xPtp7bD",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .rows.title.smaller #pgFeedImages-flImageCounter-lblImagesCounter",
+			"id": "5249-0278-a959-9605",
+			"props": {
+				"children": [],
+				"name": "lblImagesCounter",
+				"parent": "b41d-aad2-972d-d233",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "aG80HR7l5",
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

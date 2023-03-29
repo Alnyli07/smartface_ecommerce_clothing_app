@@ -1,0 +1,306 @@
+[
+	{
+		"id": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "profileRouter",
+		"children": [
+			"2c38b42c-25bd-4f32-a232-6399c1f7623b",
+			"562b154b-494b-4ced-b63c-9bfbfa9560ed",
+			"8e91c178-0578-4542-a971-0fac9c9748ee",
+			"368e9483-61ca-4e31-ba9b-dd40bfdc9b04",
+			"03f5cdfa-78d8-4b17-91cb-a7d7e7689601",
+			"81ec314d-bbe8-4987-9fd0-01c134b60960",
+			"f736796c-b613-47da-ba31-c7790e870660",
+			"940590e6-d528-4e49-8732-408b260bdf7a",
+			"8b129902-1cc8-447e-adeb-e15699802066",
+			"7062817c-969e-4dbd-8699-b39face988df",
+			"be10c7d0-cc6f-405b-bda0-a785084542c1",
+			"2d6478a2-982a-499a-af06-1dbf7c2420e3",
+			"8596c770-7207-4a54-a4be-5f809efabe3f",
+			"f21d9a69-7efb-4be9-95eb-09097a13c45a",
+			"5ef0d68a-11d9-4890-b74b-3f4854619ab5",
+			"e8cfe282-36c6-471e-a718-930c1df2cce5"
+		],
+		"props": {
+			"path": "main",
+			"x": 531.4144301205984,
+			"y": -2891.03432187949,
+			"to": "genericProfile",
+			"homeRoute": "genericProfile"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "2c38b42c-25bd-4f32-a232-6399c1f7623b",
+		"type": "Route",
+		"isContainer": false,
+		"name": "genericProfile",
+		"children": [],
+		"props": {
+			"path": "genericProfile",
+			"x": 1377.4144301205984,
+			"y": -2359.03432187949,
+			"page": "pgGenericProfile"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06"
+	},
+	{
+		"id": "562b154b-494b-4ced-b63c-9bfbfa9560ed",
+		"type": "Route",
+		"isContainer": false,
+		"name": "phoneBook",
+		"children": [],
+		"props": {
+			"path": "phoneBook/main",
+			"x": 1527.4144301205984,
+			"y": -2359.03432187949,
+			"page": "pgPhoneBook"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06"
+	},
+	{
+		"id": "8e91c178-0578-4542-a971-0fac9c9748ee",
+		"type": "Route",
+		"isContainer": false,
+		"name": "phoneBookProfile",
+		"children": [],
+		"props": {
+			"path": "phoneBook/profile",
+			"x": 1677.4144301205984,
+			"y": -2359.03432187949,
+			"page": "pgGenericProfile"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06"
+	},
+	{
+		"id": "368e9483-61ca-4e31-ba9b-dd40bfdc9b04",
+		"type": "Route",
+		"isContainer": false,
+		"name": "about",
+		"children": [],
+		"props": {
+			"path": "about",
+			"x": 1389.4144301205984,
+			"y": -2269.03432187949,
+			"page": "pgAbout"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06"
+	},
+	{
+		"id": "03f5cdfa-78d8-4b17-91cb-a7d7e7689601",
+		"type": "Route",
+		"isContainer": false,
+		"name": "settings",
+		"children": [],
+		"props": {
+			"path": "settings",
+			"x": 1539.4144301205984,
+			"y": -2269.03432187949,
+			"page": "pgSettings"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06"
+	},
+	{
+		"id": "81ec314d-bbe8-4987-9fd0-01c134b60960",
+		"type": "Route",
+		"isContainer": false,
+		"name": "notifications",
+		"children": [],
+		"props": {
+			"path": "notifications",
+			"x": 1689.4144301205984,
+			"y": -2269.03432187949,
+			"page": "pgNotifications"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06"
+	},
+	{
+		"id": "f736796c-b613-47da-ba31-c7790e870660",
+		"type": "Route",
+		"isContainer": false,
+		"name": "languages",
+		"children": [],
+		"props": {
+			"path": "languages",
+			"x": 1839.4144301205984,
+			"y": -2269.03432187949,
+			"page": "pgLanguageSettings"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06"
+	},
+	{
+		"id": "940590e6-d528-4e49-8732-408b260bdf7a",
+		"type": "Route",
+		"isContainer": false,
+		"name": "privacy",
+		"children": [],
+		"props": {
+			"path": "privacy",
+			"x": 1989.4144301205984,
+			"y": -2269.03432187949,
+			"page": "pgPrivacy"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06"
+	},
+	{
+		"id": "8b129902-1cc8-447e-adeb-e15699802066",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "cropRouter1",
+		"children": [],
+		"props": {
+			"path": "crop",
+			"x": 229.2273581205984,
+			"y": -2405.65803387949,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"source": {
+			"id": "0fef90ae-a205-4697-a94a-2999bf02f774"
+		},
+		"isLib": true
+	},
+	{
+		"id": "7062817c-969e-4dbd-8699-b39face988df",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "advertDetailRouter1",
+		"children": [],
+		"props": {
+			"path": "advertDetail",
+			"x": 253.93974212059845,
+			"y": -2356.9733938794902,
+			"to": "detail",
+			"modal": true
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"source": {
+			"id": "d906da04-5ec8-4da5-8b22-e560e7393993"
+		},
+		"isLib": true
+	},
+	{
+		"id": "be10c7d0-cc6f-405b-bda0-a785084542c1",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "feedDetailRouter1",
+		"children": [],
+		"props": {
+			"path": "feedDetail",
+			"x": 348.69903812059863,
+			"y": -2304.7186738794903,
+			"modal": true,
+			"to": "main",
+			"modalType": "modal"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"source": {
+			"id": "02007c98-5081-46d2-a02c-899077454e04"
+		},
+		"isLib": true
+	},
+	{
+		"id": "2d6478a2-982a-499a-af06-1dbf7c2420e3",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "dealsDetailRouter1",
+		"children": [],
+		"props": {
+			"path": "deepDeals",
+			"x": 489.74108612059854,
+			"y": -2342.04347387949,
+			"modal": true
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"source": {
+			"id": "ec2c37e6-0a5d-4a22-be67-cc8a458eb8c3"
+		},
+		"isLib": true
+	},
+	{
+		"id": "8596c770-7207-4a54-a4be-5f809efabe3f",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "newsDetailRouter2",
+		"children": [],
+		"props": {
+			"path": "newsAndAnnouncementsDetail",
+			"x": 644.2200621205984,
+			"y": -2377.8752818794906,
+			"to": "main",
+			"modal": true,
+			"homeRoute": "main"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"source": {
+			"id": "bbb1d962-1b1e-4f0c-81a3-b730c0cdc44e"
+		},
+		"isLib": true
+	},
+	{
+		"id": "f21d9a69-7efb-4be9-95eb-09097a13c45a",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "surveyRouter1",
+		"children": [],
+		"props": {
+			"path": "surveys",
+			"x": 809.1499821205985,
+			"y": -2418.186065879491,
+			"to": "main",
+			"modal": true,
+			"homeRoute": "main",
+			"modalType": "modal"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"source": {
+			"id": "d7f38cb2-9ef7-4aed-ace6-9810bcb43d83"
+		},
+		"isLib": true
+	},
+	{
+		"id": "5ef0d68a-11d9-4890-b74b-3f4854619ab5",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "eventDetailRouter",
+		"children": [],
+		"props": {
+			"path": "eventDetail",
+			"x": 810.4144301205984,
+			"y": -1987.03432187949,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true,
+			"modalType": "modal"
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"source": {
+			"id": "25fd265b-6fc0-42dc-b6ea-f293c38ae4c5"
+            },
+            "isLib": true
+        },
+        {
+		"id": "e8cfe282-36c6-471e-a718-930c1df2cce5",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "transportationDeeplinkRouter1",
+		"children": [],
+		"props": {
+			"path": "transportationDeeplink",
+			"x": 959.1499821205985,
+			"y": -2418.186065879491,
+			"homeRoute": "shuttleDetail",
+			"to": "shuttleDetail",
+			"modal": true
+		},
+		"parent": "89604bad-3718-4fad-b288-bd1aac177f06",
+		"source": {
+			"id": "60c7c020-c705-48ac-bd0a-92962bce0f76"
+		},
+		"isLib": true
+        }
+	
+]

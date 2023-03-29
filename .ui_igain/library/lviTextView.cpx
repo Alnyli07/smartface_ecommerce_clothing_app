@@ -1,0 +1,60 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviTextView .paddingHorizontal",
+			"hiddenComponent": true,
+			"id": "c6bc-1d5b-2945-9c7b",
+			"props": {
+				"children": [
+					"202c-03bd-c398-45ef"
+				],
+				"name": "lviTextView",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 37.5,
+				"top": 524.11
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .lviTextView-flDescriptionWrapper .paddingVertical .paddingHorizontal .bgBoxGray",
+			"id": "202c-03bd-c398-45ef",
+			"props": {
+				"children": [
+					"ff70-4622-0da8-5022"
+				],
+				"name": "flDescriptionWrapper",
+				"parent": "c6bc-1d5b-2945-9c7b",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-textView .grow-relative .lviTextView-flDescriptionWrapper-tvDescription",
+			"id": "ff70-4622-0da8-5022",
+			"props": {
+				"children": [],
+				"name": "tvDescription",
+				"parent": "202c-03bd-c398-45ef",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

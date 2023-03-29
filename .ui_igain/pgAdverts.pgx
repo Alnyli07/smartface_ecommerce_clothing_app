@@ -1,0 +1,111 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "f858-fa9c-2b7d-a205",
+			"initialized": true,
+			"props": {
+				"children": [
+					"f03e-1c64-3bfb-3213",
+					"fd80-0d3a-563b-6522",
+					"e9bd-4938-3a2c-b38e"
+				],
+				"name": "pgAdverts",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.4"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "f03e-1c64-3bfb-3213",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "f858-fa9c-2b7d-a205"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "fd80-0d3a-563b-6522",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "f858-fa9c-2b7d-a205",
+				"title": "pgAdverts"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgAdverts"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .paddingTop .bgMain",
+			"id": "e9bd-4938-3a2c-b38e",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"c239-ae93-493f-59d5"
+				],
+				"name": "flWrapper",
+				"parent": "f858-fa9c-2b7d-a205"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgMain",
+			"id": "c239-ae93-493f-59d5",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"3edc-6fb3-b8b7-86c6"
+				],
+				"itemCount": 5,
+				"name": "lvMain",
+				"parent": "e9bd-4938-3a2c-b38e",
+				"rowHeight": 50,
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 5,
+				"rowHeight": 50,
+				"testId": "nuzy1vkLb",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listViewItem .lviRow1Line #pgApplications-lviSingleLine",
+			"hiddenComponent": false,
+			"id": "3edc-6fb3-b8b7-86c6",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "lviSingleLine",
+				"parent": "c239-ae93-493f-59d5"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviSingleLine",
+				"id": "2fac-0341-2eb9-0230"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

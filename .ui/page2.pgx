@@ -8,10 +8,12 @@
 				"children": [
 					"a829471c",
 					"35f1c1a1",
-                    "0794-669f-111b-d300",
+					"0794-669f-111b-d300",
 					"8e22-8e5c-8917-dc71",
 					"9e3d-3c8c-de2c-aad8",
-					"cd68-9fe6-7d1d-510a"
+					"cd68-9fe6-7d1d-510a",
+					"201a-bab6-d764-35f4",
+					"7608-a2bd-2103-e779"
 				],
 				"isRemovable": true,
 				"name": "page2",
@@ -24,11 +26,10 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
-			"className": ".sf-statusBar",
+			"className": ".sf-statusBar #page2-statusBar",
 			"id": "a829471c",
 			"props": {
 				"children": [],
@@ -37,8 +38,7 @@
 				"parent": "7761adc8"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
 			"className": ".sf-headerBar",
@@ -53,29 +53,13 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Second Page"
-			},
-			"degree": 1
-		},
-		{
-			"className": ".sf-flexLayout #page1-wrapper",
-			"id": "8e22-8e5c-8917-dc71",
-			"props": {
-				"children": [
-					"6112-0cb4-58cc-932e"
-				],
-				"name": "flexLayout1",
-				"parent": "7761adc8"
-			},
-			"type": "FlexLayout",
-			"userProps": {},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-button #page2-btnLanguage",
 			"id": "0794-669f-111b-d300",
 			"oldName": "btnSayHello_1",
 			"props": {
-				"autoHeight": 51.11111111111111,
 				"children": [],
 				"name": "btnLanguage",
 				"parent": "7761adc8",
@@ -91,10 +75,57 @@
 			}
 		},
 		{
-			"className": ".sf-button #page2-btnSayHello",
+			"className": ".sf-flexLayout #page1-wrapper",
+			"id": "8e22-8e5c-8917-dc71",
+			"props": {
+				"children": [
+					"6112-0cb4-58cc-932e",
+					"e8b0-247c-a6d9-c77a"
+				],
+				"name": "flexLayout1",
+				"parent": "7761adc8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #page1-lbl",
+			"id": "6112-0cb4-58cc-932e",
+			"props": {
+				"children": [],
+				"name": "lbl_63",
+				"parent": "8e22-8e5c-8917-dc71",
+				"text": "Page2",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 76.66666666666667,
+				"text": "Page2",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIconButton_main .flIconButton-active .flIconButtonDark #page2-flIconButtonDark",
+			"hiddenComponent": false,
+			"id": "e8b0-247c-a6d9-c77a",
+			"props": {
+				"children": [],
+				"name": "flIconButtonDark",
+				"parent": "8e22-8e5c-8917-dc71"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flIconButtonDark",
+				"id": "ece5-9700-0cd9-aaed"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button",
 			"id": "9e3d-3c8c-de2c-aad8",
 			"props": {
-				"autoHeight": 51.11111111111111,
 				"children": [],
 				"name": "btnSayHello",
 				"parent": "7761adc8",
@@ -108,14 +139,12 @@
 				"testId": "grk_Dhoxx",
 				"text": "Say Hello",
 				"usePageVariable": true
-			},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-button #page2-btnOpenModal",
 			"id": "cd68-9fe6-7d1d-510a",
 			"props": {
-				"autoHeight": 51.11111111111111,
 				"children": [],
 				"name": "btnOpenModal",
 				"parent": "7761adc8",
@@ -128,28 +157,134 @@
 				"testId": "j--ykLmM5",
 				"text": "Open a Modal Page",
 				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-scrollView #page2-scrollView1",
+			"id": "201a-bab6-d764-35f4",
+			"props": {
+				"align": "VERTICAL",
+				"autoSizeEnabled": true,
+				"children": [
+					"f985-43e1-5384-4fcf",
+					"f58a-ee87-a653-53a8"
+				],
+				"name": "scrollView1",
+				"parent": "7761adc8"
 			},
-			"degree": 1
+			"type": "ScrollView",
+			"userProps": {
+				"align": "VERTICAL",
+				"autoSizeEnabled": true
+			}
+		},
+		{
+			"className": ".sf-switch",
+			"id": "f985-43e1-5384-4fcf",
+			"props": {
+				"children": [],
+				"name": "switch1",
+				"parent": "201a-bab6-d764-35f4",
+				"toggle": true
+			},
+			"type": "Switch",
+			"userProps": {
+				"toggle": true
+			}
+		},
+		{
+			"className": ".sf-imageView #page2-imageView1",
+			"id": "f58a-ee87-a653-53a8",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "201a-bab6-d764-35f4"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #page1-wrapper",
+			"id": "7608-a2bd-2103-e779",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"369e-7b83-8a1a-3871",
+					"3e84-0b63-d3e8-5b95",
+					"92ed-d622-5148-e9c7",
+					"f6b8-485f-7ecc-0d8d"
+				],
+				"name": "flWrapper",
+				"parent": "7761adc8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
 		},
 		{
 			"className": ".sf-label #page1-lbl",
-			"id": "6112-0cb4-58cc-932e",
+			"id": "369e-7b83-8a1a-3871",
 			"props": {
-				"autoHeight": 76.66666666666667,
 				"children": [],
-				"name": "lbl",
-				"parent": "8e22-8e5c-8917-dc71",
-				"text": "Page2",
+				"name": "lbl_1",
+				"parent": "7608-a2bd-2103-e779",
+				"text": "Page1",
 				"usePageVariable": true
 			},
 			"type": "Label",
 			"userProps": {
-				"autoHeight": 76.66666666666667,
-				"text": "Page2",
-				"usePageVariable": true,
-				"testId": "tmNa7lbaU"
+				"autoHeight": 39.325842696629216,
+				"testId": "_tdYNDkDX",
+				"text": "Page1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIcon",
+			"hiddenComponent": false,
+			"id": "3e84-0b63-d3e8-5b95",
+			"props": {
+				"children": [],
+				"name": "flIcon",
+				"parent": "7608-a2bd-2103-e779"
 			},
-			"degree": 2
+			"source": {
+				"page": "__library__",
+				"type": "flIcon",
+				"id": "b819-546c-2c51-f409"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flexLayout1",
+			"hiddenComponent": false,
+			"id": "92ed-d622-5148-e9c7",
+			"props": {
+				"children": [],
+				"name": "flTest",
+				"parent": "7608-a2bd-2103-e779"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flTest",
+				"id": "08a9-d5cc-7762-f153"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-searchView #page1-searchView1",
+			"id": "f6b8-485f-7ecc-0d8d",
+			"props": {
+				"children": [],
+				"hint": "Search",
+				"name": "searchView1",
+				"parent": "7608-a2bd-2103-e779"
+			},
+			"type": "SearchView",
+			"userProps": {
+				"hint": "Search"
+			}
 		}
 	]
 }

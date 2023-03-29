@@ -2,6 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .flIcon",
+			"hiddenComponent": true,
 			"id": "b819-546c-2c51-f409",
 			"props": {
 				"children": [
@@ -15,8 +16,8 @@
 			},
 			"type": "FlexLayout",
 			"userProps": {
-				"left": 256.5,
-				"top": 189.5
+				"left": 264.2,
+				"top": 270.37
 			}
 		},
 		{

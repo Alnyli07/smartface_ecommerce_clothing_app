@@ -1,0 +1,79 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "9619-9be4-78e3-421b",
+			"initialized": true,
+			"props": {
+				"children": [
+					"0c06-ba64-c7fc-9a2b",
+					"9038-23e8-b854-1878",
+					"2f7a-d7b0-c672-a843"
+				],
+				"name": "pgFeedList",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "0c06-ba64-c7fc-9a2b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "9619-9be4-78e3-421b"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "9038-23e8-b854-1878",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "9619-9be4-78e3-421b",
+				"title": "pgFeedList"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFeedList"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .bgMain",
+			"id": "2f7a-d7b0-c672-a843",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"5c85-0aac-1586-18db"
+				],
+				"name": "flWrapper",
+				"parent": "9619-9be4-78e3-421b"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .background.transparent",
+			"id": "5c85-0aac-1586-18db",
+			"oldName": "lvMai",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "2f7a-d7b0-c672-a843",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "IHz9AK_cI",
+				"usePageVariable": true
+			}
+		}
+	]
+}

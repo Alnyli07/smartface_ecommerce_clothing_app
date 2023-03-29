@@ -5,14 +5,13 @@
       "alignItems": "STRETCH"
     },
     "paddingBottom": 20,
-    "paddingLeft": 16,
     "paddingRight": 16,
     "&-lbl": {
       "backgroundColor": "rgba( 255, 255, 255, 0 )",
       "flexProps": {
         "marginLeft": 20,
         "marginRight": 20,
-        "alignSelf": "STRETCH"
+        "alignSelf": "CENTER"
       },
       "font": {
         "size": 32,
@@ -30,15 +29,210 @@
         "alignSelf": "AUTO",
         "positionType": "RELATIVE"
       },
-      "width": null
+      "font": {
+        "family": "Default",
+        "style": "Bold",
+        "bold": true,
+        "italic": false,
+        "size": 18
+      },
+      "backgroundColor": {
+        "normal": "rgba( 35, 188, 188, 0.85 )",
+        "pressed": "${separator}",
+        "focused": {
+          "startColor": "rgba( 248, 231, 28, 0.33 )",
+          "endColor": "#ffffff",
+          "direction": "VERTICAL"
+        },
+        "disabled": "${mainDark}"
+      },
+      "&_4": {
+        "&_1": {
+          "height": 400
+        }
+      },
+      "marginTop": 5,
+      "marginBottom": 5,
+      "marginLeft": 5
     },
     "&-wrapper": {
       "flexProps": {
-        "flexGrow": 1,
-        "justifyContent": "CENTER"
+        "alignItems": "STRETCH",
+        "justifyContent": "CENTER",
+        "alignSelf": "STRETCH",
+        "flexGrow": 0.1
       },
       "height": null,
+      "width": null,
+      "backgroundColor": "rgba( 139, 87, 42, 0.13 )"
+    },
+    "&-icon2": {
+      "font": {
+        "family": "simple-line-icons",
+        "italic": false,
+        "bold": false
+      },
+      "glyph": ""
+    },
+    "&-searchView1": {
+      "borderWidth": 4,
+      "borderColor": "rgba( 154, 21, 21, 1 )",
+      "borderRadius": 40,
+      "backgroundColor": "rgba( 126, 211, 33, 1 )"
+    },
+    "&-scrollView1": {
+      "backgroundColor": "rgba( 234, 192, 192, 1 )",
+      "layout": {
+        "backgroundColor": {
+          "startColor": "rgba( 65, 101, 26, 0.68 )",
+          "endColor": "#ffffff",
+          "direction": "VERTICAL"
+        },
+        "flexProps": {
+          "justifyContent": "CENTER"
+        }
+      },
+      "scrollBarEnabled": true
+    },
+    "&-flIconButtonDark": {
+      "left": 17.28,
+      "top": 486.42
+    },
+    "&-flIconButton": {
+      "left": 253.09,
+      "top": 402.47
+    },
+    "&-textBox1": {
+      "borderWidth": 9,
+      "borderColor": "${mainDark}",
+      "shadowColor": "${btnTextColor}"
+    },
+    "&-imageView1": {
+      "height": null,
+      "image": "__sf_gen_img_heart2.png",
+      "&_1": {
+        "&_1": {
+          "imageFillType": "NORMAL",
+          "flexProps": {
+            "alignSelf": "AUTO"
+          }
+        }
+      }
+    },
+    "&-flexLayout2": {
+      "height": null
+    },
+    "&-label1": {
+      "height": null,
+      "backgroundColor": "rgba( 245, 166, 35, 0.43 )"
+    },
+    "&-flexLayout3": {
+      "flexProps": {
+        "alignSelf": "AUTO",
+        "justifyContent": "SPACE_BETWEEN",
+        "flexDirection": "COLUMN",
+        "flexWrap": "NOWRAP",
+        "alignContent": "BASELINE",
+        "alignItems": "CENTER"
+      },
       "width": null
+    },
+    "&-flexLayout1": {
+      "&_1": {
+        "&_2": {
+          "height": 70,
+          "flexProps": {
+            "alignItems": "FLEX_END",
+            "alignSelf": "AUTO",
+            "flexDirection": "COLUMN"
+          },
+          "width": null
+        }
+      }
+    },
+    "&-button2": {
+      "width": null
+    },
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "&-flexLayout4": {
+      "height": 100,
+      "flexProps": {
+        "flexWrap": "WRAP",
+        "alignContent": "FLEX_START"
+      }
+    },
+    "&-activityIndicator2": {
+      "borderRadius": 15,
+      "borderRadiusEdges": {
+        "topRight": false
+      },
+      "ios": {
+        "activityIndicatorViewStyle": "NORMAL"
+      },
+      "width": 52,
+      "height": 42
+    },
+    "&-headerBar": {
+      "visible": true,
+      "backgroundColor": "rgba( 126, 211, 33, 1 )"
+    },
+    "&-statusBar": {
+      "android": {
+        "color": "rgba( 248, 231, 28, 1 )"
+      }
+    },
+    "&-button1": {
+      "&_1": {
+        "width": 375.31,
+        "height": 32.1
+      },
+      "width": 100,
+      "flexProps": {
+        "alignSelf": "AUTO"
+      }
+    },
+    "&-flexLayout5": {
+      "flexProps": {
+        "flexDirection": "ROW",
+        "alignItems": "STRETCH",
+        "justifyContent": "SPACE_BETWEEN"
+      },
+      "height": null,
+      "backgroundColor": "rgba( 44, 160, 134, 0.59 )"
+    },
+    "&-label2": {
+      "width": 80,
+      "height": null
+    },
+    "&-textView1": {
+      "width": null,
+      "backgroundColor": "rgba( 155, 47, 47, 0.4 )",
+      "height": null
+    },
+    "&-flexLayout6": {
+      "height": null,
+      "width": null,
+      "flexProps": {
+        "alignItems": "AUTO",
+        "flexDirection": "COLUMN",
+        "alignSelf": "AUTO"
+      },
+      "padding": 5,
+      "marginTop": 10
+    },
+    "&-activityIndicator3": {
+      "height": 42,
+      "width": 42,
+      "flexProps": {
+        "alignSelf": "CENTER"
+      }
+    },
+    "backgroundColor": "rgba( 139, 87, 42, 0.29 )",
+    "&-flHeader": {
+      "flexProps": {
+        "flexDirection": "ROW"
+      }
     }
   }
 }

@@ -2,6 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .flBadgeItem",
+			"hiddenComponent": true,
 			"id": "2b7d-d4d5-fad2-885f",
 			"props": {
 				"children": [

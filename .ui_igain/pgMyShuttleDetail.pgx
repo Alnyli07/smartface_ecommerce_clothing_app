@@ -1,0 +1,264 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .background.white",
+			"id": "9c28-03e6-2c83-1f17",
+			"initialized": true,
+			"props": {
+				"children": [
+					"0c5c-a019-84fd-cd2f",
+					"1b37-d402-e4b4-1663",
+					"176c-60bd-0200-dabb"
+				],
+				"name": "pgMyShuttleDetail",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5-rc.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "0c5c-a019-84fd-cd2f",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "9c28-03e6-2c83-1f17"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "1b37-d402-e4b4-1663",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "9c28-03e6-2c83-1f17",
+				"title": "pgMyShuttleDetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgMyShuttleDetail"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .paddingTop .borderTopRightRadius .paddingHorizontal-10",
+			"id": "176c-60bd-0200-dabb",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ea39-193b-0400-e7c0",
+					"210b-f3cb-a3dc-e893",
+					"66bc-90de-f3e8-e178",
+					"91fb-75f1-fa88-d0bd"
+				],
+				"name": "flWrapper",
+				"parent": "9c28-03e6-2c83-1f17"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgMyShuttleDetail-flShuttleMap",
+			"hiddenComponent": false,
+			"id": "ea39-193b-0400-e7c0",
+			"props": {
+				"children": [],
+				"name": "flShuttleMap",
+				"parent": "176c-60bd-0200-dabb"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flShuttleMap",
+				"id": "59f2-23f9-5d07-02d3"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgMyShuttleDetail-flTitleWrapper",
+			"id": "210b-f3cb-a3dc-e893",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0219-3d40-577e-90cf",
+					"ea83-efff-5704-9392"
+				],
+				"name": "flTitleWrapper",
+				"parent": "176c-60bd-0200-dabb"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgMyShuttleDetail-flTitleWrapper-flTitle",
+			"id": "0219-3d40-577e-90cf",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"2b73-da59-cd90-ce99",
+					"a028-e779-58af-832b"
+				],
+				"name": "flTitle",
+				"parent": "210b-f3cb-a3dc-e893"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .rows.title .flex-1 #pgMyShuttleDetail-flTitleWrapper-flTitle-lblTitle",
+			"id": "2b73-da59-cd90-ce99",
+			"oldName": "label3",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "0219-3d40-577e-90cf",
+				"text": "Etimesgut-Sincan Servisi"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Etimesgut-Sincan Servisi"
+			}
+		},
+		{
+			"className": ".sf-label .flex-1 .rows.subTitle #pgMyShuttleDetail-flTitleWrapper-flTitle-lblLastUpdate",
+			"id": "a028-e779-58af-832b",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblLastUpdate",
+				"parent": "0219-3d40-577e-90cf",
+				"text": "Last Update: 3 minutes ago"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Last Update: 3 minutes ago"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgMyShuttleDetail-flTitleWrapper-flDescription",
+			"id": "ea83-efff-5704-9392",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"6e51-6956-d884-74e8"
+				],
+				"name": "flDescription",
+				"parent": "210b-f3cb-a3dc-e893"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .rows.title.small .textRight #pgMyShuttleDetail-flTitleWrapper-flDescription-lblDescription",
+			"id": "6e51-6956-d884-74e8",
+			"oldName": "label3",
+			"props": {
+				"children": [],
+				"name": "lblDescription",
+				"parent": "ea83-efff-5704-9392",
+				"text": "~3km away"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "~3km away"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .bgWhite .marginTop10",
+			"id": "66bc-90de-f3e8-e178",
+			"oldName": "flWrapper_1",
+			"props": {
+				"children": [
+					"3334-d5ab-54c7-6232"
+				],
+				"name": "flDetailWrapper",
+				"parent": "176c-60bd-0200-dabb"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgWhite #pgMyShuttleDetail-lvMain",
+			"id": "3334-d5ab-54c7-6232",
+			"props": {
+				"children": [
+					"ec21-9a52-9780-1a94"
+				],
+				"name": "lvMain",
+				"parent": "66bc-90de-f3e8-e178",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "nznvRtXmq",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listViewItem",
+			"id": "ec21-9a52-9780-1a94",
+			"props": {
+				"children": [],
+				"name": "listViewItem1",
+				"parent": "3334-d5ab-54c7-6232"
+			},
+			"ref": null,
+			"type": "ListViewItem",
+			"userProps": {
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-container #pgMyShuttleDetail-flDoubleLineContainer",
+			"id": "91fb-75f1-fa88-d0bd",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0d74-dfcf-c876-caff"
+				],
+				"name": "flDoubleLineContainer",
+				"parent": "176c-60bd-0200-dabb"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .lviRow2Line-flMain .grow-relative .flDoubleLine .paddingHorizontal .widthHeight-null",
+			"hiddenComponent": false,
+			"id": "0d74-dfcf-c876-caff",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "flDoubleLine",
+				"parent": "91fb-75f1-fa88-d0bd"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flDoubleLine",
+				"id": "58ed-5e4c-f80a-f951"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"height": 100
+			}
+		}
+	]
+}

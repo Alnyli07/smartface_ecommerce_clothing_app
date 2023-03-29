@@ -1,0 +1,66 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "8fbd-86ac-578d-b475",
+			"initialized": true,
+			"props": {
+				"children": [
+					"ca2e-1259-a641-2131",
+					"9149-9fb7-b9d4-e775",
+					"0cee-864c-f367-a471"
+				],
+				"name": "pgNotifications",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "ca2e-1259-a641-2131",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "8fbd-86ac-578d-b475"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "9149-9fb7-b9d4-e775",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "8fbd-86ac-578d-b475",
+				"title": "pgNotifications"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgNotifications"
+			}
+		},
+		{
+			"className": ".sf-listView",
+			"id": "0cee-864c-f367-a471",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"itemCount": 5,
+				"name": "lvMain",
+				"parent": "8fbd-86ac-578d-b475",
+				"rowHeight": 54
+			},
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 5,
+				"rowHeight": 54
+			}
+		}
+	]
+}

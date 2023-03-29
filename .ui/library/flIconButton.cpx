@@ -2,7 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .flIconButton_main .flIconButton-active",
-			"hiddenComponent": false,
+			"hiddenComponent": true,
 			"id": "9118-f293-768a-86f5",
 			"props": {
 				"children": [
@@ -17,8 +17,8 @@
 			},
 			"type": "FlexLayout",
 			"userProps": {
-				"left": 24,
-				"top": 342
+				"left": 239.51,
+				"top": 496.3
 			}
 		},
 		{

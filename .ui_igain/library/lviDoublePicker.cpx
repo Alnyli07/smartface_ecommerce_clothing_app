@@ -1,0 +1,64 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviDoublePicker .paddingHorizontal",
+			"hiddenComponent": true,
+			"id": "6ead-ff7c-1795-6ca9",
+			"props": {
+				"children": [
+					"d9eb-e9aa-a038-d0fc",
+					"bd82-7080-4326-8cab"
+				],
+				"name": "lviDoublePicker",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"testId": "tvUYxIgX7"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flPicker .grow-relative .lviDoublePicker-flLeftPicker",
+			"hiddenComponent": false,
+			"id": "d9eb-e9aa-a038-d0fc",
+			"props": {
+				"children": [],
+				"name": "flPickerLeft",
+				"parent": "6ead-ff7c-1795-6ca9",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flPicker",
+				"id": "952c-ba55-e559-d024"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flPicker .grow-relative .lviDoublePicker-flRightPicker",
+			"hiddenComponent": false,
+			"id": "bd82-7080-4326-8cab",
+			"props": {
+				"children": [],
+				"name": "flPickerRight",
+				"parent": "6ead-ff7c-1795-6ca9",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flPicker",
+				"id": "952c-ba55-e559-d024"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

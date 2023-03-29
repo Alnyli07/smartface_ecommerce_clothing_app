@@ -1,0 +1,132 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .gviDashboard .shadow",
+			"hiddenComponent": true,
+			"id": "e7ff-6ed2-672c-c8ed",
+			"initialized": true,
+			"props": {
+				"children": [
+					"4d70-e393-9a98-25bb"
+				],
+				"name": "gviDashboard",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .gviDashboard-flMain .shadow",
+			"id": "4d70-e393-9a98-25bb",
+			"props": {
+				"children": [
+					"9a62-6980-de54-a914",
+					"70e3-f29c-58cc-9678"
+				],
+				"name": "flMain",
+				"parent": "e7ff-6ed2-672c-c8ed"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .gviDashboard-flMain-flTop",
+			"id": "9a62-6980-de54-a914",
+			"props": {
+				"children": [
+					"6fcb-5f60-5e72-f54c",
+					"63bf-9b1e-23a9-2b0e",
+					"e023-7d0a-d202-432c"
+				],
+				"name": "flTop",
+				"parent": "4d70-e393-9a98-25bb"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .gviDashboard-flMain-flTop-imgIcon",
+			"hiddenComponent": false,
+			"id": "6fcb-5f60-5e72-f54c",
+			"props": {
+				"children": [],
+				"name": "imgIcon",
+				"parent": "9a62-6980-de54-a914",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-textView .gviDashboard-flMain-flTop-tvNumber .dashboard.numbers",
+			"id": "63bf-9b1e-23a9-2b0e",
+			"props": {
+				"children": [],
+				"name": "tvNumber",
+				"parent": "9a62-6980-de54-a914",
+				"text": "",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-activityIndicator .gviDashboard-flMain-flTop-aiNumber .notVisible",
+			"id": "e023-7d0a-d202-432c",
+			"props": {
+				"children": [],
+				"name": "aiNumber",
+				"parent": "9a62-6980-de54-a914",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {
+				"testId": "5RLJODq_O",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-textView .gviDashboard-flMain-tvTitle .dashboard.titleSmall",
+			"id": "70e3-f29c-58cc-9678",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "tvTitle",
+				"parent": "4d70-e393-9a98-25bb",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

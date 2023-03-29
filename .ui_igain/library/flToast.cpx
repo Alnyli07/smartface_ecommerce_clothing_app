@@ -1,0 +1,59 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flToast .shadow",
+			"hiddenComponent": true,
+			"id": "2ba5-9ca3-4c49-5a11",
+			"props": {
+				"children": [
+					"50db-2b2c-85fc-adcb"
+				],
+				"name": "flToast",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flToast-flTextWrapper .grow-relative .borderRadius-8 .paddingHorizontal",
+			"id": "50db-2b2c-85fc-adcb",
+			"props": {
+				"children": [
+					"7304-8d07-2007-0539"
+				],
+				"name": "flTextWrapper",
+				"parent": "2ba5-9ca3-4c49-5a11"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "8BfJBsrGo"
+			}
+		},
+		{
+			"className": ".sf-label .rows.title .flToast-flTextWrapper-lblText .grow-relative",
+			"id": "7304-8d07-2007-0539",
+			"props": {
+				"children": [],
+				"name": "lblText",
+				"parent": "50db-2b2c-85fc-adcb",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "0iftU8FC7",
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

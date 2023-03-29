@@ -1,0 +1,166 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flIndicatorWithButtons",
+			"hiddenComponent": true,
+			"id": "f7ea-6ec0-8af0-8309",
+			"props": {
+				"children": [
+					"fd2e-a855-176d-2763",
+					"e58a-1075-5a76-a722",
+					"bfb4-1fbb-c080-cf1c"
+				],
+				"name": "flIndicatorWithButtons",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 3.37,
+				"top": 212.36
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flIndicatorWithButtons-left",
+			"id": "fd2e-a855-176d-2763",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"02f0-6a14-3df9-8258"
+				],
+				"name": "flLeft",
+				"parent": "f7ea-6ec0-8af0-8309"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flIndicatorWithButtons-button",
+			"id": "02f0-6a14-3df9-8258",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgLeft",
+				"parent": "fd2e-a855-176d-2763"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flIndicatorWithButtons-indicator",
+			"id": "e58a-1075-5a76-a722",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [
+					"22b7-5537-9d7b-2df5",
+					"f2ce-de70-a5b4-0eb6",
+					"ca28-3238-d770-4f60",
+					"8b3c-1b29-93eb-89d5"
+				],
+				"name": "flIndicator",
+				"parent": "f7ea-6ec0-8af0-8309"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flIndicatorWithButtons-dotActive",
+			"id": "22b7-5537-9d7b-2df5",
+			"props": {
+				"children": [],
+				"name": "flexLayout3",
+				"parent": "e58a-1075-5a76-a722"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flIndicatorWithButtons-dotInActive",
+			"id": "f2ce-de70-a5b4-0eb6",
+			"props": {
+				"children": [],
+				"name": "flexLayout4",
+				"parent": "e58a-1075-5a76-a722"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flIndicatorWithButtons-dotEmpty",
+			"id": "ca28-3238-d770-4f60",
+			"props": {
+				"children": [],
+				"name": "flexLayout5",
+				"parent": "e58a-1075-5a76-a722"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flIndicatorWithButtons-dotWarning",
+			"id": "8b3c-1b29-93eb-89d5",
+			"props": {
+				"children": [],
+				"name": "flexLayout1",
+				"parent": "e58a-1075-5a76-a722"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flIndicatorWithButtons-left",
+			"id": "bfb4-1fbb-c080-cf1c",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"d7cc-78dc-87fb-df7d"
+				],
+				"name": "flRight",
+				"parent": "f7ea-6ec0-8af0-8309"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flIndicatorWithButtons-button",
+			"id": "d7cc-78dc-87fb-df7d",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgRight",
+				"parent": "bfb4-1fbb-c080-cf1c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flHorizontalImageAndTextArray .paddingHorizontal .borderRadius",
+			"hiddenComponent": true,
+			"id": "92c0-db7c-112d-182b",
+			"props": {
+				"children": [
+					"6fb5-4b38-7061-c985",
+					"9ddc-721f-6998-4dd8"
+				],
+				"name": "flHorizontalImageAndTextArray",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"testId": "x_FxdLHkZ"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flHorizontalImageAndTextArrayItem",
+			"hiddenComponent": false,
+			"id": "6fb5-4b38-7061-c985",
+			"props": {
+				"children": [],
+				"name": "flHorizontalImageAndTextArrayItem1",
+				"parent": "92c0-db7c-112d-182b"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flHorizontalImageAndTextArrayItem",
+				"id": "f8f1-a106-d0b2-8534"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flHorizontalImageAndTextArrayItem",
+			"hiddenComponent": false,
+			"id": "9ddc-721f-6998-4dd8",
+			"props": {
+				"children": [],
+				"name": "flHorizontalImageAndTextArrayItem",
+				"parent": "92c0-db7c-112d-182b"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flHorizontalImageAndTextArrayItem",
+				"id": "f8f1-a106-d0b2-8534"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

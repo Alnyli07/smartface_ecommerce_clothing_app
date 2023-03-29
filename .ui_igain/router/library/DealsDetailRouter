@@ -1,0 +1,64 @@
+[
+	{
+		"id": "ec2c37e6-0a5d-4a22-be67-cc8a458eb8c3",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "dealsDetailRouter",
+		"children": [
+			"dde298b4-2cfd-482c-89d9-b547bb962f53",
+			"e8531c77-2e77-4706-badf-421c6cd34077"
+		],
+		"props": {
+			"path": "deepDeals",
+			"x": 1927.9801142597566,
+			"y": -1532.740106311969,
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "dde298b4-2cfd-482c-89d9-b547bb962f53",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 1981.4801142597566,
+			"y": -1414.240106311969,
+			"page": "pgDealsDetail"
+		},
+		"parent": "ec2c37e6-0a5d-4a22-be67-cc8a458eb8c3"
+	},
+	{
+		"id": "e8531c77-2e77-4706-badf-421c6cd34077",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "imagesRouter",
+		"children": [
+			"ee87c7a4-9726-494c-8c87-fffdb575ff30"
+		],
+		"props": {
+			"path": "images",
+			"modal": true,
+			"x": 1940.4801142597566,
+			"y": -1367.240106311969,
+			"to": "main"
+		},
+		"parent": "ec2c37e6-0a5d-4a22-be67-cc8a458eb8c3"
+	},
+	{
+		"id": "ee87c7a4-9726-494c-8c87-fffdb575ff30",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 3103.4801142597566,
+			"y": 1085.7598936880313,
+			"page": "pgDealImages"
+		},
+		"parent": "e8531c77-2e77-4706-badf-421c6cd34077"
+	}
+]

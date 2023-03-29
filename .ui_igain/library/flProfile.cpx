@@ -1,0 +1,202 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flProfile",
+			"hiddenComponent": true,
+			"id": "25aa-e819-2b91-2c0a",
+			"props": {
+				"children": [
+					"dd56-465b-ef19-6e2e",
+					"e1a6-7e5c-09d6-c2b8"
+				],
+				"name": "flProfile",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 43.21,
+				"top": 608.64
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProfile-flTop .paddingHorizontal .paddingVertical",
+			"id": "dd56-465b-ef19-6e2e",
+			"props": {
+				"children": [
+					"e54d-6dd8-5e41-7e5f",
+					"21a7-ac64-75af-7202"
+				],
+				"name": "flTop",
+				"parent": "25aa-e819-2b91-2c0a"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flProfile-flTop-flImageWrapper",
+			"id": "e54d-6dd8-5e41-7e5f",
+			"props": {
+				"children": [
+					"7501-3220-10d2-89e6",
+					"4d6e-bd98-adb8-11d8"
+				],
+				"name": "flImageWrapper",
+				"parent": "dd56-465b-ef19-6e2e"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flProfile-flTop-imgUser",
+			"id": "7501-3220-10d2-89e6",
+			"props": {
+				"children": [],
+				"name": "imgUser",
+				"parent": "e54d-6dd8-5e41-7e5f",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProfile-flTop-flImageWrapper-flEdit",
+			"id": "4d6e-bd98-adb8-11d8",
+			"props": {
+				"children": [
+					"f936-d774-6664-e70a"
+				],
+				"name": "flEdit",
+				"parent": "e54d-6dd8-5e41-7e5f"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flProfile-flTop-flImageWrapper-flEdit-imgEdit",
+			"id": "f936-d774-6664-e70a",
+			"props": {
+				"children": [],
+				"name": "imgEdit",
+				"parent": "4d6e-bd98-adb8-11d8",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "21a7-ac64-75af-7202",
+			"props": {
+				"children": [
+					"88db-7948-fdff-f467",
+					"6ec2-8845-dea3-b433",
+					"cde5-4314-4d17-14d8"
+				],
+				"name": "flTexts",
+				"parent": "dd56-465b-ef19-6e2e"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .rows.title.xlarge .grow-relative",
+			"id": "88db-7948-fdff-f467",
+			"props": {
+				"children": [],
+				"name": "lblHello",
+				"parent": "21a7-ac64-75af-7202",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .rows.title .flProfile-flTop-flTexts-lblNameSurname",
+			"id": "6ec2-8845-dea3-b433",
+			"props": {
+				"children": [],
+				"name": "lblNameSurname",
+				"parent": "21a7-ac64-75af-7202",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .rows.subTitle.small .flProfile-flTop-flTexts-lblCompany",
+			"id": "cde5-4314-4d17-14d8",
+			"props": {
+				"children": [],
+				"name": "lblCompany",
+				"parent": "21a7-ac64-75af-7202",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listView .grow-relative",
+			"id": "e1a6-7e5c-09d6-c2b8",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "25aa-e819-2b91-2c0a",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

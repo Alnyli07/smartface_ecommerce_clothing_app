@@ -1,0 +1,80 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flSingleBox .shadow.maskToBounds .borderRadius-12",
+			"hiddenComponent": true,
+			"id": "1ec2-df72-8e51-b62d",
+			"props": {
+				"children": [
+					"22a1-6e14-a7b9-2969",
+					"62a2-f518-ee92-2ff9"
+				],
+				"name": "flSingleBox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 134.82,
+				"top": 696.43
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSingleBox-flImageWrapper",
+			"id": "22a1-6e14-a7b9-2969",
+			"props": {
+				"children": [
+					"484e-6541-9f04-33da"
+				],
+				"name": "flImageWrapper",
+				"parent": "1ec2-df72-8e51-b62d"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flSingleBox-flImageWrapper-imgMain",
+			"id": "484e-6541-9f04-33da",
+			"props": {
+				"children": [],
+				"name": "imgMain",
+				"parent": "22a1-6e14-a7b9-2969",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flSingleBox-lblTitle .rows.title.small-thin",
+			"id": "62a2-f518-ee92-2ff9",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "lblTitle",
+				"parent": "1ec2-df72-8e51-b62d",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 2,
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

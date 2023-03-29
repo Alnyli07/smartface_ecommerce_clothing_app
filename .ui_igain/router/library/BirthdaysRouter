@@ -1,0 +1,68 @@
+[
+	{
+		"id": "c0f77dca-d0a2-4ac3-a6d9-73d677faf7a8",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "birthdaysRouter",
+		"children": [
+			"c32618c0-4cb5-4273-9501-fa071805cb62",
+			"f0a94c82-17b2-4199-87cd-444dc93db5c4",
+			"b939d069-e1b4-4d19-81e2-e1889fa8c98d"
+		],
+		"props": {
+			"path": "birthdays",
+			"modal": true,
+			"x": 2323.302114329402,
+			"y": -2894.0969920097978,
+			"to": "main"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "c32618c0-4cb5-4273-9501-fa071805cb62",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2869.0364263173174,
+			"y": -509.09807079689506,
+			"page": "pgBirthdays"
+		},
+		"parent": "c0f77dca-d0a2-4ac3-a6d9-73d677faf7a8"
+	},
+	{
+		"id": "f0a94c82-17b2-4199-87cd-444dc93db5c4",
+		"type": "Route",
+		"isContainer": false,
+		"name": "genericProfile",
+		"children": [],
+		"props": {
+			"path": "genericProfile",
+			"x": 1757.2549070083394,
+			"y": 248.4810710484398,
+			"page": "pgGenericProfile"
+		},
+		"parent": "c0f77dca-d0a2-4ac3-a6d9-73d677faf7a8"
+	},
+	{
+		"id": "b939d069-e1b4-4d19-81e2-e1889fa8c98d",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "phoneBook1",
+		"children": [],
+		"props": {
+			"path": "phoneBook",
+			"modal": true,
+			"x": 2320.845018983241,
+			"y": -2688.78758902944,
+			"to": "main"
+		},
+		"parent": "c0f77dca-d0a2-4ac3-a6d9-73d677faf7a8",
+		"source": {
+			"id": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+		},
+		"isLib": true
+	}
+]

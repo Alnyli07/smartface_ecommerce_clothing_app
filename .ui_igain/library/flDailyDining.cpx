@@ -1,0 +1,62 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flDailyDining .borderRadius",
+			"hiddenComponent": true,
+			"id": "3151-2ebc-f5be-a41c",
+			"props": {
+				"children": [
+					"17d9-1903-1659-6c94"
+				],
+				"name": "flDailyDining",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 25.89,
+				"top": 330.36
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDailyDining-flWrapper .grow-relative .paddingHorizontal .paddingVertical",
+			"hiddenComponent": true,
+			"id": "17d9-1903-1659-6c94",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"6dec-f45b-aeee-a34b"
+				],
+				"name": "flWrapper",
+				"parent": "3151-2ebc-f5be-a41c"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-textView .grow-relative .flDailyDining-flWrapper-tvMenu",
+			"id": "6dec-f45b-aeee-a34b",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Domates Corbasi</span></p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); min-height: 43px; white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"><br style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"></span></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Firinda Sebzeli Tavuk</span></p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); min-height: 43px; white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"><br style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"></span></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Pirinc Pilavi</span></p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); min-height: 43px; white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"><br style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"></span></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Cacik</span></p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); min-height: 43px; white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"><br style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"></span></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Mevsim Salatasi</span></p>",
+				"name": "tvMenu",
+				"parent": "17d9-1903-1659-6c94",
+				"text": "Domates Corbasi\n\n\n\n\nFirinda Sebzeli Tavuk\n\n\n\n\nPirinc Pilavi\n\n\n\n\nCacik\n\n\n\n\nMevsim Salatasi"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Domates Corbasi</span></p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); min-height: 43px; white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"><br style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"></span></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Firinda Sebzeli Tavuk</span></p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); min-height: 43px; white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"><br style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"></span></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Pirinc Pilavi</span></p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); min-height: 43px; white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"><br style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"></span></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Cacik</span></p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); min-height: 43px; white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"><br style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\"></span></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 32.1429px; line-height: normal; color: rgb(9, 9, 9); white-space: normal;\"><span style=\"font-size: 18px; color: rgb(9, 9, 9); font-family: Inter-Regular;\">Mevsim Salatasi</span></p>",
+				"text": "Domates Corbasi\n\n\n\n\nFirinda Sebzeli Tavuk\n\n\n\n\nPirinc Pilavi\n\n\n\n\nCacik\n\n\n\n\nMevsim Salatasi"
+			}
+		}
+	]
+}

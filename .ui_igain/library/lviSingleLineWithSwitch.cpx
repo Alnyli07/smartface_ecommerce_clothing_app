@@ -1,0 +1,41 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviSingleLineWithSwitch",
+			"hiddenComponent": true,
+			"id": "290f-ce45-b2ca-f65c",
+			"props": {
+				"children": [
+					"f600-9f36-907f-b4d1"
+				],
+				"name": "lviSingleLineWithSwitch",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flSingleLineWithSwitch .grow-relative",
+			"hiddenComponent": false,
+			"id": "f600-9f36-907f-b4d1",
+			"props": {
+				"children": [],
+				"name": "flSingleLineWithSwitch",
+				"parent": "290f-ce45-b2ca-f65c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSingleLineWithSwitch",
+				"id": "dacd-e932-c9d2-0cec"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

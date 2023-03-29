@@ -1,0 +1,91 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "a65d-2e8f-2409-079d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"7dfb-1c31-9693-3621",
+					"d692-3a33-c9cb-7a7b",
+					"7ddd-5ab9-7123-f944",
+					"847c-1a36-cdff-b145"
+				],
+				"name": "pgBirthdays",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "7dfb-1c31-9693-3621",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "a65d-2e8f-2409-079d"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "d692-3a33-c9cb-7a7b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "a65d-2e8f-2409-079d",
+				"title": "pgBornToday"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgBornToday"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgBirthdays-flCalendarWrapper .gradient",
+			"id": "7ddd-5ab9-7123-f944",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flCalendarWrapper",
+				"parent": "a65d-2e8f-2409-079d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .grow-relative .paddingTop .borderTopRightRadius",
+			"id": "847c-1a36-cdff-b145",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"bc9f-69ed-0668-251b"
+				],
+				"name": "flLvWrapper",
+				"parent": "a65d-2e8f-2409-079d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .grow-relative .bgMain",
+			"id": "bc9f-69ed-0668-251b",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "847c-1a36-cdff-b145",
+				"refreshEnabled": false
+			},
+			"type": "ListView",
+			"userProps": {
+				"refreshEnabled": false
+			}
+		}
+	]
+}

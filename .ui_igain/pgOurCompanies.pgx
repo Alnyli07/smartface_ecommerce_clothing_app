@@ -1,0 +1,144 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain",
+			"id": "997d-e7e3-2f2c-357c",
+			"initialized": true,
+			"props": {
+				"children": [
+					"4ed0-4748-514c-314d",
+					"f41f-1766-02ca-372e",
+					"fd22-b9fb-5ca4-8fc3",
+					"0194-6d1d-5c08-7e3c",
+					"65db-a28c-2393-bbcb",
+					"0bd9-64f5-949e-8978"
+				],
+				"name": "pgOurCompanies",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": true
+			},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "4ed0-4748-514c-314d",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "997d-e7e3-2f2c-357c"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "f41f-1766-02ca-372e",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "997d-e7e3-2f2c-357c",
+				"title": "pgOurCompanies"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgOurCompanies"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgOurCompanies-search .paddingHorizontal",
+			"id": "fd22-b9fb-5ca4-8fc3",
+			"props": {
+				"children": [
+					"1705-f23b-8bdc-98a4"
+				],
+				"name": "flSearchBar",
+				"parent": "997d-e7e3-2f2c-357c",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "cF4WLz7ul",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-searchView",
+			"id": "1705-f23b-8bdc-98a4",
+			"props": {
+				"children": [],
+				"hint": "Search",
+				"name": "svMain",
+				"parent": "fd22-b9fb-5ca4-8fc3",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "SearchView",
+			"userProps": {
+				"hint": "Search",
+				"left": 0,
+				"testId": "9ydrXGWL7",
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listView .grow-relative .contentInset #pgOurCompanies-lvMain",
+			"id": "0194-6d1d-5c08-7e3c",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "997d-e7e3-2f2c-357c",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "hgyiBgnKk",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flListViewIndex",
+			"hiddenComponent": false,
+			"id": "65db-a28c-2393-bbcb",
+			"props": {
+				"children": [],
+				"name": "flListViewIndex",
+				"parent": "997d-e7e3-2f2c-357c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flListViewIndex",
+				"id": "87d0-a791-22d4-0363"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "WGEVfPltZ",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgOurCompanies-flMapWrapper-hidden .grow-absoulte .notVisible .paddingHorizontal .paddingVertical",
+			"id": "0bd9-64f5-949e-8978",
+			"props": {
+				"children": [],
+				"name": "flMapWrapper",
+				"parent": "997d-e7e3-2f2c-357c",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "XkM8cwn65",
+				"usePageVariable": true
+			}
+		}
+	]
+}

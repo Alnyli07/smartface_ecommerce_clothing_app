@@ -1,0 +1,10 @@
+{
+  ".sf": {
+    "&-activityIndicator": {
+      "flexProps": {
+        "alignSelf": "AUTO"
+      },
+      "backgroundColor": "rgba( 230, 56, 56, 0.32 )"
+    }
+  }
+}

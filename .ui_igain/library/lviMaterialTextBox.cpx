@@ -1,0 +1,66 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviMaterialTextBox",
+			"hiddenComponent": true,
+			"id": "9337-dc75-2b87-3f4c",
+			"initialized": true,
+			"props": {
+				"children": [
+					"aba1-12aa-bc85-de90",
+					"7a71-f32e-33cf-70c2"
+				],
+				"name": "lviMaterialTextBox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {},
+				"left": -2.04,
+				"top": 251.02
+			}
+		},
+		{
+			"className": ".sf-flexLayout .materialTextBox-wrapper .grow-relative",
+			"hiddenComponent": false,
+			"id": "aba1-12aa-bc85-de90",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "mtbField",
+				"parent": "9337-dc75-2b87-3f4c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "materialTextBox",
+				"id": "574a-10da-b765-48e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .lviMaterialTextBox-imgArrow.hidden",
+			"id": "7a71-f32e-33cf-70c2",
+			"props": {
+				"children": [],
+				"name": "imgArrow",
+				"parent": "9337-dc75-2b87-3f4c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "Ge4zrsljG",
+				"usePageVariable": true
+			}
+		}
+	]
+}

@@ -2,7 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout .flIconButton_main .flIconButton-active .flIconButtonDark",
-			"hiddenComponent": false,
+			"hiddenComponent": true,
 			"id": "ece5-9700-0cd9-aaed",
 			"props": {
 				"children": [

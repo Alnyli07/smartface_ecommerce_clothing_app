@@ -1,0 +1,202 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain",
+			"id": "0ad9-7336-f1fe-a845",
+			"initialized": false,
+			"props": {
+				"children": [
+					"ed77-f4ad-48e0-b0d4",
+					"b4d2-59fe-5cf1-ead0",
+					"2fb4-279a-bcdd-8089",
+					"bfeb-1804-a0bd-3b0b",
+					"e5b7-ebb8-8e9c-82c2"
+				],
+				"name": "pgCampus",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5-rc.0",
+			"degree": 0
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "ed77-f4ad-48e0-b0d4",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "0ad9-7336-f1fe-a845"
+			},
+			"type": "StatusBar",
+			"userProps": {},
+			"degree": 1
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "b4d2-59fe-5cf1-ead0",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "0ad9-7336-f1fe-a845",
+				"title": "pgFeedImages"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFeedImages"
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "2fb4-279a-bcdd-8089",
+			"props": {
+				"children": [],
+				"name": "flSwipeViewLayout",
+				"parent": "0ad9-7336-f1fe-a845",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "2zGvoMjs8",
+				"usePageVariable": true
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-flexLayout #pgFeedImages-flZoomButtons",
+			"id": "bfeb-1804-a0bd-3b0b",
+			"props": {
+				"children": [
+					"0458-851a-d1f3-169b",
+					"ad3f-813f-9a49-a2ef",
+					"ff2e-38d1-4f25-f75b"
+				],
+				"name": "flZoomButtons",
+				"parent": "0ad9-7336-f1fe-a845"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "G5ga4TWWi"
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-flexLayout #pgFeedImages-flImageCounter",
+			"id": "e5b7-ebb8-8e9c-82c2",
+			"props": {
+				"children": [
+					"99eb-500f-b812-bb55"
+				],
+				"name": "flImagesCounter",
+				"parent": "0ad9-7336-f1fe-a845",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "M9xPtp7bD",
+				"usePageVariable": true
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "0458-851a-d1f3-169b",
+			"props": {
+				"children": [
+					"d84d-fe67-3fd2-7094"
+				],
+				"name": "flPlus",
+				"parent": "bfeb-1804-a0bd-3b0b",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KlB2xBfEt",
+				"usePageVariable": true
+			},
+			"degree": 2
+		},
+		{
+			"className": ".sf-label .grow-relative .rows.title.smaller #pgFeedImages-flImageCounter-lblImagesCounter",
+			"id": "99eb-500f-b812-bb55",
+			"props": {
+				"children": [],
+				"name": "lblImagesCounter",
+				"parent": "e5b7-ebb8-8e9c-82c2",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "aG80HR7l5",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"degree": 2
+		},
+		{
+			"className": ".sf-flexLayout #pgFeedImages-flZoomButtons-flSeperator",
+			"id": "ad3f-813f-9a49-a2ef",
+			"props": {
+				"children": [],
+				"name": "flSeperator",
+				"parent": "bfeb-1804-a0bd-3b0b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KlB2xBfEt"
+			},
+			"degree": 2
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "ff2e-38d1-4f25-f75b",
+			"props": {
+				"children": [
+					"c025-c162-3bcf-b884"
+				],
+				"name": "flMinus",
+				"parent": "bfeb-1804-a0bd-3b0b",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KlB2xBfEt",
+				"usePageVariable": true
+			},
+			"degree": 2
+		},
+		{
+			"className": ".sf-imageView .grow-relative #pgFeedImages-flZoomButtons-flPlus-imgPlus",
+			"id": "d84d-fe67-3fd2-7094",
+			"props": {
+				"children": [],
+				"name": "imgPlus",
+				"parent": "0458-851a-d1f3-169b"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "7JlmLRJ3y"
+			},
+			"degree": 3
+		},
+		{
+			"className": ".sf-imageView .grow-relative #pgFeedImages-flZoomButtons-flMinus-imgMinus",
+			"id": "c025-c162-3bcf-b884",
+			"props": {
+				"children": [],
+				"name": "imgMinus",
+				"parent": "ff2e-38d1-4f25-f75b"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "NsuHPlt99"
+			},
+			"degree": 3
+		}
+	]
+}

@@ -1,0 +1,54 @@
+[
+	{
+		"id": "067cd60d-0085-4841-a0c1-4f6cc5be1a93",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "genericProfileRouter",
+		"children": [
+			"416a9e09-9a50-42b9-8d3b-ddb7b4f89a55",
+			"842ab740-d7ab-41fa-83ca-466d1bd6d5ad"
+		],
+		"props": {
+			"path": "genericProfile",
+			"x": 879.4144301205984,
+			"y": -2893.03432187949,
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "416a9e09-9a50-42b9-8d3b-ddb7b4f89a55",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "profile/info",
+			"x": 1741.4144301205984,
+			"y": -1845.03432187949,
+			"page": "pgGenericProfile"
+		},
+		"parent": "067cd60d-0085-4841-a0c1-4f6cc5be1a93"
+	},
+	{
+		"id": "842ab740-d7ab-41fa-83ca-466d1bd6d5ad",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "phoneBook1",
+		"children": [],
+		"props": {
+			"path": "phoneBook",
+			"modal": true,
+			"x": 909.4144301205984,
+			"y": -2713.03432187949,
+			"to": "main",
+			"visible": true
+		},
+		"parent": "067cd60d-0085-4841-a0c1-4f6cc5be1a93",
+		"source": {
+			"id": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+		},
+		"isLib": true
+	}
+]

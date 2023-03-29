@@ -1,0 +1,40 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flCountdown",
+			"hiddenComponent": true,
+			"id": "5732-285b-1ba1-9969",
+			"props": {
+				"children": [
+					"5b47-2ba5-1c27-9ee1"
+				],
+				"name": "flCountdown",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .grow-relative .flCountdown-lblMain",
+			"id": "5b47-2ba5-1c27-9ee1",
+			"props": {
+				"children": [],
+				"name": "lblMain",
+				"parent": "5732-285b-1ba1-9969",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

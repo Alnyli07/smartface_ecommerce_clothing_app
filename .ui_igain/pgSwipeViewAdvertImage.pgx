@@ -1,0 +1,87 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundSecondary .bgMain",
+			"id": "7c50-0915-ea70-1095",
+			"initialized": true,
+			"props": {
+				"children": [
+					"9ac0-4346-3aa7-0f18",
+					"7400-22a2-8111-fd65",
+					"5f6e-4451-bb3a-0c1c",
+					"232d-59fb-e4a1-7515"
+				],
+				"name": "pgSwipeViewAdvertImage",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "9ac0-4346-3aa7-0f18",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "7c50-0915-ea70-1095"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "7400-22a2-8111-fd65",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "7c50-0915-ea70-1095",
+				"title": "pgSwipeViewAdvertImage"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSwipeViewAdvertImage"
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative #pgSwipeViewAdvertImage-imgMain .background.main50",
+			"hiddenComponent": false,
+			"id": "5f6e-4451-bb3a-0c1c",
+			"props": {
+				"children": [],
+				"name": "imgMain",
+				"parent": "7c50-0915-ea70-1095",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "kZEUSTopm",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flWaitDialog .notVisible",
+			"hiddenComponent": false,
+			"id": "232d-59fb-e4a1-7515",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flWaitDialog",
+				"parent": "7c50-0915-ea70-1095",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flWaitDialog",
+				"id": "f991-f031-9d6c-d639"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "RlbNgTBEh",
+				"usePageVariable": true
+			}
+		}
+	]
+}

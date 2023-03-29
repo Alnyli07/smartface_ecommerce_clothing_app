@@ -1,0 +1,49 @@
+[
+	{
+		"id": "60c7c020-c705-48ac-bd0a-92962bce0f76",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "transportationDeeplinkRouter",
+		"children": [
+			"01034d6a-a63a-48bd-aee8-06929a49301a",
+			"1c58f1ac-172d-4db5-95e6-0fb79a9166d8"
+		],
+		"props": {
+			"path": "transportationDeeplink",
+			"x": 1300.3722230194862,
+			"y": -2755.1121444396686,
+			"homeRoute": "shuttleDetail",
+			"to": "shuttleDetail",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "01034d6a-a63a-48bd-aee8-06929a49301a",
+		"type": "Route",
+		"isContainer": false,
+		"name": "shuttleDetail",
+		"children": [],
+		"props": {
+			"path": "shuttleDetail",
+			"x": 1299.4144301205984,
+			"y": -2773.03432187949,
+			"page": "pgShuttleDetail"
+		},
+		"parent": "60c7c020-c705-48ac-bd0a-92962bce0f76"
+	},
+	{
+		"id": "1c58f1ac-172d-4db5-95e6-0fb79a9166d8",
+		"type": "Route",
+		"isContainer": false,
+		"name": "myShuttleDetail",
+		"children": [],
+		"props": {
+			"path": "myShuttleDetail",
+			"x": 1449.4144301205984,
+			"y": -2773.03432187949,
+			"page": "pgMyShuttleDetail"
+		},
+		"parent": "60c7c020-c705-48ac-bd0a-92962bce0f76"
+	}
+]

@@ -1,0 +1,99 @@
+[
+	{
+		"id": "a170e56f-4fcd-4c51-9a16-dd0ac7c23db4",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "faqRouter",
+		"children": [
+			"74c6a750-04b7-4462-9256-b8d5a1043904",
+			"dbe03a25-fc77-4d5c-aac9-f206db03e318",
+			"d9167b9f-cc0e-4961-bf71-b2c2aefc9ba4",
+			"f7ea4e3f-c25d-4d32-b9be-ab13f0288832",
+			"cdeaf3ee-70f7-498a-97ac-4ab693a74e80"
+		],
+		"props": {
+			"path": "faq",
+			"modal": true,
+			"x": 1758.4345260124114,
+			"y": -2888.9814774404203,
+			"visible": true,
+			"to": "main"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "74c6a750-04b7-4462-9256-b8d5a1043904",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2643.4348570873044,
+			"y": -385.80896647518966,
+			"page": "pgFaqCategories"
+		},
+		"parent": "a170e56f-4fcd-4c51-9a16-dd0ac7c23db4"
+	},
+	{
+		"id": "dbe03a25-fc77-4d5c-aac9-f206db03e318",
+		"type": "Route",
+		"isContainer": false,
+		"name": "questions",
+		"children": [],
+		"props": {
+			"path": "questions",
+			"x": 2793.4348570873044,
+			"y": -385.80896647518966,
+			"page": "pgFaqQuestions"
+		},
+		"parent": "a170e56f-4fcd-4c51-9a16-dd0ac7c23db4"
+	},
+	{
+		"id": "d9167b9f-cc0e-4961-bf71-b2c2aefc9ba4",
+		"type": "Route",
+		"isContainer": false,
+		"name": "search",
+		"children": [],
+		"props": {
+			"path": "search",
+			"x": 2943.4348570873044,
+			"y": -385.80896647518966,
+			"page": "pgFaqQuestions"
+		},
+		"parent": "a170e56f-4fcd-4c51-9a16-dd0ac7c23db4"
+	},
+	{
+		"id": "f7ea4e3f-c25d-4d32-b9be-ab13f0288832",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 3093.4348570873044,
+			"y": -385.80896647518966,
+			"page": "pgFaqQuestionDetail"
+		},
+		"parent": "a170e56f-4fcd-4c51-9a16-dd0ac7c23db4"
+	},
+	{
+		"id": "cdeaf3ee-70f7-498a-97ac-4ab693a74e80",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "phoneBook1",
+		"children": [],
+		"props": {
+			"path": "phoneBook",
+			"modal": true,
+			"x": 1741.9805226281828,
+			"y": -2633.506655676846,
+			"to": "main"
+		},
+		"parent": "a170e56f-4fcd-4c51-9a16-dd0ac7c23db4",
+		"source": {
+			"id": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+		},
+		"isLib": true
+	}
+]

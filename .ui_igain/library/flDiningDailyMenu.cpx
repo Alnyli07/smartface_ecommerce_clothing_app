@@ -1,0 +1,121 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flDiningDailyMenu",
+			"hiddenComponent": true,
+			"id": "fde8-08c2-2796-297b",
+			"props": {
+				"children": [
+					"19aa-303d-db82-fc15"
+				],
+				"name": "flDiningDailyMenu",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 26.79,
+				"top": 63.39
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDiningDailyMenu-flMain",
+			"id": "19aa-303d-db82-fc15",
+			"oldName": "flWrapper",
+			"props": {
+				"children": [
+					"d9d6-c9d7-cd1d-9838",
+					"94d2-3539-9f1d-1505"
+				],
+				"name": "flMain",
+				"parent": "fde8-08c2-2796-297b"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flDiningDailyMenu-flMain-titleWrapper",
+			"id": "d9d6-c9d7-cd1d-9838",
+			"oldName": "flWraooer",
+			"props": {
+				"children": [
+					"b89c-304a-45b5-1b54",
+					"abeb-98f6-865d-702e"
+				],
+				"name": "flWrapper",
+				"parent": "19aa-303d-db82-fc15"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-imageView .flDiningDailyMenu-flMain-imgIcon",
+			"id": "b89c-304a-45b5-1b54",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgIcon",
+				"parent": "d9d6-c9d7-cd1d-9838"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-label .flDiningDailyMenu-flMain-lblTitle-lblTitle-no-grow .rows.title.large",
+			"id": "abeb-98f6-865d-702e",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "d9d6-c9d7-cd1d-9838",
+				"text": "Daily Menu"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"text": "Daily Menu",
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-textView .flDiningDailyMenu-flMain-tvMenu",
+			"id": "94d2-3539-9f1d-1505",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<ul style=\"caret-color: rgb(0, 0, 0); white-space: normal; text-size-adjust: auto; font-family: -webkit-standard;\"><li style=\"font-family: -webkit-standard;\">Coffee</li><li style=\"font-family: -webkit-standard;\">Tea</li><li style=\"font-family: -webkit-standard;\">Milk</li></ul>",
+				"name": "tvMenu",
+				"parent": "19aa-303d-db82-fc15",
+				"text": "Coffee\nTea\nMilk"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<ul style=\"caret-color: rgb(0, 0, 0); white-space: normal; text-size-adjust: auto; font-family: -webkit-standard;\"><li style=\"font-family: -webkit-standard;\">Coffee</li><li style=\"font-family: -webkit-standard;\">Tea</li><li style=\"font-family: -webkit-standard;\">Milk</li></ul>",
+				"text": "Coffee\nTea\nMilk"
+			}
+		}
+	]
+}

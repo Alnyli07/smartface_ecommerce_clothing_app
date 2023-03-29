@@ -1,0 +1,64 @@
+[
+	{
+		"id": "ef7f6b99-05c3-44bc-b463-a19b3737effc",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "assetManagementRouter",
+		"children": [
+			"fd8db828-4563-468e-98cd-cb939fc99b16",
+			"e8c457ed-1b9b-492d-88c3-2f09fbff4fdc",
+			"f057434b-3d03-4a0b-8d5a-2213d67d8666"
+		],
+		"props": {
+			"path": "asset-management",
+			"x": 2766.7840539875783,
+			"y": -2469.348691604072,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "fd8db828-4563-468e-98cd-cb939fc99b16",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 3442.784053987579,
+			"y": -1857.3486916040717,
+			"page": "pgAssetManagementMenu"
+		},
+		"parent": "ef7f6b99-05c3-44bc-b463-a19b3737effc"
+	},
+	{
+		"id": "e8c457ed-1b9b-492d-88c3-2f09fbff4fdc",
+		"type": "Route",
+		"isContainer": false,
+		"name": "list",
+		"children": [],
+		"props": {
+			"path": "list",
+			"x": 3439.784053987579,
+			"y": -1827.3486916040717,
+			"page": "pgAssetManagementList"
+		},
+		"parent": "ef7f6b99-05c3-44bc-b463-a19b3737effc"
+	},
+	{
+		"id": "f057434b-3d03-4a0b-8d5a-2213d67d8666",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 3443.784053987579,
+			"y": -1802.3486916040717,
+			"page": "pgAssetManagementDetail"
+		},
+		"parent": "ef7f6b99-05c3-44bc-b463-a19b3737effc"
+	}
+]

@@ -1,0 +1,134 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain",
+			"id": "8fbe-5a2a-94e4-981b",
+			"initialized": true,
+			"props": {
+				"children": [
+					"5ec8-e21c-9a4c-f2a2",
+					"0b4a-e94e-c548-19f1",
+					"e9dc-2a1a-b89f-97d6",
+					"535c-fa78-1feb-5b7a",
+					"66ad-7c91-83aa-cddb"
+				],
+				"name": "pgSuccess",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": true
+			}
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "5ec8-e21c-9a4c-f2a2",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "8fbe-5a2a-94e4-981b"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "0b4a-e94e-c548-19f1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "8fbe-5a2a-94e4-981b",
+				"title": "pgSuccess"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSuccess"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flBigAction .grow-relative",
+			"hiddenComponent": false,
+			"id": "e9dc-2a1a-b89f-97d6",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flBigAction",
+				"parent": "8fbe-5a2a-94e4-981b",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flBigAction",
+				"id": "f9ed-291d-4141-37e2"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "yjrXeHVP2",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-safeArea",
+			"hiddenComponent": false,
+			"id": "535c-fa78-1feb-5b7a",
+			"props": {
+				"children": [],
+				"name": "flActionButtonSafeArea",
+				"parent": "8fbe-5a2a-94e4-981b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "9Uv2vUPfy"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-wrapper",
+			"id": "66ad-7c91-83aa-cddb",
+			"props": {
+				"children": [
+					"2084-d77d-fcf0-8669"
+				],
+				"name": "flActionButtonWrapper",
+				"parent": "8fbe-5a2a-94e4-981b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "cGoNTbNEY"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton.gradient",
+			"hiddenComponent": false,
+			"id": "2084-d77d-fcf0-8669",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flActionButton",
+				"parent": "66ad-7c91-83aa-cddb",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flActionButton",
+				"id": "a812-2ded-c6b7-e3ee"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"testId": "T9NOZhGGl",
+				"top": 0,
+				"usePageVariable": true
+			}
+		}
+	]
+}

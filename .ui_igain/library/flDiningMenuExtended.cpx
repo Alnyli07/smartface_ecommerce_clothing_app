@@ -1,0 +1,129 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flDiningMenuExtended",
+			"hiddenComponent": true,
+			"id": "58cb-a39d-9993-2aaa",
+			"props": {
+				"children": [
+					"be6a-2154-96de-7100",
+					"9460-8cd0-d457-3101",
+					"564f-68ee-e443-7b7b"
+				],
+				"name": "flDiningMenuExtended",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 12.5,
+				"top": 260.71
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDiningMenuExtended-flMain",
+			"id": "be6a-2154-96de-7100",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"6c41-465a-c320-1892",
+					"2168-1596-e43a-8ada"
+				],
+				"name": "flMain",
+				"parent": "58cb-a39d-9993-2aaa"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flDiningMenuExtended-flMain-lblTitle .rows.title",
+			"id": "6c41-465a-c320-1892",
+			"oldName": "lblTitle",
+			"props": {
+				"children": [],
+				"name": "lbDate",
+				"parent": "be6a-2154-96de-7100",
+				"text": "27.08.2022 Carsamba"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "27.08.2022 Carsamba"
+			}
+		},
+		{
+			"className": ".sf-textView .flDiningMenuExtended-flMain-tvMenu",
+			"id": "2168-1596-e43a-8ada",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<ul style=\"font-size: 16px; caret-color: rgb(0, 0, 0); white-space: normal; text-size-adjust: auto; font-family: -webkit-standard;\"><li style=\"font-size: 16px; font-family: -webkit-standard;\">Coffee<br style=\"font-size: 16px; font-family: -webkit-standard;\"><br style=\"font-size: 16px; font-family: -webkit-standard;\"></li><li style=\"font-size: 16px; font-family: -webkit-standard;\">Tea<br style=\"font-size: 16px; font-family: -webkit-standard;\"></li></ul><ul style=\"font-size: 16px; caret-color: rgb(0, 0, 0); white-space: normal; text-size-adjust: auto; font-family: -webkit-standard;\"><li style=\"font-size: 16px; font-family: -webkit-standard;\">Milk</li></ul>",
+				"name": "tvMenu",
+				"parent": "be6a-2154-96de-7100",
+				"text": "Coffee\n\n\nTea\n\nMilk"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<ul style=\"font-size: 16px; caret-color: rgb(0, 0, 0); white-space: normal; text-size-adjust: auto; font-family: -webkit-standard;\"><li style=\"font-size: 16px; font-family: -webkit-standard;\">Coffee<br style=\"font-size: 16px; font-family: -webkit-standard;\"><br style=\"font-size: 16px; font-family: -webkit-standard;\"></li><li style=\"font-size: 16px; font-family: -webkit-standard;\">Tea<br style=\"font-size: 16px; font-family: -webkit-standard;\"></li></ul><ul style=\"font-size: 16px; caret-color: rgb(0, 0, 0); white-space: normal; text-size-adjust: auto; font-family: -webkit-standard;\"><li style=\"font-size: 16px; font-family: -webkit-standard;\">Milk</li></ul>",
+				"text": "Coffee\n\n\nTea\n\nMilk"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDiningMenuExtended-flRight",
+			"id": "9460-8cd0-d457-3101",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"29e0-f6d7-009e-b2c4"
+				],
+				"name": "flRightLayout",
+				"parent": "58cb-a39d-9993-2aaa"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flDiningMenuExtended-flRight-imgUpArrow",
+			"id": "29e0-f6d7-009e-b2c4",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgArrowUp",
+				"parent": "9460-8cd0-d457-3101"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .separator",
+			"id": "564f-68ee-e443-7b7b",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "seperator",
+				"parent": "58cb-a39d-9993-2aaa"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

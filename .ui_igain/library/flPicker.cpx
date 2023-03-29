@@ -1,0 +1,140 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flPicker",
+			"hiddenComponent": true,
+			"id": "952c-ba55-e559-d024",
+			"props": {
+				"children": [
+					"d6de-627a-e261-0cff",
+					"0d9e-6048-36fb-7788",
+					"8834-b2a2-da10-bb65",
+					"f16d-58e6-aabd-327e",
+					"a799-7ca9-d04a-9c60"
+				],
+				"name": "flPicker",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "6RoCxGN8F",
+				"top": 100
+			}
+		},
+		{
+			"className": ".sf-label .pickerStyle.header .flPicker-lblHeader .hidden",
+			"id": "d6de-627a-e261-0cff",
+			"props": {
+				"children": [],
+				"maxLines": 1,
+				"name": "lblHeader",
+				"parent": "952c-ba55-e559-d024",
+				"text": "",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "q9YVHWW7q",
+				"text": "",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flPicker-lblText .pickerStyle.text",
+			"id": "0d9e-6048-36fb-7788",
+			"props": {
+				"children": [],
+				"maxLines": 1,
+				"name": "lblText",
+				"parent": "952c-ba55-e559-d024",
+				"text": "222",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "Y0fBZ4dcg",
+				"text": "222",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flPicker-separator .background.separator",
+			"id": "8834-b2a2-da10-bb65",
+			"props": {
+				"children": [],
+				"name": "separator",
+				"parent": "952c-ba55-e559-d024"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "rulVh1vKa"
+			}
+		},
+		{
+			"className": ".sf-textBox .notVisible .absolute .hidden",
+			"id": "f16d-58e6-aabd-327e",
+			"props": {
+				"children": [],
+				"name": "tbDummy",
+				"parent": "952c-ba55-e559-d024",
+				"text": "textBox1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextBox",
+			"userProps": {
+				"testId": "5mrtTZtfb",
+				"text": "textBox1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flPicker-flArrowWrapper",
+			"id": "a799-7ca9-d04a-9c60",
+			"props": {
+				"children": [
+					"2c55-34cc-f02c-790e"
+				],
+				"name": "flArrowWrapper",
+				"parent": "952c-ba55-e559-d024"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "xz15m8JVJ"
+			}
+		},
+		{
+			"className": ".sf-imageView .flPicker-imgDownArrow",
+			"id": "2c55-34cc-f02c-790e",
+			"props": {
+				"children": [],
+				"name": "imgArrow",
+				"parent": "a799-7ca9-d04a-9c60"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "yeH_xlQSa"
+			}
+		}
+	]
+}

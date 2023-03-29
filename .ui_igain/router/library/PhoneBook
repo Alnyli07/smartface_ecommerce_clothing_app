@@ -1,0 +1,49 @@
+[
+	{
+		"id": "ad33ee80-d09c-48d9-bec2-abf477fd0847",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "phoneBook",
+		"children": [
+			"1f55787b-4575-4f2e-ac21-9e13c43c47af",
+			"9cfaf9d1-c728-451c-a50f-4b8375ccdc55"
+		],
+		"props": {
+			"path": "phoneBook",
+			"modal": true,
+			"x": 758.3316008075483,
+			"y": -2176.8123303119687,
+			"to": "main",
+			"visible": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "1f55787b-4575-4f2e-ac21-9e13c43c47af",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2909.0332403552247,
+			"y": 1281.6272726227162,
+			"page": "pgPhoneBook"
+		},
+		"parent": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+	},
+	{
+		"id": "9cfaf9d1-c728-451c-a50f-4b8375ccdc55",
+		"type": "Route",
+		"isContainer": false,
+		"name": "genericProfile",
+		"children": [],
+		"props": {
+			"path": "genericProfile",
+			"x": 2913.8585561097343,
+			"y": 1007.9362082656759,
+			"page": "pgGenericProfile"
+		},
+		"parent": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+	}
+]

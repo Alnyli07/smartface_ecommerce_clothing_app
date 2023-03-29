@@ -1,0 +1,115 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flCustomTextBox",
+			"hiddenComponent": true,
+			"id": "0913-c422-1ab5-e5ab",
+			"props": {
+				"children": [
+					"d414-5e82-60e9-7d8c",
+					"5eb8-9612-9414-ed6b"
+				],
+				"name": "flCustomTextBox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 25,
+				"top": 102.68
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flTextBoxWrapper .flCustomTextBox-flTextBoxWrapper",
+			"id": "d414-5e82-60e9-7d8c",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"fca0-71ca-a2cb-22aa",
+					"9bfa-c203-4e2f-889c"
+				],
+				"name": "flTextBoxWrapper",
+				"parent": "0913-c422-1ab5-e5ab"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textBox .noBorder .rows.title.small-thin .flCustomTextBox-tb",
+			"id": "fca0-71ca-a2cb-22aa",
+			"oldName": "textBox1",
+			"props": {
+				"children": [],
+				"name": "tb",
+				"parent": "d414-5e82-60e9-7d8c"
+			},
+			"type": "TextBox",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".icon .flCustomTextBox-rightIcon",
+			"id": "9bfa-c203-4e2f-889c",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "rightIcon",
+				"parent": "d414-5e82-60e9-7d8c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flCustomTextBox-flLabelWrapper",
+			"id": "5eb8-9612-9414-ed6b",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"84d6-aa6a-1f70-08fc",
+					"0035-df85-b4d2-adc6"
+				],
+				"name": "flLabelWrapper",
+				"parent": "0913-c422-1ab5-e5ab"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flCustomTextBox-lblError .login.error",
+			"id": "84d6-aa6a-1f70-08fc",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblError",
+				"parent": "5eb8-9612-9414-ed6b"
+			},
+			"type": "Label",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flCustomTextBox-lblCharCounter",
+			"id": "0035-df85-b4d2-adc6",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblCharCount",
+				"parent": "5eb8-9612-9414-ed6b"
+			},
+			"type": "Label",
+			"userProps": {}
+		}
+	]
+}

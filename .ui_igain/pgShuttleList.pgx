@@ -1,0 +1,126 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "ee57-17d6-66fb-61b4",
+			"initialized": true,
+			"props": {
+				"children": [
+					"8d56-4cca-78fe-00d0",
+					"ed4b-c548-ddb5-9fdd",
+					"768d-2289-4d91-570d",
+					"cc4a-0393-3eeb-ba62"
+				],
+				"name": "pgShuttleList",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5-rc.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "8d56-4cca-78fe-00d0",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "ee57-17d6-66fb-61b4"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "ed4b-c548-ddb5-9fdd",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "ee57-17d6-66fb-61b4",
+				"title": "pgShuttleList"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgShuttleList"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .paddingHorizontal #pgShuttleList-search .gradient",
+			"hiddenComponent": false,
+			"id": "768d-2289-4d91-570d",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0d6f-d4e2-6a1d-6c65"
+				],
+				"name": "flSearchBar",
+				"parent": "ee57-17d6-66fb-61b4"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-searchView #pgShuttleList-search .background.transparent",
+			"id": "0d6f-d4e2-6a1d-6c65",
+			"oldName": "searchView1",
+			"props": {
+				"children": [],
+				"hint": "Search",
+				"name": "svMain",
+				"parent": "768d-2289-4d91-570d"
+			},
+			"type": "SearchView",
+			"userProps": {
+				"hint": "Search"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgWhite .grow-relative .paddingTop .borderTopRightRadius",
+			"id": "cc4a-0393-3eeb-ba62",
+			"oldName": "flContaier",
+			"props": {
+				"children": [
+					"36e4-7bb6-5172-9b91"
+				],
+				"name": "flContainer",
+				"parent": "ee57-17d6-66fb-61b4"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .grow-relative .bgWhite",
+			"id": "36e4-7bb6-5172-9b91",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"0eff-21a4-acb5-f9b8"
+				],
+				"name": "lvMain",
+				"parent": "cc4a-0393-3eeb-ba62"
+			},
+			"type": "ListView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listViewItem .lviRow2Line #pgPhoneBook-lviDoubleLine",
+			"hiddenComponent": false,
+			"id": "0eff-21a4-acb5-f9b8",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "lviDoubleLine",
+				"parent": "36e4-7bb6-5172-9b91"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviDoubleLine",
+				"id": "d8b4-b337-6e5b-40a5"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .lviTitleSmall .flTitleSmall",
+			"hiddenComponent": true,
+			"id": "f113-6a2a-3bcd-e39f",
+			"initialized": true,
+			"props": {
+				"children": [
+					"58e9-2edc-3b47-ba65",
+					"3ca6-cfa0-b76f-50c7"
+				],
+				"name": "flTitleSmall",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 2.5,
+				"top": 76
+			}
+		},
+		{
+			"className": ".sf-label .lviTitleSmall-lblCounter .sectionTitles.mid.hint",
+			"id": "58e9-2edc-3b47-ba65",
+			"props": {
+				"children": [],
+				"name": "lblCounter",
+				"parent": "f113-6a2a-3bcd-e39f",
+				"text": "3 kişi bulundu",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "3 kişi bulundu",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .lviTitleSmall-lblActionText.hidden .sectionTitles.mid.hint",
+			"id": "3ca6-cfa0-b76f-50c7",
+			"props": {
+				"children": [],
+				"name": "lblActionText",
+				"parent": "f113-6a2a-3bcd-e39f",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

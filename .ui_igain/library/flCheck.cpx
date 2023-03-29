@@ -1,0 +1,39 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flCheck",
+			"hiddenComponent": true,
+			"id": "74ab-5481-eeec-a8e8",
+			"props": {
+				"children": [
+					"109b-461f-142a-17e2"
+				],
+				"name": "flCheck",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 4.94,
+				"top": 158.02
+			}
+		},
+		{
+			"className": ".sf-imageView .flCheck-imgCheck .flCheck-imgCheck.hidden",
+			"id": "109b-461f-142a-17e2",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgCheck",
+				"parent": "74ab-5481-eeec-a8e8"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		}
+	]
+}

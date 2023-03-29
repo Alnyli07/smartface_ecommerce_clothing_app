@@ -1,0 +1,51 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviDoubLineWithProgress",
+			"hiddenComponent": true,
+			"id": "653b-db7d-d051-24b2",
+			"props": {
+				"children": [
+					"4f87-a2b7-d0ad-bd51"
+				],
+				"name": "lviDoubLineWithProgress",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 5.26,
+				"top": 332.89
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithProgress",
+			"hiddenComponent": false,
+			"id": "4f87-a2b7-d0ad-bd51",
+			"oldName": "flDoubleLineWithProgress1",
+			"props": {
+				"children": [],
+				"name": "flDoubleLineWithProgress",
+				"parent": "653b-db7d-d051-24b2"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flDoubleLineWithProgress",
+				"id": "d316-4700-d137-ec83"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		}
+	]
+}

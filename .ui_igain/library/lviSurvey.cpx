@@ -1,0 +1,140 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviSurvey",
+			"hiddenComponent": true,
+			"id": "6fb2-faf9-a8e5-9874",
+			"props": {
+				"children": [
+					"a6fc-5686-0b20-c4ee"
+				],
+				"name": "lviSurvey",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 23.6,
+				"top": 138.2
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviSurvey-flSurveyItemContainer",
+			"hiddenComponent": false,
+			"id": "a6fc-5686-0b20-c4ee",
+			"oldName": "surveyItemContainer",
+			"props": {
+				"children": [
+					"c17a-b310-4aeb-8e85",
+					"c75a-b832-999c-f9e9",
+					"8920-f011-4741-e59f"
+				],
+				"name": "flSurveyItemContainer",
+				"parent": "6fb2-faf9-a8e5-9874"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-imageView .lviSurvey-flSurveyItemContainer-imgSurveyStatus",
+			"id": "c17a-b310-4aeb-8e85",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgSurveyStatus",
+				"parent": "a6fc-5686-0b20-c4ee"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-flexLayout .lviSurvey-flSurveyItemContainer-flDoubleLineWrapper",
+			"id": "c75a-b832-999c-f9e9",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"7095-98fb-b4d6-66e4",
+					"2ba2-669b-e2b4-0919"
+				],
+				"name": "flDoubleLineWrapper",
+				"parent": "a6fc-5686-0b20-c4ee"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .lviSurvey-flSurveyItemContainer-flDoubleLineWrapper-lblSurveyTitle",
+			"id": "7095-98fb-b4d6-66e4",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblSurveyTitle",
+				"parent": "c75a-b832-999c-f9e9",
+				"text": "Yemek memnuniyeti anketi"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Yemek memnuniyeti anketi"
+			}
+		},
+		{
+			"className": ".sf-label .lviSurvey-flSurveyItemContainer-flDoubleLineWrapper-lblSurveyDate",
+			"id": "2ba2-669b-e2b4-0919",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblSurveyDate",
+				"parent": "c75a-b832-999c-f9e9",
+				"text": "1 gün önce"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "1 gün önce"
+			}
+		},
+		{
+			"className": ".sf-imageView .lviSurvey-flSurveyItemContainer-flDoubleLineWrapper-imgArrowRight",
+			"id": "8920-f011-4741-e59f",
+			"oldName": "imageView2",
+			"props": {
+				"children": [],
+				"name": "imgArrowRight",
+				"parent": "a6fc-5686-0b20-c4ee"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		}
+	]
+}

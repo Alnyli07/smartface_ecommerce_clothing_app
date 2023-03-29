@@ -1,0 +1,71 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flTextWithCheckbox .grow-relative",
+			"hiddenComponent": true,
+			"id": "c299-dfef-aa82-fdf2",
+			"props": {
+				"children": [
+					"f3c8-226c-df29-5783",
+					"8797-a53c-5831-bef2"
+				],
+				"name": "flTextWithCheckbox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 7.41,
+				"top": 135.8
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flCheck",
+			"hiddenComponent": false,
+			"id": "f3c8-226c-df29-5783",
+			"oldName": "flCheck1",
+			"props": {
+				"children": [],
+				"name": "flCheck",
+				"parent": "c299-dfef-aa82-fdf2"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flCheck",
+				"id": "74ab-5481-eeec-a8e8"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-label .flTextWithCheckbox-lblText .rows.title.smaller",
+			"id": "8797-a53c-5831-bef2",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"maxLines": 0,
+				"name": "lblText",
+				"parent": "c299-dfef-aa82-fdf2",
+				"text": "Aydınlatma bildirimini okudum, anladım, onaylıyorum ve kişisel verilerimin yurt dışında yerleşik sunucu hizmeti sağlayan bulut hizmet sağlayıcılarıyla paylaşılmasına rıza gösteriyorum. Aydınlatma bildirimine ulaşmak için tıklayınız."
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Aydınlatma bildirimini okudum, anladım, onaylıyorum ve kişisel verilerimin yurt dışında yerleşik sunucu hizmeti sağlayan bulut hizmet sağlayıcılarıyla paylaşılmasına rıza gösteriyorum. Aydınlatma bildirimine ulaşmak için tıklayınız."
+			}
+		}
+	]
+}

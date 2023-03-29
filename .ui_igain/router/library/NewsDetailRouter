@@ -1,0 +1,66 @@
+[
+	{
+		"id": "bbb1d962-1b1e-4f0c-81a3-b730c0cdc44e",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "newsDetailRouter",
+		"children": [
+			"669802ca-dc7f-40c6-822f-43d4f66ee5c2",
+			"4dd08e7c-9b21-48fb-be30-4f12effaada6"
+		],
+		"props": {
+			"path": "newsAndAnnouncementsDetail",
+			"x": 1700.480114259757,
+			"y": -1534.240106311969,
+			"to": "main",
+			"modal": true,
+			"homeRoute": "main"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "669802ca-dc7f-40c6-822f-43d4f66ee5c2",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 1726.980114259757,
+			"y": -1366.240106311969,
+			"page": "pgNewsAndAnnouncementsDetail"
+		},
+		"parent": "bbb1d962-1b1e-4f0c-81a3-b730c0cdc44e"
+	},
+	{
+		"id": "4dd08e7c-9b21-48fb-be30-4f12effaada6",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "images",
+		"children": [
+			"5422c485-67a8-4095-b5f0-53809de052d2"
+		],
+		"props": {
+			"path": "images",
+			"modal": true,
+			"x": 1733.980114259757,
+			"y": -1368.240106311969,
+			"to": "main"
+		},
+		"parent": "bbb1d962-1b1e-4f0c-81a3-b730c0cdc44e"
+	},
+	{
+		"id": "5422c485-67a8-4095-b5f0-53809de052d2",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2362.980114259757,
+			"y": 1145.7598936880313,
+			"page": "pgNewsImages"
+		},
+		"parent": "4dd08e7c-9b21-48fb-be30-4f12effaada6"
+	}
+]

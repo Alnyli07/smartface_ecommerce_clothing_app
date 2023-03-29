@@ -1,0 +1,50 @@
+[
+	{
+		"id": "d7f38cb2-9ef7-4aed-ace6-9810bcb43d83",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "surveyRouter",
+		"children": [
+			"8c816379-6fed-4bd6-a007-7f229bf1dea0",
+			"9f51b4ae-49f8-475c-9e6b-bbbf5baec021"
+		],
+		"props": {
+			"path": "surveys",
+			"x": 1341.5017865132731,
+			"y": -2892.7600866915727,
+			"to": "main",
+			"modal": true,
+			"homeRoute": "main",
+			"modalType": "modal"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "8c816379-6fed-4bd6-a007-7f229bf1dea0",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2805.501786513273,
+			"y": -834.7600866915725,
+			"page": "pgSurveyList"
+		},
+		"parent": "d7f38cb2-9ef7-4aed-ace6-9810bcb43d83"
+	},
+	{
+		"id": "9f51b4ae-49f8-475c-9e6b-bbbf5baec021",
+		"type": "Route",
+		"isContainer": false,
+		"name": "survey",
+		"children": [],
+		"props": {
+			"path": "survey",
+			"x": 2955.501786513273,
+			"y": -834.7600866915725,
+			"page": "pgSurvey"
+		},
+		"parent": "d7f38cb2-9ef7-4aed-ace6-9810bcb43d83"
+	}
+]

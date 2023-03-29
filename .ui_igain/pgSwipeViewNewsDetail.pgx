@@ -1,0 +1,74 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.black .background.main50",
+			"id": "4a37-ec4c-1a2b-2926",
+			"initialized": true,
+			"props": {
+				"children": [
+					"badd-973b-6104-7e3c",
+					"e5eb-26ab-0704-7e10",
+					"4ec5-f626-169a-6f18",
+					"54c3-805f-a9b8-41c1"
+				],
+				"name": "pgSwipeViewNewsDetail",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "badd-973b-6104-7e3c",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "4a37-ec4c-1a2b-2926"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "e5eb-26ab-0704-7e10",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "4a37-ec4c-1a2b-2926",
+				"title": "pgSwipeViewNewsDetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSwipeViewNewsDetail"
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative #pgSwipeViewNewsDetail-imgMain .hidden",
+			"id": "4ec5-f626-169a-6f18",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgMain",
+				"parent": "4a37-ec4c-1a2b-2926"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-videoView .grow-relative .hidden",
+			"id": "54c3-805f-a9b8-41c1",
+			"oldName": "videoView1",
+			"props": {
+				"children": [],
+				"name": "videoMain",
+				"parent": "4a37-ec4c-1a2b-2926"
+			},
+			"type": "VideoView",
+			"userProps": {}
+		}
+	]
+}

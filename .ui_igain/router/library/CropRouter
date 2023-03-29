@@ -1,0 +1,34 @@
+[
+	{
+		"id": "0fef90ae-a205-4697-a94a-2999bf02f774",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "cropRouter",
+		"children": [
+			"1e9dd7c8-93f2-463d-a9bb-748c209213e8"
+		],
+		"props": {
+			"path": "crop",
+			"x": 1238.934103758979,
+			"y": -2405.0743222453507,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "1e9dd7c8-93f2-463d-a9bb-748c209213e8",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": -571.0658962410209,
+			"y": 50.92567775464943,
+			"page": "pgPhotoCropper"
+		},
+		"parent": "0fef90ae-a205-4697-a94a-2999bf02f774"
+	}
+]

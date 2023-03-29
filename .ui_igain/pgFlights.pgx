@@ -1,0 +1,61 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "8ef1-6eb4-09dd-d4bb",
+			"initialized": true,
+			"props": {
+				"children": [
+					"5f2b-8f22-9ca2-4ea4",
+					"e1af-a485-b7c2-23da",
+					"2b0d-8de2-92f4-0253"
+				],
+				"name": "pgFlights",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "5f2b-8f22-9ca2-4ea4",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "8ef1-6eb4-09dd-d4bb"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "e1af-a485-b7c2-23da",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "8ef1-6eb4-09dd-d4bb",
+				"title": "pgFlights"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFlights"
+			}
+		},
+		{
+			"className": ".sf-webView #pgFlights-webView",
+			"id": "2b0d-8de2-92f4-0253",
+			"oldName": "webView1",
+			"props": {
+				"children": [],
+				"name": "webViewFlights",
+				"parent": "8ef1-6eb4-09dd-d4bb"
+			},
+			"type": "WebView",
+			"userProps": {}
+		}
+	]
+}

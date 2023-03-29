@@ -1,0 +1,97 @@
+{
+	"components": [
+		{
+			"className": ".sf-page.backgroundMain .gradient",
+			"id": "c6b5-cde4-4f7b-85ad",
+			"initialized": true,
+			"props": {
+				"children": [
+					"40a2-6529-1070-29ff",
+					"769d-b339-c484-1c49",
+					"698a-4a8e-07ce-c4b0"
+				],
+				"name": "pgFaqCategories",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "40a2-6529-1070-29ff",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "c6b5-cde4-4f7b-85ad"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "769d-b339-c484-1c49",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "c6b5-cde4-4f7b-85ad",
+				"title": "pgFaqCategories"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFaqCategories"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .bgMain .paddingTop",
+			"id": "698a-4a8e-07ce-c4b0",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"4acc-2ead-e949-a3b2",
+					"fb51-cca9-8bfe-c16c"
+				],
+				"name": "flWrapper",
+				"parent": "c6b5-cde4-4f7b-85ad"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .lviTitleSmall .flTitleSmall .paddingHorizontal",
+			"hiddenComponent": false,
+			"id": "4acc-2ead-e949-a3b2",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flTitleSmall",
+				"parent": "698a-4a8e-07ce-c4b0",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flTitleSmall",
+				"id": "f113-6a2a-3bcd-e39f"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listView .grow-relative .bgMain",
+			"id": "fb51-cca9-8bfe-c16c",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "698a-4a8e-07ce-c4b0"
+			},
+			"type": "ListView",
+			"userProps": {}
+		}
+	]
+}

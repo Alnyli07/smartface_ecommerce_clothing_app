@@ -1,0 +1,48 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": true,
+			"id": "bb42-2b90-4852-779f",
+			"props": {
+				"children": [
+					"9ab5-ab30-cac8-1582"
+				],
+				"name": "lviDiningDailyMenu",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 12.5,
+				"top": 491.07
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDiningDailyMenu .lviDiningDailyMenu-flDiningDailyMenu",
+			"hiddenComponent": false,
+			"id": "9ab5-ab30-cac8-1582",
+			"props": {
+				"children": [],
+				"name": "flDiningDailyMenu",
+				"parent": "bb42-2b90-4852-779f"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flDiningDailyMenu",
+				"id": "fde8-08c2-2796-297b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

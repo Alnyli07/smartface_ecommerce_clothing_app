@@ -1,0 +1,103 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgDiningMenu .gradient",
+			"id": "3182-5ed2-eaa4-4458",
+			"initialized": true,
+			"props": {
+				"children": [
+					"2d5b-5fd2-9cc2-eb64",
+					"4da7-8779-45f7-2b41",
+					"4fbb-9d99-cec4-5f9d",
+					"41bd-fd81-8e78-26fa"
+				],
+				"name": "pgDiningMenu",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.0"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "2d5b-5fd2-9cc2-eb64",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "3182-5ed2-eaa4-4458"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "4da7-8779-45f7-2b41",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "3182-5ed2-eaa4-4458",
+				"title": "pgDinningMenu"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgDinningMenu"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgDiningMenu-flCalendarWrapper .gradient",
+			"id": "4fbb-9d99-cec4-5f9d",
+			"oldName": "flCalenderWrapper",
+			"props": {
+				"children": [],
+				"name": "flCalendarWrapper",
+				"parent": "3182-5ed2-eaa4-4458"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .grow-relative .paddingTop .paddingHorizontal .borderTopRightRadius .paddingVertical",
+			"id": "41bd-fd81-8e78-26fa",
+			"oldName": "flWrapper_1",
+			"props": {
+				"children": [
+					"84bd-f462-12b4-99df"
+				],
+				"name": "flMenuWrapper",
+				"parent": "3182-5ed2-eaa4-4458"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgAbout-flTextView .borderRadius .paddingHorizontal .grow-relative",
+			"id": "84bd-f462-12b4-99df",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"d269-9fe2-3283-4688"
+				],
+				"name": "flTextView",
+				"parent": "41bd-fd81-8e78-26fa"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView #pgAbout-tv .rows.title.medium .grow-relative",
+			"id": "d269-9fe2-3283-4688",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"maxLines": 0,
+				"name": "tvMain",
+				"parent": "84bd-f462-12b4-99df"
+			},
+			"type": "TextView",
+			"userProps": {}
+		}
+	]
+}

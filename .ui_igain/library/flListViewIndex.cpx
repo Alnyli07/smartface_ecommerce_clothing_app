@@ -1,0 +1,19 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flListViewIndex",
+			"hiddenComponent": true,
+			"id": "87d0-a791-22d4-0363",
+			"props": {
+				"children": [],
+				"name": "flListViewIndex",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

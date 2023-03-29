@@ -1,0 +1,129 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "5822-2ed0-ba8a-69ba",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a471-7fa1-f1b8-3ca5",
+					"80b8-ef46-90f6-baa5",
+					"a9a1-1101-beac-4c76",
+					"246b-84cf-a91c-113a",
+					"9188-addc-32f9-6b88"
+				],
+				"name": "pgFeed",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "a471-7fa1-f1b8-3ca5",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "5822-2ed0-ba8a-69ba"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "80b8-ef46-90f6-baa5",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "5822-2ed0-ba8a-69ba",
+				"title": "pgFeed"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFeed"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .borderTopRightRadius .paddingTop .grow-relative",
+			"id": "a9a1-1101-beac-4c76",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"b40a-51dc-2819-3ca7"
+				],
+				"name": "flWrapper",
+				"parent": "5822-2ed0-ba8a-69ba"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgMain",
+			"id": "b40a-51dc-2819-3ca7",
+			"oldName": "lvMai",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "a9a1-1101-beac-4c76",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "wpp6jngMe",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-safeArea",
+			"id": "246b-84cf-a91c-113a",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flSafeArea",
+				"parent": "5822-2ed0-ba8a-69ba"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-wrapper .marginBottom",
+			"id": "9188-addc-32f9-6b88",
+			"oldName": "flActionButtonWrappe",
+			"props": {
+				"children": [
+					"e3fe-fe4a-3674-107d"
+				],
+				"name": "flActionButtonWrapper",
+				"parent": "5822-2ed0-ba8a-69ba"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton.gradient",
+			"hiddenComponent": false,
+			"id": "e3fe-fe4a-3674-107d",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flActionButton",
+				"parent": "9188-addc-32f9-6b88",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flActionButton",
+				"id": "a812-2ded-c6b7-e3ee"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "KnvRNmZSB",
+				"usePageVariable": true
+			}
+		}
+	]
+}

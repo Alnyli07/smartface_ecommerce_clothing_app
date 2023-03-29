@@ -1,0 +1,193 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "25fe-324b-76a5-e4f4",
+			"initialized": true,
+			"props": {
+				"children": [
+					"6098-41ef-c9fd-8335",
+					"c464-3b73-9e72-192d",
+					"0960-6584-0c5f-a951",
+					"d25c-7880-6584-b8c7",
+					"82df-038a-0971-d7a8"
+				],
+				"name": "pgSupportDetail",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": false
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": false
+			},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "6098-41ef-c9fd-8335",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "25fe-324b-76a5-e4f4"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "c464-3b73-9e72-192d",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "25fe-324b-76a5-e4f4",
+				"title": "pgSupportDetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSupportDetail"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgDealsDetail-flMediaWrapper .hidden",
+			"id": "0960-6584-0c5f-a951",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"c935-c115-1bb4-f520",
+					"9033-d735-9e52-daff"
+				],
+				"name": "flMediaWrapper",
+				"parent": "25fe-324b-76a5-e4f4"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "c935-c115-1bb4-f520",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flSwipeViewLayout",
+				"parent": "0960-6584-0c5f-a951"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flRadiusDotIndicator .borderRadius-10 #pgFeedDetail-flImagesWrapper-flRadiusDotIndicator .borderRadius-12",
+			"hiddenComponent": false,
+			"id": "9033-d735-9e52-daff",
+			"props": {
+				"children": [],
+				"name": "flRadiusDotIndicator",
+				"parent": "0960-6584-0c5f-a951",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flRadiusDotIndicator",
+				"id": "d5de-f89e-c67d-663b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "8qetqeKz5",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .grow-relative .paddingTop",
+			"id": "d25c-7880-6584-b8c7",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"c8ce-477c-c2eb-e84f"
+				],
+				"name": "flWrapper",
+				"parent": "25fe-324b-76a5-e4f4"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgMain",
+			"id": "c8ce-477c-c2eb-e84f",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "d25c-7880-6584-b8c7",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "Uhn3TDZgB",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-wrapper",
+			"id": "82df-038a-0971-d7a8",
+			"props": {
+				"children": [
+					"89cd-c7e6-0f28-dc28",
+					"ae9a-3a71-cc97-a1e2"
+				],
+				"name": "flActionButtonWrapper",
+				"parent": "25fe-324b-76a5-e4f4",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "boLDW1ApD",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton.main .shadow .marginBottom10 .hidden",
+			"hiddenComponent": false,
+			"id": "89cd-c7e6-0f28-dc28",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "flActionButtonMain",
+				"parent": "82df-038a-0971-d7a8",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flActionButton",
+				"id": "a812-2ded-c6b7-e3ee"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "HBYNw-nA6",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton.stop .shadow",
+			"hiddenComponent": false,
+			"id": "ae9a-3a71-cc97-a1e2",
+			"initialized": false,
+			"props": {
+				"children": [],
+				"name": "flActionButtonSecondary",
+				"parent": "82df-038a-0971-d7a8",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flActionButton",
+				"id": "a812-2ded-c6b7-e3ee"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "HBYNw-nA6",
+				"usePageVariable": true
+			}
+		}
+	]
+}

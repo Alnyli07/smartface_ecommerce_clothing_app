@@ -1,0 +1,95 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flSurveyCheckBox",
+			"hiddenComponent": true,
+			"id": "4569-6da2-2787-4901",
+			"props": {
+				"children": [
+					"36eb-489a-ea46-a0a6",
+					"6fa9-06bf-498e-9a61"
+				],
+				"name": "flSurveyCheckBox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 10.53,
+				"top": 107.89
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSurveyCheckBox-checkBox",
+			"id": "36eb-489a-ea46-a0a6",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"84a9-5e3b-c531-4149",
+					"5eda-bbb1-056b-4609"
+				],
+				"name": "flCheckBox",
+				"parent": "4569-6da2-2787-4901"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flSurveyCheckBox-lblOption",
+			"id": "84a9-5e3b-c531-4149",
+			"isModuleLibraryComponent": true,
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"maxLines": 10,
+				"name": "lblOption",
+				"parent": "36eb-489a-ea46-a0a6",
+				"text": "Less then 1 Cup"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 10,
+				"text": "Less then 1 Cup"
+			}
+		},
+		{
+			"className": ".sf-imageView .flSurveyCheckBox-imgCheck",
+			"id": "5eda-bbb1-056b-4609",
+			"isModuleLibraryComponent": true,
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgCheck",
+				"parent": "36eb-489a-ea46-a0a6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flSurveyCheckBox-spacer",
+			"id": "6fa9-06bf-498e-9a61",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flSpacer",
+				"parent": "4569-6da2-2787-4901"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

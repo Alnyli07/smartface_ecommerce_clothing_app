@@ -1,0 +1,140 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgSignInWithEmail",
+			"id": "5c2e-1797-7086-1cdb",
+			"initialized": true,
+			"props": {
+				"children": [
+					"b764-09a1-e2c7-cff4",
+					"0bab-60d6-e2b4-b278",
+					"f8c4-09ba-b466-6405",
+					"7027-f427-182c-308c"
+				],
+				"name": "pgSignInWithEmail",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.0"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "b764-09a1-e2c7-cff4",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "5c2e-1797-7086-1cdb"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"hiddenComponent": false,
+			"id": "0bab-60d6-e2b4-b278",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "5c2e-1797-7086-1cdb",
+				"title": "pgSignInWithEmail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSignInWithEmail"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSignInWithEmail-flLogoAndHeader",
+			"id": "f8c4-09ba-b466-6405",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"1bf0-0cd9-a94f-4012",
+					"4dbd-decc-37f8-df43"
+				],
+				"name": "flLogoAndHeader",
+				"parent": "5c2e-1797-7086-1cdb"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgSignInWithEmail-flLogoAndHeader-imgLogo",
+			"id": "1bf0-0cd9-a94f-4012",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgLogo",
+				"parent": "f8c4-09ba-b466-6405"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSignInWithEmail-flLogoAndHeader-flTextWrapper",
+			"id": "4dbd-decc-37f8-df43",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"19f3-ee15-62ff-249e",
+					"3268-bce5-7c1c-358d"
+				],
+				"name": "flTextWrapper",
+				"parent": "f8c4-09ba-b466-6405"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .login.welcome",
+			"id": "19f3-ee15-62ff-249e",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblWelcome",
+				"parent": "4dbd-decc-37f8-df43",
+				"text": "Welcome to"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Welcome to"
+			}
+		},
+		{
+			"className": ".sf-label .login.header",
+			"id": "3268-bce5-7c1c-358d",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblHeader",
+				"parent": "4dbd-decc-37f8-df43",
+				"text": "iGAiN"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "iGAiN"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flLogin .paddingHorizontal .grow-relative .marginTop25 .borderTopRightRadius",
+			"hiddenComponent": false,
+			"id": "7027-f427-182c-308c",
+			"props": {
+				"children": [],
+				"name": "flLogin",
+				"parent": "5c2e-1797-7086-1cdb"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flLogin",
+				"id": "3189-21b1-c33b-0b19"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

@@ -658,10 +658,10 @@
     recursive-readdir "^2.2.1"
     rmdir "^1.2.0"
 
-"@smartface/dispatcher@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.11.0.tgz#a7f1d7d8e561e88186e5ce69a2fb332e17d584a2"
-  integrity sha512-/YsNIh/Nm6I8ksfrFyXZpsECQ1xb7PhBa3/YW85xmJD4GNr4AnkLjk+mGUV9x9m0cQdzsHReeg7K/gCShoYpEg==
+"@smartface/dispatcher@^0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.11.1.tgz#a469c0b8854ee7d244f08cd35201c56a6e15e2f1"
+  integrity sha512-ZU/TZ4UnBeQlTuINuuAM3puXpUegY3jarktvw2riHoR9fBzFUl2RzjDpZ52CcxWTAtxiNsxFF/onqNCHMWE/wg==
   dependencies:
     "@smartface/nsfw-prebuild" "^2.2.2"
     cors "^2.8.5"
@@ -717,10 +717,10 @@
   dependencies:
     async "^2.6.1"
 
-"@smartface/marketplace-service@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@smartface/marketplace-service/-/marketplace-service-0.11.0.tgz#c5be3d62e3a1de78f5beeff98a24048279fe1aec"
-  integrity sha512-CUV60DAFZUlC44Y9DzJjsuybnLTmqNYawI3i0bHfuJfAuLCrDLk7HzZQ9hfCCvSClmF70emcJkfWZMyy6iub6g==
+"@smartface/marketplace-service@^0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@smartface/marketplace-service/-/marketplace-service-0.11.1.tgz#d1eb15233c1ec2ec485d03d5fdbb8b21c45a5d61"
+  integrity sha512-nWCh2dCs/Xlv64a/94ZzqAFcBawcQAsmurbNk66m99c2H2WKFciLdLI5D22cQye8kNsw26LT6E+03o1HVtFjGQ==
   dependencies:
     async "^2.6.1"
     bytes "^3.0.0"

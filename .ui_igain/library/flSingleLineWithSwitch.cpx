@@ -1,0 +1,64 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flSingleLineWithSwitch",
+			"hiddenComponent": true,
+			"id": "dacd-e932-c9d2-0cec",
+			"props": {
+				"children": [
+					"2d7f-df1a-e831-b006",
+					"4e6e-ad7f-3d06-43e7"
+				],
+				"name": "flSingleLineWithSwitch",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .pickerStyle.text .flSingleLineWithSwitch-lblText .grow-relative",
+			"id": "2d7f-df1a-e831-b006",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "lblText",
+				"parent": "dacd-e932-c9d2-0cec",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"maxLines": 2,
+				"text": "label1",
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-switch .flSingleLineWithSwitch-sw",
+			"id": "4e6e-ad7f-3d06-43e7",
+			"props": {
+				"children": [],
+				"name": "sw",
+				"parent": "dacd-e932-c9d2-0cec",
+				"toggle": true,
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Switch",
+			"userProps": {
+				"toggle": true,
+				"usePageVariable": true
+			}
+		}
+	]
+}

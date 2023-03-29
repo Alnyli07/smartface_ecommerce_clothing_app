@@ -1,0 +1,60 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flPhotoDisplayerItem2",
+			"hiddenComponent": true,
+			"id": "17b7-0f34-8cb1-3c91",
+			"props": {
+				"children": [
+					"13ad-a29e-bcdb-5c32",
+					"517c-c665-221f-0503"
+				],
+				"name": "flPhotoDisplayerItem2",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 5.17,
+				"top": 296.55
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative .flPhotoDisplayerItem2-imgLeft",
+			"id": "13ad-a29e-bcdb-5c32",
+			"props": {
+				"children": [],
+				"name": "imgLeft",
+				"parent": "17b7-0f34-8cb1-3c91",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .grow-relative .flPhotoDisplayerItem2-imgRight",
+			"id": "517c-c665-221f-0503",
+			"props": {
+				"children": [],
+				"name": "imgRight",
+				"parent": "17b7-0f34-8cb1-3c91",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

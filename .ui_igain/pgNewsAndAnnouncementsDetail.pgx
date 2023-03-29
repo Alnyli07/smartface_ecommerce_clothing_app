@@ -1,0 +1,180 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .bgBoxGray",
+			"id": "67a8-4c90-4129-9d11",
+			"initialized": true,
+			"props": {
+				"children": [
+					"0ffb-3299-19db-34ef",
+					"76d9-e1b0-348a-cf12",
+					"3ba6-d14e-bc05-726b"
+				],
+				"name": "pgNewsAndAnnouncementsDetail",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": false
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": false
+			},
+			"version": "0.10.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "0ffb-3299-19db-34ef",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "67a8-4c90-4129-9d11"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "76d9-e1b0-348a-cf12",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "67a8-4c90-4129-9d11",
+				"title": "pgNewsDetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgNewsDetail"
+			}
+		},
+		{
+			"className": ".sf-scrollView .grow-relative",
+			"id": "3ba6-d14e-bc05-726b",
+			"oldName": "scrollView1",
+			"props": {
+				"autoSizeEnabled": true,
+				"children": [
+					"95c8-084f-077d-c3e3",
+					"c6db-110c-2af8-3ffa",
+					"2e33-2b37-c2ad-60c7"
+				],
+				"name": "svMain",
+				"parent": "67a8-4c90-4129-9d11"
+			},
+			"type": "ScrollView",
+			"userProps": {
+				"autoSizeEnabled": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgNewsAndAnnouncementsDetail-flMediaWrapper",
+			"id": "95c8-084f-077d-c3e3",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"1b2f-8cd2-8b19-117b",
+					"74cd-e3cc-e10a-5b73"
+				],
+				"name": "flMediaWrapper",
+				"parent": "3ba6-d14e-bc05-726b"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "1b2f-8cd2-8b19-117b",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flSwipeViewLayout",
+				"parent": "95c8-084f-077d-c3e3"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flRadiusDotIndicator #pgFeedDetail-flImagesWrapper-flRadiusDotIndicator .borderRadius-12",
+			"hiddenComponent": false,
+			"id": "74cd-e3cc-e10a-5b73",
+			"props": {
+				"children": [],
+				"name": "flRadiusDotIndicator",
+				"parent": "95c8-084f-077d-c3e3",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flRadiusDotIndicator",
+				"id": "d5de-f89e-c67d-663b"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgNewsAndAnnouncementsDetail-flInfo",
+			"id": "c6db-110c-2af8-3ffa",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"8529-ed32-dffc-b58e",
+					"27b6-fc52-6475-a40c"
+				],
+				"name": "flInfo",
+				"parent": "3ba6-d14e-bc05-726b"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .feeds.time #pgNewsAndAnnouncementsDetail-flInfo-lblDate",
+			"id": "8529-ed32-dffc-b58e",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblDate",
+				"parent": "c6db-110c-2af8-3ffa",
+				"text": "label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1"
+			}
+		},
+		{
+			"className": ".sf-label .feeds.title .ellipsize-WordWrap #pgNewsAndAnnouncementsDetail-flInfo-lblTitle",
+			"id": "27b6-fc52-6475-a40c",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"maxLines": 0,
+				"name": "lblTitle",
+				"parent": "c6db-110c-2af8-3ffa",
+				"text": "label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 0,
+				"text": "label1"
+			}
+		},
+		{
+			"className": ".sf-textView .feeds.description #pgNewsAndAnnouncementsDetail-flInfo-flDescWrapper-tvDescription",
+			"id": "2e33-2b37-c2ad-60c7",
+			"oldName": "tvDescription2",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. <span style=\"color: rgb(0, 161, 241); font-size: 17.3913px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255);\">Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur.</span> \n  Aliquam erat volutpat. <span style=\"font-size: 16px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline;\">Suspendisse</span> potenti.</span><br>",
+				"name": "tvDescription",
+				"parent": "3ba6-d14e-bc05-726b"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. <span style=\"color: rgb(0, 161, 241); font-size: 17.3913px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255);\">Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur.</span> \n  Aliquam erat volutpat. <span style=\"font-size: 16px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline;\">Suspendisse</span> potenti.</span><br>"
+			}
+		}
+	]
+}

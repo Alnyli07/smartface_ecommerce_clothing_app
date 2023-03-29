@@ -9,7 +9,8 @@
       },
       "left": 0,
       "right": 0,
-      "bottom": 16
+      "bottom": 16,
+      "top": 718
     },
     "&-flSwipeWrapper": {
       "width": 24,

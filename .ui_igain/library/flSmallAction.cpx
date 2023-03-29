@@ -1,0 +1,98 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .grow-absoulte .flSmallAction",
+			"hiddenComponent": true,
+			"id": "4a68-4897-69d8-26eb",
+			"initialized": true,
+			"props": {
+				"children": [
+					"9201-8d3c-994c-c675",
+					"a262-b49e-ed57-23de"
+				],
+				"name": "flSmallAction",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flSmallAction-flIconWrapper",
+			"id": "9201-8d3c-994c-c675",
+			"props": {
+				"children": [
+					"cb6d-53c2-26f4-e870"
+				],
+				"name": "flIconWrapper",
+				"parent": "4a68-4897-69d8-26eb",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "vy2cLy5aK",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView .flSmallAction-imgIcon",
+			"id": "cb6d-53c2-26f4-e870",
+			"props": {
+				"children": [],
+				"name": "imgIcon",
+				"parent": "9201-8d3c-994c-c675",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative",
+			"id": "a262-b49e-ed57-23de",
+			"props": {
+				"children": [
+					"7f0d-d2b1-9281-0157"
+				],
+				"name": "flTextWrapper",
+				"parent": "4a68-4897-69d8-26eb"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "LufQQimaG"
+			}
+		},
+		{
+			"className": ".sf-label .stream.questionPanel .flSmallAction-lblInfo .grow-relative",
+			"id": "7f0d-d2b1-9281-0157",
+			"props": {
+				"children": [],
+				"maxLines": 100,
+				"name": "tvInfo",
+				"parent": "a262-b49e-ed57-23de",
+				"text": "Belirttiğin kriterler için sonuç bulunamadı ",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"text": "Belirttiğin kriterler için sonuç bulunamadı ",
+				"usePageVariable": true
+			}
+		}
+	]
+}

@@ -8,8 +8,11 @@
 				"children": [
 					"42b807d1",
 					"b7d28cff",
-					"58c0-c2a0-1c02-c1c9",
-					"9e49-7873-afba-472b"
+					"d4b1-d9af-6f70-53fb",
+					"1f98-011f-9347-7024",
+					"d9ad-467d-2a8c-ab0c",
+					"561a-ba7e-1d42-f487",
+					"593f-3614-eafb-b321"
 				],
 				"isRemovable": true,
 				"name": "page1",
@@ -22,11 +25,10 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
-			"className": ".sf-statusBar",
+			"className": ".sf-statusBar #page1-statusBar",
 			"id": "42b807d1",
 			"props": {
 				"children": [],
@@ -35,14 +37,15 @@
 				"parent": "e891b86d"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-headerBar",
+			"className": ".sf-headerBar #page1-headerBar",
 			"id": "b7d28cff",
 			"props": {
-				"children": [],
+				"children": [
+					"ccb0-7aa2-b1f1-fd3d"
+				],
 				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "e891b86d",
@@ -51,63 +54,305 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Page1"
-			},
-			"degree": 1
+			}
 		},
 		{
-			"className": ".sf-flexLayout #page1-wrapper",
-			"id": "58c0-c2a0-1c02-c1c9",
-			"oldName": "flexLayout1",
+			"className": ".sf-flexLayout #page1-flexLayout5",
+			"id": "ccb0-7aa2-b1f1-fd3d",
 			"props": {
 				"children": [
-					"aa54-c8cf-0db8-a806"
+					"fbea-9cb5-c923-bf47",
+					"74f6-785f-f610-221d",
+					"1416-8e2b-5de3-1522"
 				],
-				"name": "flWrapper",
-				"parent": "e891b86d"
+				"name": "flexLayout5",
+				"parent": "b7d28cff"
 			},
 			"type": "FlexLayout",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-button #page1-btnNext",
-			"id": "9e49-7873-afba-472b",
+			"className": ".sf-button #page1-button1",
+			"id": "fbea-9cb5-c923-bf47",
 			"props": {
-				"autoHeight": 50.561797752808985,
 				"children": [],
-				"name": "btnNext",
-				"parent": "e891b86d",
-				"text": "Next Page",
-				"usePageVariable": true
+				"name": "button1",
+				"parent": "ccb0-7aa2-b1f1-fd3d",
+				"text": "button1"
 			},
 			"type": "Button",
 			"userProps": {
-				"autoHeight": 50.561797752808985,
-				"testId": "93f6-Tngc",
-				"text": "Next Page",
-				"usePageVariable": true
-			},
-			"degree": 1
+				"text": "button1"
+			}
 		},
 		{
-			"className": ".sf-label #page1-lbl",
-			"id": "aa54-c8cf-0db8-a806",
+			"className": ".sf-activityIndicator #page1-activityIndicator3",
+			"id": "74f6-785f-f610-221d",
 			"props": {
-				"autoHeight": 39.325842696629216,
 				"children": [],
-				"name": "lbl",
-				"parent": "58c0-c2a0-1c02-c1c9",
-				"text": "Page1",
-				"usePageVariable": true
+				"name": "activityIndicator3",
+				"parent": "ccb0-7aa2-b1f1-fd3d"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #page1-label2",
+			"id": "1416-8e2b-5de3-1522",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "ccb0-7aa2-b1f1-fd3d",
+				"text": "label2"
 			},
 			"type": "Label",
 			"userProps": {
-				"autoHeight": 39.325842696629216,
-				"text": "Page1",
-				"usePageVariable": true,
-				"testId": "_tdYNDkDX"
+				"text": "label2"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page3-flexLayout1",
+			"id": "d4b1-d9af-6f70-53fb",
+			"props": {
+				"children": [
+					"1a73-bf03-d5dc-83be",
+					"a8dd-8b24-2bd9-7b3c"
+				],
+				"name": "flexLayout1",
+				"parent": "e891b86d"
 			},
-			"degree": 2
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button #page1-btnNext",
+			"id": "1a73-bf03-d5dc-83be",
+			"oldName": "button1",
+			"props": {
+				"children": [],
+				"name": "btnNext",
+				"parent": "d4b1-d9af-6f70-53fb",
+				"text": "Next Page"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Next Page"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flexLayout6",
+			"id": "a8dd-8b24-2bd9-7b3c",
+			"props": {
+				"children": [
+					"7ca5-b782-49e6-f867"
+				],
+				"name": "flexLayout6",
+				"parent": "d4b1-d9af-6f70-53fb"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #page3-imageView1",
+			"id": "7ca5-b782-49e6-f867",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "a8dd-8b24-2bd9-7b3c"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flexLayout4",
+			"id": "1f98-011f-9347-7024",
+			"props": {
+				"children": [
+					"e7d4-d895-3fc3-7561",
+					"c23a-5c05-c18d-8d33",
+					"bcbe-150b-89a8-e9c8"
+				],
+				"name": "flexLayout4",
+				"parent": "e891b86d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-activityIndicator #page1-activityIndicator2",
+			"id": "e7d4-d895-3fc3-7561",
+			"props": {
+				"children": [],
+				"name": "activityIndicator2",
+				"parent": "1f98-011f-9347-7024"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #page3-imageView1 #page1-imageView1_1_1",
+			"id": "c23a-5c05-c18d-8d33",
+			"props": {
+				"children": [],
+				"name": "imageView1_1_1",
+				"parent": "1f98-011f-9347-7024"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-activityIndicator",
+			"id": "bcbe-150b-89a8-e9c8",
+			"props": {
+				"children": [],
+				"name": "activityIndicator1",
+				"parent": "1f98-011f-9347-7024"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flexLayout2",
+			"id": "d9ad-467d-2a8c-ab0c",
+			"props": {
+				"children": [
+					"edc5-8569-2016-d897"
+				],
+				"name": "flexLayout2",
+				"parent": "e891b86d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #page1-label1",
+			"id": "edc5-8569-2016-d897",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "d9ad-467d-2a8c-ab0c",
+				"text": "label1 label1 label1 label1 label1 label1 label1 lalabel1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1bel1 label1 label1 label1 label1 label1 label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1 label1 label1 label1 label1 label1 label1 lalabel1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1bel1 label1 label1 label1 label1 label1 label1"
+			}
+		},
+		{
+			"className": ".sf-textView #page1-textView1",
+			"id": "561a-ba7e-1d42-f487",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255); line-height: 18.6226px;\"><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. </font><span style=\"font-family: SFProText-Regular; color: rgb(0, 161, 241); font-size: 17.3913px; background-color: rgb(255, 255, 255); line-height: 20.8135px;\">Donec </span><span style=\"color: rgb(0, 161, 241); font-size: 25px; background-color: rgb(255, 255, 255); line-height: 30.6725px;\"><font face=\"SFProText-Semibold\" style=\"font-size: 25px; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); line-height: 30.6725px;\">quis</font></span><span style=\"font-family: SFProText-Regular; color: rgb(0, 161, 241); font-size: 17.3913px; background-color: rgb(255, 255, 255); line-height: 20.8135px;\"> semper justo. In  \n  ultrices metus nec sodales consectetur.</span><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\"> \n  Aliquam erat volutpat. </font><span style=\"font-family: SFProText-Regular; font-size: 16px; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline; line-height: 19.718px;\">Suspendisse</span><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\"> potenti.</font></span>",
+				"name": "textView1",
+				"parent": "e891b86d",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti."
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255); line-height: 18.6226px;\"><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. </font><span style=\"font-family: SFProText-Regular; color: rgb(0, 161, 241); font-size: 17.3913px; background-color: rgb(255, 255, 255); line-height: 20.8135px;\">Donec </span><span style=\"color: rgb(0, 161, 241); font-size: 25px; background-color: rgb(255, 255, 255); line-height: 30.6725px;\"><font face=\"SFProText-Semibold\" style=\"font-size: 25px; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); line-height: 30.6725px;\">quis</font></span><span style=\"font-family: SFProText-Regular; color: rgb(0, 161, 241); font-size: 17.3913px; background-color: rgb(255, 255, 255); line-height: 20.8135px;\"> semper justo. In  \n  ultrices metus nec sodales consectetur.</span><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\"> \n  Aliquam erat volutpat. </font><span style=\"font-family: SFProText-Regular; font-size: 16px; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline; line-height: 19.718px;\">Suspendisse</span><font face=\"SFProText-Regular\" style=\"font-size: 16px; line-height: 18.6226px; background-color: rgb(255, 255, 255);\"> potenti.</font></span>",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti."
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flexLayout3",
+			"id": "593f-3614-eafb-b321",
+			"props": {
+				"children": [
+					"b707-4ce5-d334-54f8",
+					"3513-2ec2-f7bf-8419",
+					"0f52-57ce-9837-a3c8"
+				],
+				"name": "flexLayout3",
+				"parent": "e891b86d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #page3-flexLayout1 #page1-flexLayout1_1_2",
+			"id": "b707-4ce5-d334-54f8",
+			"oldName": "flexLayout1_1",
+			"props": {
+				"children": [
+					"e292-8c61-1a66-6f7f",
+					"6fdc-4e09-8dec-e90c",
+					"f0e5-4539-378c-ebfe"
+				],
+				"name": "flexLayout21",
+				"parent": "593f-3614-eafb-b321"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button",
+			"id": "e292-8c61-1a66-6f7f",
+			"props": {
+				"children": [],
+				"name": "button1_1",
+				"parent": "b707-4ce5-d334-54f8",
+				"text": "button1"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "button1"
+			}
+		},
+		{
+			"className": ".sf-imageView #page3-imageView1",
+			"id": "6fdc-4e09-8dec-e90c",
+			"props": {
+				"children": [],
+				"name": "imageView1_1",
+				"parent": "b707-4ce5-d334-54f8"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button",
+			"id": "f0e5-4539-378c-ebfe",
+			"props": {
+				"children": [],
+				"name": "button1_1_1",
+				"parent": "b707-4ce5-d334-54f8",
+				"text": "button1"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "button1"
+			}
+		},
+		{
+			"className": ".sf-button #page1-button2",
+			"id": "3513-2ec2-f7bf-8419",
+			"props": {
+				"children": [],
+				"name": "button2",
+				"parent": "593f-3614-eafb-b321",
+				"text": "button2"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "button2"
+			}
+		},
+		{
+			"className": ".sf-label #page1-label1",
+			"id": "0f52-57ce-9837-a3c8",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "label1_1",
+				"parent": "593f-3614-eafb-b321",
+				"text": "label1 label1 label1 label1 label1 label1 label1 lalabel1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1bel1 label1 label1 label1 label1 label1 label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 2,
+				"text": "label1 label1 label1 label1 label1 label1 label1 lalabel1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1 label1bel1 label1 label1 label1 label1 label1 label1"
+			}
 		}
 	]
 }

@@ -1,0 +1,61 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "4775-943d-90b5-0868",
+			"initialized": true,
+			"props": {
+				"children": [
+					"17ac-d945-948d-a670",
+					"2bcd-0688-262c-b9fc",
+					"a49e-c1c1-d347-217e"
+				],
+				"name": "pgEventList",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "17ac-d945-948d-a670",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "4775-943d-90b5-0868"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "2bcd-0688-262c-b9fc",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "4775-943d-90b5-0868",
+				"title": "pgEventList"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgEventList"
+			}
+		},
+		{
+			"className": ".sf-listView",
+			"id": "a49e-c1c1-d347-217e",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "4775-943d-90b5-0868"
+			},
+			"type": "ListView",
+			"userProps": {}
+		}
+	]
+}

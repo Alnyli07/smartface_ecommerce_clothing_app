@@ -1,0 +1,39 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviIndicator",
+			"hiddenComponent": true,
+			"id": "ade8-9060-3cb3-b9a4",
+			"props": {
+				"children": [
+					"7dfb-505c-eeb4-aee8"
+				],
+				"name": "lviIndicator",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 10.84,
+				"top": 148.19
+			}
+		},
+		{
+			"className": ".sf-activityIndicator .lviIndicator-aiIndicator",
+			"id": "7dfb-505c-eeb4-aee8",
+			"oldName": "activityIndicator1",
+			"props": {
+				"children": [],
+				"name": "ai",
+				"parent": "ade8-9060-3cb3-b9a4"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		}
+	]
+}

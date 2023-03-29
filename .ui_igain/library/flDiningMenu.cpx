@@ -1,0 +1,109 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flDiningMenu",
+			"hiddenComponent": true,
+			"id": "e142-d31f-df79-0e2e",
+			"initialized": true,
+			"props": {
+				"children": [
+					"cc60-f1d7-28c0-64dd",
+					"6dbd-2f72-bed1-04aa",
+					"f973-4b2a-9d1c-a98a"
+				],
+				"name": "flDiningMenu",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 17.86,
+				"top": 195.54
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDiningMenu-flMain",
+			"id": "cc60-f1d7-28c0-64dd",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"631d-a5a5-3a02-53d6"
+				],
+				"name": "flMain",
+				"parent": "e142-d31f-df79-0e2e"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flDiningMenu-flMain-lblTitle .rows.title",
+			"id": "631d-a5a5-3a02-53d6",
+			"oldName": "lblTitle",
+			"props": {
+				"children": [],
+				"name": "lblDate",
+				"parent": "cc60-f1d7-28c0-64dd",
+				"text": "27.08.2022 Carsamba"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "27.08.2022 Carsamba"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDiningMenu-flRight",
+			"id": "6dbd-2f72-bed1-04aa",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ce18-1cb5-2466-9d36"
+				],
+				"name": "flRightLayout",
+				"parent": "e142-d31f-df79-0e2e"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flDiningMenu-flRight-imgDownArrow",
+			"id": "ce18-1cb5-2466-9d36",
+			"oldName": "imgDownArrow",
+			"props": {
+				"children": [],
+				"name": "imgRightArrow",
+				"parent": "6dbd-2f72-bed1-04aa"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .separator",
+			"id": "f973-4b2a-9d1c-a98a",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "seperator",
+				"parent": "e142-d31f-df79-0e2e"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

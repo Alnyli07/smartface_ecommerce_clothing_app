@@ -1,0 +1,48 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviSurveyTextBox",
+			"hiddenComponent": true,
+			"id": "30c7-9766-5597-a9e6",
+			"props": {
+				"children": [
+					"e1c6-5b1f-b916-c35e"
+				],
+				"name": "lviSurveyTextBox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 22.47,
+				"top": 450.56
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSurveyTextBox",
+			"hiddenComponent": false,
+			"id": "e1c6-5b1f-b916-c35e",
+			"props": {
+				"children": [],
+				"name": "flSurveyTextBox",
+				"parent": "30c7-9766-5597-a9e6"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSurveyTextBox",
+				"id": "20d1-2156-2000-17be"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

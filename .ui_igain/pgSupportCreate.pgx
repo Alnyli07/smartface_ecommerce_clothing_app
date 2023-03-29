@@ -1,0 +1,121 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "1223-e92e-38df-5f65",
+			"initialized": true,
+			"props": {
+				"children": [
+					"4ba4-eabf-4c2d-3f72",
+					"3a5c-f243-2afe-909e",
+					"2d17-2c1a-c9c9-a482",
+					"9c5f-5b9a-3fc7-14ca"
+				],
+				"name": "pgSupportCreate",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaEnabled": true
+			},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "4ba4-eabf-4c2d-3f72",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "1223-e92e-38df-5f65"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "3a5c-f243-2afe-909e",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "1223-e92e-38df-5f65",
+				"title": "pgSupportCreate"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgSupportCreate"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .bgMain .borderTopRightRadius .grow-relative .paddingTop",
+			"id": "2d17-2c1a-c9c9-a482",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"45d5-20cf-f973-c02c"
+				],
+				"name": "flWrapper",
+				"parent": "1223-e92e-38df-5f65"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgMain",
+			"id": "45d5-20cf-f973-c02c",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "2d17-2c1a-c9c9-a482",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "NlsKc5pEL",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton-wrapper",
+			"id": "9c5f-5b9a-3fc7-14ca",
+			"props": {
+				"children": [
+					"a9eb-0642-aff3-8d9a"
+				],
+				"name": "flActionButtonWrapper",
+				"parent": "1223-e92e-38df-5f65",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "j7pyznrYvV",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flActionButton.gradient",
+			"hiddenComponent": false,
+			"id": "a9eb-0642-aff3-8d9a",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flActionButton",
+				"parent": "9c5f-5b9a-3fc7-14ca",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flActionButton",
+				"id": "a812-2ded-c6b7-e3ee"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "aL-0PAsc4",
+				"usePageVariable": true
+			}
+		}
+	]
+}

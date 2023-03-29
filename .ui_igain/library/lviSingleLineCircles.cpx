@@ -1,0 +1,41 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviSingleLineCircles",
+			"hiddenComponent": true,
+			"id": "d010-71b4-bd70-c952",
+			"props": {
+				"children": [
+					"45fb-ba5e-e1ab-0ff4"
+				],
+				"name": "lviSingleLineCircles",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flSingleLineCircles",
+			"hiddenComponent": false,
+			"id": "45fb-ba5e-e1ab-0ff4",
+			"props": {
+				"children": [],
+				"name": "flSingleLineCircles",
+				"parent": "d010-71b4-bd70-c952",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSingleLineCircles",
+				"id": "d558-f679-7359-8211"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

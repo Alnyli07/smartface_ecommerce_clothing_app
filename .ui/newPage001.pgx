@@ -1,0 +1,120 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "14b8-3e73-c78d-8693",
+			"initialized": false,
+			"props": {
+				"children": [
+					"5221-2af4-649a-8c92",
+					"c1ee-b60d-2d6a-3001",
+					"1ab5-a792-4930-92f8"
+				],
+				"name": "newPage001",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.11.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "5221-2af4-649a-8c92",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "14b8-3e73-c78d-8693"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "c1ee-b60d-2d6a-3001",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "14b8-3e73-c78d-8693",
+				"title": "newPage001"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "newPage001"
+			}
+		},
+		{
+			"className": ".flexLayout #page1-flHeader",
+			"id": "1ab5-a792-4930-92f8",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"3135-3510-4ac0-a67e",
+					"4319-9875-a018-e6f7"
+				],
+				"name": "flHeader",
+				"parent": "14b8-3e73-c78d-8693"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".flexLayout #page1-flLeft",
+			"id": "3135-3510-4ac0-a67e",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"15d8-153d-e906-d8cc"
+				],
+				"name": "flLeft",
+				"parent": "1ab5-a792-4930-92f8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".button",
+			"id": "15d8-153d-e906-d8cc",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "3135-3510-4ac0-a67e",
+				"text": "sd"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "sd"
+			}
+		},
+		{
+			"className": ".flexLayout #page1-flRight",
+			"id": "4319-9875-a018-e6f7",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"077a-b785-efe0-33dd"
+				],
+				"name": "flRight",
+				"parent": "1ab5-a792-4930-92f8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".button",
+			"id": "077a-b785-efe0-33dd",
+			"props": {
+				"children": [],
+				"name": "button2",
+				"parent": "4319-9875-a018-e6f7",
+				"text": "button2"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "button2"
+			}
+		}
+	]
+}

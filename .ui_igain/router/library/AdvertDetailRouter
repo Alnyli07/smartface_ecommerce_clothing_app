@@ -1,0 +1,169 @@
+[
+	{
+		"id": "d906da04-5ec8-4da5-8b22-e560e7393993",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "advertDetailRouter",
+		"children": [
+			"48094e85-6dfb-4151-b2d0-3d5df7289482",
+			"fe0430ef-052d-4254-b8ca-b728c19171a5",
+			"933cdf27-53e5-4bee-92c8-9085856972b6",
+			"4908a161-0867-41c1-9d27-620e4137dadd",
+			"cdb6d534-6fb7-4fb1-8db8-39d646c93344"
+		],
+		"props": {
+			"path": "advertDetail",
+			"x": 1093.6158019940995,
+			"y": -1476.6305060040459,
+			"to": "detail",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "48094e85-6dfb-4151-b2d0-3d5df7289482",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 680.4666205991357,
+			"y": -174.34440367886612,
+			"page": "pgAdvertDetail"
+		},
+		"parent": "d906da04-5ec8-4da5-8b22-e560e7393993"
+	},
+	{
+		"id": "fe0430ef-052d-4254-b8ca-b728c19171a5",
+		"type": "Route",
+		"isContainer": false,
+		"name": "genericProfile",
+		"children": [],
+		"props": {
+			"path": "genericProfile",
+			"x": 830.4666205991357,
+			"y": -174.34440367886612,
+			"page": "pgGenericProfile"
+		},
+		"parent": "d906da04-5ec8-4da5-8b22-e560e7393993"
+	},
+	{
+		"id": "933cdf27-53e5-4bee-92c8-9085856972b6",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "advertImages",
+		"children": [
+			"1eb15e83-35a0-4ff7-8589-ac260ec4b254"
+		],
+		"props": {
+			"path": "images",
+			"modal": true,
+			"x": 940.4247312099071,
+			"y": -1234.3909793426308,
+			"to": "main"
+		},
+		"parent": "d906da04-5ec8-4da5-8b22-e560e7393993"
+	},
+	{
+		"id": "1eb15e83-35a0-4ff7-8589-ac260ec4b254",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 1072.9247312099071,
+			"y": 47.109020657369285,
+			"page": "pgAdvertImages"
+		},
+		"parent": "933cdf27-53e5-4bee-92c8-9085856972b6"
+	},
+	{
+		"id": "4908a161-0867-41c1-9d27-620e4137dadd",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "advertUpdate",
+		"children": [
+			"a37499b8-ad6f-49bc-a0af-d54e2458643b",
+			"ef9fecb5-a95e-47b2-9a74-990c9aced95c",
+			"5c6c7aef-19ca-40c6-9890-48818bd41201"
+		],
+		"props": {
+			"path": "update",
+			"modal": true,
+			"x": 1142.3196168923855,
+			"y": -1241.669446440398,
+			"to": "main"
+		},
+		"parent": "d906da04-5ec8-4da5-8b22-e560e7393993"
+	},
+	{
+		"id": "a37499b8-ad6f-49bc-a0af-d54e2458643b",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 1383.4724149307701,
+			"y": 81.38899275017488,
+			"page": "pgAdvert"
+		},
+		"parent": "4908a161-0867-41c1-9d27-620e4137dadd"
+	},
+	{
+		"id": "ef9fecb5-a95e-47b2-9a74-990c9aced95c",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "cropRouter1",
+		"children": [],
+		"props": {
+			"path": "crop",
+			"x": 1159.7928548939212,
+			"y": -1073.7537270088096,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true
+		},
+		"parent": "4908a161-0867-41c1-9d27-620e4137dadd",
+		"source": {
+			"id": "0fef90ae-a205-4697-a94a-2999bf02f774"
+		},
+		"isLib": true
+	},
+	{
+		"id": "5c6c7aef-19ca-40c6-9890-48818bd41201",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 1383.4724149307701,
+			"y": 81.38899275017488,
+			"page": "pgAdvertDetail"
+		},
+		"parent": "4908a161-0867-41c1-9d27-620e4137dadd"
+	},
+	{
+		"id": "cdb6d534-6fb7-4fb1-8db8-39d646c93344",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "phoneBook1",
+		"children": [],
+		"props": {
+			"path": "phoneBook",
+			"modal": true,
+			"x": 1317.8196168923855,
+			"y": -1216.669446440398,
+			"to": "main",
+			"visible": true
+		},
+		"parent": "d906da04-5ec8-4da5-8b22-e560e7393993",
+		"source": {
+			"id": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+		},
+		"isLib": true
+	}
+]

@@ -1,0 +1,79 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .gradient",
+			"id": "2e98-fa73-56ce-742a",
+			"initialized": true,
+			"props": {
+				"children": [
+					"2ce9-2a4f-516b-7f30",
+					"1c22-7b0b-6877-8474",
+					"f70e-9863-445c-5722"
+				],
+				"name": "pgFeedLikeList",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "2ce9-2a4f-516b-7f30",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "2e98-fa73-56ce-742a"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "1c22-7b0b-6877-8474",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "2e98-fa73-56ce-742a",
+				"title": "pgFeedLikeList"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgFeedLikeList"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .paddingTop .bgMain",
+			"id": "f70e-9863-445c-5722",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"bbb2-d802-8bff-22e4"
+				],
+				"name": "flWrapper",
+				"parent": "2e98-fa73-56ce-742a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .bgMain",
+			"id": "bbb2-d802-8bff-22e4",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "f70e-9863-445c-5722",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"testId": "lvG9GyFaC",
+				"usePageVariable": true
+			}
+		}
+	]
+}

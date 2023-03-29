@@ -1,0 +1,96 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .grow-absoulte .flBigAction .bgMain",
+			"hiddenComponent": true,
+			"id": "f9ed-291d-4141-37e2",
+			"initialized": true,
+			"props": {
+				"children": [
+					"03f6-e7b7-d8cc-1771",
+					"7837-be72-c3d5-731a"
+				],
+				"name": "flBigAction",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flBigAction-flIconWrapper .bgMain",
+			"id": "03f6-e7b7-d8cc-1771",
+			"props": {
+				"children": [
+					"7bff-6b1f-a6e7-6449"
+				],
+				"name": "flIconWrapper",
+				"parent": "f9ed-291d-4141-37e2"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "vy2cLy5aK"
+			}
+		},
+		{
+			"className": ".sf-imageView .flBigAction-imgIcon",
+			"id": "7bff-6b1f-a6e7-6449",
+			"props": {
+				"children": [],
+				"name": "imgIcon",
+				"parent": "03f6-e7b7-d8cc-1771",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .bgMain",
+			"id": "7837-be72-c3d5-731a",
+			"props": {
+				"children": [
+					"ad40-e5d1-5ca3-63e2"
+				],
+				"name": "flTextWrapper",
+				"parent": "f9ed-291d-4141-37e2"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "LufQQimaG"
+			}
+		},
+		{
+			"className": ".sf-label .general.emptyInfo .flBigAction-lblInfo .grow-relative",
+			"id": "ad40-e5d1-5ca3-63e2",
+			"props": {
+				"children": [],
+				"maxLines": 100,
+				"name": "tvInfo",
+				"parent": "7837-be72-c3d5-731a",
+				"text": "Belirttiğin kriterler için sonuç bulunamadı ",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextView",
+			"userProps": {
+				"text": "Belirttiğin kriterler için sonuç bulunamadı ",
+				"usePageVariable": true
+			}
+		}
+	]
+}

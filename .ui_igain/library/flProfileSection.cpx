@@ -1,0 +1,42 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flProfileSection .paddingHorizontal",
+			"hiddenComponent": true,
+			"id": "163d-1fb7-7eef-09b6",
+			"props": {
+				"children": [
+					"29b2-7b92-ed98-e515"
+				],
+				"name": "flProfileSection",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 15,
+				"top": 374
+			}
+		},
+		{
+			"className": ".sf-label .grow-relative .rows.title",
+			"id": "29b2-7b92-ed98-e515",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblSectionName",
+				"parent": "163d-1fb7-7eef-09b6",
+				"text": "Info"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Info"
+			}
+		}
+	]
+}

@@ -56,6 +56,33 @@
       "width": null,
       "marginBottom": 10,
       "marginTop": 10
+    },
+    "&-flIconButtonDark": {
+      "flexProps": {
+        "alignSelf": "FLEX_START"
+      }
+    },
+    "&-imageView1": {
+      "image": "https://www.gravatar.com/avatar/a0112b54f6d7c03ea40c28a4351acfe3?s=200&a.png"
+    },
+    "&-scrollView1": {
+      "layout": {
+        "flexProps": {
+          "alignItems": "STRETCH",
+          "flexDirection": "COLUMN"
+        },
+        "width": 300,
+        "height": 200
+      },
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      },
+      "width": 380
+    },
+    "&-statusBar": {
+      "android": {
+        "color": "rgba( 126, 211, 33, 1 )"
+      }
     }
   }
 }

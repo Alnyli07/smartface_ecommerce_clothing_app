@@ -1,0 +1,84 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": true,
+			"id": "59f2-23f9-5d07-02d3",
+			"props": {
+				"children": [
+					"b1f3-3e33-a622-428c",
+					"d6bf-e4b5-d3fe-c8d9",
+					"04f4-9456-507a-6229",
+					"ce6f-1675-5f8c-68a0"
+				],
+				"name": "flShuttleMap",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 11.24,
+				"top": 95.51
+			}
+		},
+		{
+			"className": ".sf-mapView",
+			"id": "b1f3-3e33-a622-428c",
+			"oldName": "mapView1",
+			"props": {
+				"children": [],
+				"name": "mwMain",
+				"parent": "59f2-23f9-5d07-02d3"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "MapView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flShuttleMap-imgCurrentLocation",
+			"id": "d6bf-e4b5-d3fe-c8d9",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgCurrentLocation",
+				"parent": "59f2-23f9-5d07-02d3"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flShuttleMap-imgShuttleLocation",
+			"id": "04f4-9456-507a-6229",
+			"oldName": "imageView2",
+			"props": {
+				"children": [],
+				"name": "imgShuttleLocation",
+				"parent": "59f2-23f9-5d07-02d3"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-activityIndicator .flShuttleMap-loader",
+			"id": "ce6f-1675-5f8c-68a0",
+			"oldName": "loader",
+			"props": {
+				"children": [],
+				"name": "aiLoader",
+				"parent": "59f2-23f9-5d07-02d3"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		}
+	]
+}

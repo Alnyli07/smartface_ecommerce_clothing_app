@@ -1,0 +1,38 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flexLayout1",
+			"hiddenComponent": true,
+			"id": "08a9-d5cc-7762-f153",
+			"props": {
+				"children": [
+					"3440-0143-c7e5-2106"
+				],
+				"name": "flTest",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 46.91,
+				"top": 561.73
+			}
+		},
+		{
+			"className": ".sf-icon .flTest-icon1",
+			"id": "3440-0143-c7e5-2106",
+			"props": {
+				"children": [],
+				"name": "icon1",
+				"parent": "08a9-d5cc-7762-f153"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Icon",
+			"userProps": {}
+		}
+	]
+}

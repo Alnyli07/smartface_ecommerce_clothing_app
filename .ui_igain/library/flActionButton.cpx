@@ -1,0 +1,82 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flActionButton",
+			"hiddenComponent": true,
+			"id": "a812-2ded-c6b7-e3ee",
+			"initialized": true,
+			"props": {
+				"children": [
+					"c926-2ea1-04de-4e79",
+					"008a-c10a-b986-0527",
+					"be20-4b3b-a08b-860e"
+				],
+				"name": "flActionButton",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 41, 1, 1, 0.99 )",
+				"flexProps": {},
+				"left": 23.5,
+				"top": 81
+			}
+		},
+		{
+			"className": ".sf-imageView .flActionButton-imgLeft.hidden",
+			"id": "c926-2ea1-04de-4e79",
+			"props": {
+				"children": [],
+				"name": "imgLeft",
+				"parent": "a812-2ded-c6b7-e3ee",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"testId": "TEuaBGw0V",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-activityIndicator .flActionButton-indicator",
+			"id": "008a-c10a-b986-0527",
+			"props": {
+				"children": [],
+				"name": "aiAction",
+				"parent": "a812-2ded-c6b7-e3ee",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flActionButton-label .buttons.titleWhite .grow-relative",
+			"id": "be20-4b3b-a08b-860e",
+			"props": {
+				"children": [],
+				"maxLines": 1,
+				"name": "lblAction",
+				"parent": "a812-2ded-c6b7-e3ee",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

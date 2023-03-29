@@ -1,0 +1,68 @@
+[
+	{
+		"id": "72da7dc7-0a66-412d-8a22-1ed91d850b52",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "teamsRouter",
+		"children": [
+			"42957cfc-0c48-4383-8232-f5ce7cb4e21f",
+			"55e53f90-6fd4-4c84-9f64-67726591e22e",
+			"f75aa18f-3a14-4283-9c81-8a2ac9554cec"
+		],
+		"props": {
+			"path": "teams",
+			"x": 1926.46616962292,
+			"y": -2888.745839935431,
+			"to": "main",
+			"modal": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "42957cfc-0c48-4383-8232-f5ce7cb4e21f",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 1822.8105768075484,
+			"y": -539.2401063119689,
+			"page": "pgTeam"
+		},
+		"parent": "72da7dc7-0a66-412d-8a22-1ed91d850b52"
+	},
+	{
+		"id": "55e53f90-6fd4-4c84-9f64-67726591e22e",
+		"type": "Route",
+		"isContainer": false,
+		"name": "genericProfile",
+		"children": [],
+		"props": {
+			"path": "genericProfile",
+			"x": 1972.8105768075484,
+			"y": -539.2401063119689,
+			"page": "pgGenericProfile"
+		},
+		"parent": "72da7dc7-0a66-412d-8a22-1ed91d850b52"
+	},
+	{
+		"id": "f75aa18f-3a14-4283-9c81-8a2ac9554cec",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "phoneBook1",
+		"children": [],
+		"props": {
+			"path": "phoneBook",
+			"modal": true,
+			"x": 1915.2246092714304,
+			"y": -2655.754086718709,
+			"to": "main"
+		},
+		"parent": "72da7dc7-0a66-412d-8a22-1ed91d850b52",
+		"source": {
+			"id": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+		},
+		"isLib": true
+	}
+]

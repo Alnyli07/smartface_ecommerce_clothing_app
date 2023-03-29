@@ -1,0 +1,97 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .pgSurveyList",
+			"id": "0bc6-b399-a566-d10f",
+			"initialized": true,
+			"props": {
+				"children": [
+					"1cff-1141-f4a7-146b",
+					"9ca4-1db7-bd1f-0963",
+					"28e7-21a9-0774-e89d"
+				],
+				"name": "pgSurveyList",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.0"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "1cff-1141-f4a7-146b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "0bc6-b399-a566-d10f"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "9ca4-1db7-bd1f-0963",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "0bc6-b399-a566-d10f",
+				"title": "Anketler"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Anketler"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSurveyList-flSurveyListContainer",
+			"id": "28e7-21a9-0774-e89d",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"fe9d-c596-f9b3-dcae"
+				],
+				"name": "flSurveyListContainer",
+				"parent": "0bc6-b399-a566-d10f"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView",
+			"id": "fe9d-c596-f9b3-dcae",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"6e4e-bcf9-c457-332a"
+				],
+				"name": "lvSurvey",
+				"parent": "28e7-21a9-0774-e89d",
+				"refreshEnabled": false
+			},
+			"type": "ListView",
+			"userProps": {
+				"refreshEnabled": false
+			}
+		},
+		{
+			"className": ".sf-listViewItem .lviDoubLineWithProgress #pgSurveyList-lviDoubLineWithProgress",
+			"hiddenComponent": false,
+			"id": "6e4e-bcf9-c457-332a",
+			"props": {
+				"children": [],
+				"name": "lviDoubLineWithProgress",
+				"parent": "fe9d-c596-f9b3-dcae"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviDoubLineWithProgress",
+				"id": "653b-db7d-d051-24b2"
+			},
+			"type": "ListViewItem",
+			"userProps": {}
+		}
+	]
+}

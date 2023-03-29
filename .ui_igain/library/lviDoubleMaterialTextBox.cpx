@@ -1,0 +1,54 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviDoubleMaterialTextBox",
+			"hiddenComponent": true,
+			"id": "37c9-c1e5-d8ce-8705",
+			"initialized": true,
+			"props": {
+				"children": [
+					"fd1f-5ffe-cc3f-e48d"
+				],
+				"name": "lviDoubleMaterialTextBox",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {},
+				"left": 0,
+				"top": 152.3076923076923
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flDoubleMaterialTextBox .lviMaterialTextBox",
+			"hiddenComponent": false,
+			"id": "fd1f-5ffe-cc3f-e48d",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flDoubleMaterialTextBox",
+				"parent": "37c9-c1e5-d8ce-8705",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flDoubleMaterialTextBox",
+				"id": "7a47-745e-3ae9-2313"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		}
+	]
+}

@@ -1,0 +1,334 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flProfileImage",
+			"hiddenComponent": true,
+			"id": "2bad-bd1b-6f96-dbdd",
+			"props": {
+				"children": [
+					"1d4f-d8c2-cce5-1f55",
+					"a5a9-9a55-bde6-8be9",
+					"5cc8-eb28-6a2b-4510"
+				],
+				"name": "flProfileImage",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": -12.5,
+				"top": 440.63
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProfileImage-flProfileImageWrapper",
+			"id": "1d4f-d8c2-cce5-1f55",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"c0a3-f254-b1d5-2f87",
+					"bf50-b307-d418-75cb",
+					"474a-4d10-f9fd-a6b1"
+				],
+				"name": "flProfileImageWrapper",
+				"parent": "2bad-bd1b-6f96-dbdd"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flProfileImage-imgHierarchyTeam",
+			"id": "c0a3-f254-b1d5-2f87",
+			"oldName": "imageView2",
+			"props": {
+				"children": [],
+				"name": "imgHierarchyTeam",
+				"parent": "1d4f-d8c2-cce5-1f55"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProfileImage-imgWrapper",
+			"id": "bf50-b307-d418-75cb",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"04f6-45be-bf82-630d",
+					"c759-4f54-5332-b3b9",
+					"78c8-1682-f5fe-c38f"
+				],
+				"name": "imgWrapper",
+				"parent": "1d4f-d8c2-cce5-1f55"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProfileImage-imgWrapper-flEdit .hidden",
+			"id": "04f6-45be-bf82-630d",
+			"props": {
+				"children": [
+					"6c7b-68a7-08e1-b46c"
+				],
+				"name": "flEdit",
+				"parent": "bf50-b307-d418-75cb"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-imageView .flProfileImage-imgWrapper-flEdit-imgEdit",
+			"id": "6c7b-68a7-08e1-b46c",
+			"props": {
+				"children": [],
+				"name": "imgEdit",
+				"parent": "04f6-45be-bf82-630d",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-activityIndicator .flProfileImage-activityIndicator",
+			"id": "c759-4f54-5332-b3b9",
+			"oldName": "activityIndicator1",
+			"props": {
+				"children": [],
+				"name": "profileImageLoading",
+				"parent": "bf50-b307-d418-75cb"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flProfileImage-imgProfile",
+			"id": "78c8-1682-f5fe-c38f",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgProfile",
+				"parent": "bf50-b307-d418-75cb"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-imageView .flProfileImage-imgHierarchyManager",
+			"id": "474a-4d10-f9fd-a6b1",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgHiearchyManager",
+				"parent": "1d4f-d8c2-cce5-1f55"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-label .flProfileImage-lblUpdate .user.photoUpdate",
+			"id": "a5a9-9a55-bde6-8be9",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblUpdate",
+				"parent": "2bad-bd1b-6f96-dbdd",
+				"text": "Update"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Update"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flProfileImage-flWrapper",
+			"id": "5cc8-eb28-6a2b-4510",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [
+					"db64-6679-4c64-4362",
+					"b6b6-2ec2-a9e3-8989",
+					"754f-b835-2194-46ef"
+				],
+				"name": "flWrapper",
+				"parent": "2bad-bd1b-6f96-dbdd"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flProfileImage-flWrapper-flIconWrapper .notVisible",
+			"id": "db64-6679-4c64-4362",
+			"oldName": "flRightIconWrapper",
+			"props": {
+				"children": [
+					"1dd6-8c1d-cb0d-662d"
+				],
+				"name": "flLeftIconWrapper",
+				"parent": "5cc8-eb28-6a2b-4510"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flProfileImage-flWrapper-flIconWrapper-imgLeft",
+			"id": "1dd6-8c1d-cb0d-662d",
+			"oldName": "imgRightIcon",
+			"props": {
+				"children": [],
+				"name": "imgIconLeft",
+				"parent": "db64-6679-4c64-4362"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flProfileImage-flWrapper-flTextWrapper",
+			"id": "b6b6-2ec2-a9e3-8989",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"baa4-19c0-6702-66b7",
+					"f550-38ed-ad28-555b"
+				],
+				"name": "flTextWrapper",
+				"parent": "5cc8-eb28-6a2b-4510"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-label .flProfileImage-lblName .user.name",
+			"id": "baa4-19c0-6702-66b7",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "lblUserName",
+				"parent": "b6b6-2ec2-a9e3-8989",
+				"text": "John Smith"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"maxLines": 2,
+				"text": "John Smith",
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-label .flProfileImage-lblUserTitle .user.title",
+			"id": "f550-38ed-ad28-555b",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "lblUserTitle",
+				"parent": "b6b6-2ec2-a9e3-8989",
+				"text": "Developer"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"maxLines": 2,
+				"text": "Developer",
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flProfileImage-flWrapper-flIconWrapper .notVisible",
+			"id": "754f-b835-2194-46ef",
+			"oldName": "flLeftIconWrapper1",
+			"props": {
+				"children": [
+					"373b-ee92-ee19-69df"
+				],
+				"name": "flRightIconWrapper",
+				"parent": "5cc8-eb28-6a2b-4510"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-imageView .flProfileImage-flWrapper-flIconWrapper-imgRight",
+			"id": "373b-ee92-ee19-69df",
+			"oldName": "imgLeftIcon",
+			"props": {
+				"children": [],
+				"name": "imgIconRight",
+				"parent": "754f-b835-2194-46ef"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		}
+	]
+}

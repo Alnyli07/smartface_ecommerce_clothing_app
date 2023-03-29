@@ -1,0 +1,110 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flDoubleLineWithBigImage .paddingHorizontal",
+			"hiddenComponent": true,
+			"id": "0a5e-9208-bf41-feb5",
+			"props": {
+				"children": [
+					"95b1-73c3-09c9-5a1d",
+					"992a-ea6a-ceb9-4483"
+				],
+				"name": "flDoubleLineWithBigImage",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 13.89,
+				"top": 416.67
+			}
+		},
+		{
+			"className": ".sf-imageView .flDoubleLineWithBigImage-imgMain",
+			"id": "95b1-73c3-09c9-5a1d",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgMain",
+				"parent": "0a5e-9208-bf41-feb5",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow-relative .flDoubleLineWithBigImage-flTexts",
+			"id": "992a-ea6a-ceb9-4483",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"2869-ab00-e9a2-1c6a",
+					"f2d9-cbbe-9306-5daf"
+				],
+				"name": "flTexts",
+				"parent": "0a5e-9208-bf41-feb5",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .rows.title.large",
+			"id": "2869-ab00-e9a2-1c6a",
+			"oldName": "label1_1",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "992a-ea6a-ceb9-4483",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .rows.subTitle.large",
+			"id": "f2d9-cbbe-9306-5daf",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblSubTitle",
+				"parent": "992a-ea6a-ceb9-4483",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

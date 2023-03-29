@@ -1,0 +1,316 @@
+[
+	{
+		"id": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "advertRouter",
+		"children": [
+			"95bfb63f-f336-4153-b344-9ec0896b5cae",
+			"9cf66dd5-3846-45d1-8976-c6682d51442f",
+			"1fd3f614-1630-4aaf-ad98-cf5a8ba521c9",
+			"7d7ecdaa-38fc-4e58-b4cc-f62ca8c424af",
+			"d8ac4209-664e-4000-9417-7d684762d4b3",
+			"6258dbff-f2ac-495e-855b-dc416612a1e3",
+			"6cd96ead-1be6-4bca-9707-f50f09f4ee6e",
+			"acf4e828-fb66-4c39-b1ee-3f9c34530513",
+			"dbfd697c-b639-4acb-a818-f87608960c5a",
+			"df38a9e1-4921-4897-a9c2-08803210289c"
+		],
+		"props": {
+			"path": "adverts",
+			"x": 1027.4144301205984,
+			"y": -2407.03432187949,
+			"to": "main",
+			"modal": true,
+			"childrenVisible": true,
+			"visible": true
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "95bfb63f-f336-4153-b344-9ec0896b5cae",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 1217.4144301205984,
+			"y": -1393.03432187949,
+			"page": "pgAdverts"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "9cf66dd5-3846-45d1-8976-c6682d51442f",
+		"type": "Route",
+		"isContainer": false,
+		"name": "list",
+		"children": [],
+		"props": {
+			"path": "list",
+			"x": 1367.4144301205984,
+			"y": -1393.03432187949,
+			"page": "pgAdvertList"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "1fd3f614-1630-4aaf-ad98-cf5a8ba521c9",
+		"type": "Route",
+		"isContainer": false,
+		"name": "favoritesList",
+		"children": [],
+		"props": {
+			"path": "favoritesList",
+			"x": 1517.4144301205984,
+			"y": -1393.03432187949,
+			"page": "pgAdvertList"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "7d7ecdaa-38fc-4e58-b4cc-f62ca8c424af",
+		"type": "Route",
+		"isContainer": false,
+		"name": "ownList",
+		"children": [],
+		"props": {
+			"path": "ownList",
+			"x": 1667.4144301205984,
+			"y": -1393.03432187949,
+			"page": "pgAdvertList"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "d8ac4209-664e-4000-9417-7d684762d4b3",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 1967.4144301205984,
+			"y": -1393.03432187949,
+			"page": "pgAdvertDetail"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "6258dbff-f2ac-495e-855b-dc416612a1e3",
+		"type": "Route",
+		"isContainer": false,
+		"name": "genericProfile",
+		"children": [],
+		"props": {
+			"path": "genericProfile",
+			"x": 1817.4144301205984,
+			"y": -1393.03432187949,
+			"page": "pgGenericProfile"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "6cd96ead-1be6-4bca-9707-f50f09f4ee6e",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "phoneBook1",
+		"children": [],
+		"props": {
+			"path": "phoneBook",
+			"modal": true,
+			"x": 785.4144301205984,
+			"y": -2035.03432187949,
+			"to": "main",
+			"visible": true
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89",
+		"source": {
+			"id": "ad33ee80-d09c-48d9-bec2-abf477fd0847"
+		},
+		"isLib": true
+	},
+	{
+		"id": "acf4e828-fb66-4c39-b1ee-3f9c34530513",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "images",
+		"children": [
+			"830b14ca-f9fb-48c1-9727-3997fc53755e"
+		],
+		"props": {
+			"path": "images",
+			"modal": true,
+			"x": 903.4144301205984,
+			"y": -1973.03432187949,
+			"to": "main"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "830b14ca-f9fb-48c1-9727-3997fc53755e",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2193.4144301205984,
+			"y": -965.0343218794901,
+			"page": "pgAdvertImages"
+		},
+		"parent": "acf4e828-fb66-4c39-b1ee-3f9c34530513"
+	},
+	{
+		"id": "dbfd697c-b639-4acb-a818-f87608960c5a",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "create",
+		"children": [
+			"2c76793c-80fe-418f-a3e2-52a9f6b31c23",
+			"86bbf2e2-121b-489b-ae88-71fe655a36be",
+			"17ef025a-16b4-425d-816f-8515e5b53481",
+			"9347e050-fd38-47f4-8f98-3e92b84a2115"
+		],
+		"props": {
+			"path": "create",
+			"modal": true,
+			"x": 1027.4144301205986,
+			"y": -1903.03432187949,
+			"to": "category"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "2c76793c-80fe-418f-a3e2-52a9f6b31c23",
+		"type": "Route",
+		"isContainer": false,
+		"name": "category",
+		"children": [],
+		"props": {
+			"path": "category",
+			"x": 1594.6655148502023,
+			"y": -941.8773911814537,
+			"page": "pgAdvertCategories"
+		},
+		"parent": "dbfd697c-b639-4acb-a818-f87608960c5a"
+	},
+	{
+		"id": "86bbf2e2-121b-489b-ae88-71fe655a36be",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2159.915399389731,
+			"y": -294.9759140166501,
+			"page": "pgAdvert"
+		},
+		"parent": "dbfd697c-b639-4acb-a818-f87608960c5a"
+	},
+	{
+		"id": "17ef025a-16b4-425d-816f-8515e5b53481",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 2159.915399389731,
+			"y": -294.9759140166501,
+			"page": "pgAdvertDetail"
+		},
+		"parent": "dbfd697c-b639-4acb-a818-f87608960c5a"
+	},
+	{
+		"id": "9347e050-fd38-47f4-8f98-3e92b84a2115",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "cropRouter1",
+		"children": [],
+		"props": {
+			"path": "crop",
+			"x": 1014.2762924107517,
+			"y": -1639.6120114428647,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true,
+			"visible": true
+		},
+		"parent": "dbfd697c-b639-4acb-a818-f87608960c5a",
+		"source": {
+			"id": "0fef90ae-a205-4697-a94a-2999bf02f774"
+		},
+		"isLib": true
+	},
+	{
+		"id": "df38a9e1-4921-4897-a9c2-08803210289c",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "update",
+		"children": [
+			"6b19f516-4c65-4761-bb6d-61bb0956dda2",
+			"c6b7b300-f8c1-4b39-b473-d64a2e391656",
+			"2971fdeb-f186-4c2f-9d6e-7e758544c673"
+		],
+		"props": {
+			"path": "update",
+			"modal": true,
+			"x": 1195.4144301205986,
+			"y": -1907.03432187949,
+			"to": "main"
+		},
+		"parent": "9a65fd47-73c5-4d5d-8c56-8eb5b6037e89"
+	},
+	{
+		"id": "6b19f516-4c65-4761-bb6d-61bb0956dda2",
+		"type": "Route",
+		"isContainer": false,
+		"name": "main",
+		"children": [],
+		"props": {
+			"path": "main",
+			"x": 2309.915399389731,
+			"y": -294.9759140166501,
+			"page": "pgAdvert"
+		},
+		"parent": "df38a9e1-4921-4897-a9c2-08803210289c"
+	},
+	{
+		"id": "c6b7b300-f8c1-4b39-b473-d64a2e391656",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "cropRouter1",
+		"children": [],
+		"props": {
+			"path": "crop",
+			"x": 1194.2762924107517,
+			"y": -1664.3678514428648,
+			"homeRoute": "main",
+			"to": "main",
+			"modal": true,
+			"visible": true
+		},
+		"parent": "df38a9e1-4921-4897-a9c2-08803210289c",
+		"source": {
+			"id": "0fef90ae-a205-4697-a94a-2999bf02f774"
+		},
+		"isLib": true
+	},
+	{
+		"id": "2971fdeb-f186-4c2f-9d6e-7e758544c673",
+		"type": "Route",
+		"isContainer": false,
+		"name": "detail",
+		"children": [],
+		"props": {
+			"path": "detail",
+			"x": 2309.915399389731,
+			"y": -294.9759140166501,
+			"page": "pgAdvertDetail"
+		},
+		"parent": "df38a9e1-4921-4897-a9c2-08803210289c"
+	}
+]
